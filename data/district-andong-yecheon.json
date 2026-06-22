@@ -3,7 +3,7 @@
     "id": "20240410",
     "name": "제22대 국회의원선거",
     "type": "2",
-    "updatedAt": "2026-06-22 23:23:26 KST"
+    "updatedAt": "2026-06-22 23:32:43 KST"
   },
   "district": {
     "code": "andong-yecheon",
@@ -116,7 +116,7 @@
     "basePath": "data/base/district-andong-yecheon.json",
     "overlayPath": "data/overlays/district-andong-yecheon.json",
     "overlayApplied": true,
-    "mergedAt": "2026-06-22 23:23:56 KST",
+    "mergedAt": "2026-06-22 23:32:47 KST",
     "updatedAt": "",
     "note": "안동시예천군 수동 보강 템플릿",
     "template": true,

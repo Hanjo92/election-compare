@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:05 KST"
+  },
+  "district": {
+    "code": "songpa-gu-gap",
+    "name": "송파구갑",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100151711",
+      "name": "조재희",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "65",
+      "job": "정당인",
+      "education": "고려대학교 대학원 정치외교학과 졸업(정치학박사)",
+      "career": [
+        "(전) 대통령 비서실 국정과제비서관",
+        "(전) 한국폴리텍대학 이사장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152140",
+      "name": "박정훈",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "53",
+      "job": "정당인",
+      "education": "뉴욕주립대학교 스토니브룩캠퍼스 기술경영 이학석사(2003.7. ~ 2004.7.)",
+      "career": [
+        "(전) TV조선 보도본부 시사제작국장",
+        "(전) '박정훈의 정치다' 앵커"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152906",
+      "name": "송재열",
+      "party": "개혁신당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "43",
+      "job": "송재열교육개혁연구소 소장",
+      "education": "코넬대학교 건축학과 휴학중(2006.8. ~ 2008.12.)",
+      "career": [
+        "(현) 송재열 교육개혁연구소 소장",
+        "(현) 개혁신당 정책위 부의장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-songpa-gu-gap.json",
+    "overlayPath": "data/overlays/district-songpa-gu-gap.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:32:47 KST",
+    "updatedAt": "",
+    "note": "송파구갑 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

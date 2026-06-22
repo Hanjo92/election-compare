@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:11 KST"
+  },
+  "district": {
+    "code": "saha-gu-eul",
+    "name": "사하구을",
+    "region": "부산광역시"
+  },
+  "candidates": [
+    {
+      "id": "100152719",
+      "name": "이재성",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "53",
+      "job": "정당인",
+      "education": "서울대학교 계산통계학과 졸업",
+      "career": [
+        "(전) 엔씨소프트 전무이사",
+        "(전) CJ인터넷 이사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152263",
+      "name": "조경태",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "56",
+      "job": "국회의원",
+      "education": "부산대학교 대학원 졸업(공학박사)",
+      "career": [
+        "(현)국회의원",
+        "(현)제21대 국회 교육위원회 위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151265",
+      "name": "신천우",
+      "party": "무소속",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "33",
+      "job": "자영업자",
+      "education": "서경대학교 군사학과 졸업(복수전공 행정학사)",
+      "career": [
+        "(전)수도방위사령부 방공여단 청와대 영공 방어 중대장",
+        "(현)매월1일\"효\"생각 시민운동본부 추진위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-saha-gu-eul.json",
+    "overlayPath": "data/overlays/district-saha-gu-eul.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:32:47 KST",
+    "updatedAt": "",
+    "note": "사하구을 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

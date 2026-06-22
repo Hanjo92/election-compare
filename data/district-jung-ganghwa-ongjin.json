@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:14 KST"
+  },
+  "district": {
+    "code": "jung-ganghwa-ongjin",
+    "name": "중구강화군옹진군",
+    "region": "인천광역시"
+  },
+  "candidates": [
+    {
+      "id": "100151593",
+      "name": "조택상",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "65",
+      "job": "정당인",
+      "education": "중앙대학교 행정대학원 지방행정학과 졸업 (행정학석사)",
+      "career": [
+        "(전)인천광역시 균형발전정무부시장",
+        "(전)인천광역시 동구청장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152617",
+      "name": "배준영",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "53",
+      "job": "제21대 국회의원",
+      "education": "연세대학교 정치외교학과 졸업",
+      "career": [
+        "(현)제21대 국회의원(중구강화군옹진군)",
+        "(현)국민의힘 인천시당위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151320",
+      "name": "구본철",
+      "party": "무소속",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "65",
+      "job": "사업가",
+      "education": "미국 사우스플로리다 대학교 대학원졸업 전기공학박사('89.9~'94.5)",
+      "career": [
+        "(전)제18대 국회의원",
+        "(현)삼성파운드리반도체 유치 인천범추진준비위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-jung-ganghwa-ongjin.json",
+    "overlayPath": "data/overlays/district-jung-ganghwa-ongjin.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:32:47 KST",
+    "updatedAt": "",
+    "note": "중구강화군옹진군 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

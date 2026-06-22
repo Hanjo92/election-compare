@@ -1,0 +1,129 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:17 KST"
+  },
+  "district": {
+    "code": "seo-gu-byeong",
+    "name": "서구병",
+    "region": "인천광역시"
+  },
+  "candidates": [
+    {
+      "id": "100152312",
+      "name": "모경종",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "34",
+      "job": "정당인",
+      "education": "연세대학교 독어독문학과 졸업",
+      "career": [
+        "(전) 이재명 더불어민주당 당대표비서실 차장",
+        "(전) 이재명 경기도지사 청년비서관"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152062",
+      "name": "이행숙",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "한국미래정책연구원 원장",
+      "education": "인하대학교 대학원 졸업(행정학 박사)",
+      "career": [
+        "(전)인천광역시 문화복지정무부시장",
+        "(전)인천서구시설관리공단 이사장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151796",
+      "name": "권상기",
+      "party": "개혁신당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "한국건설기계공업(주) 대표이사",
+      "education": "세종대학교 산업대학원졸업(디지털정보산업학 석사)",
+      "career": [
+        "(전)제17대총선국회의원후보",
+        "(전)검단산업단지관리공단이사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152995",
+      "name": "이진기",
+      "party": "자유민주당",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "57",
+      "job": "정당인",
+      "education": "한국방송통신대학교 국어국문학과 3학년 재학",
+      "career": [
+        "(전)환경방송 대표",
+        "(전)사단법인 특전사환경연합회 사무총장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-seo-gu-byeong.json",
+    "overlayPath": "data/overlays/district-seo-gu-byeong.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:32:47 KST",
+    "updatedAt": "",
+    "note": "서구병 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

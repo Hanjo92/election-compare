@@ -1,0 +1,115 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:41 KST"
+  },
+  "district": {
+    "code": "yeosu-eul",
+    "name": "여수시을",
+    "region": "전라남도"
+  },
+  "candidates": [
+    {
+      "id": "100151672",
+      "name": "조계원",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "57",
+      "job": "정당인",
+      "education": "성균관대학교 신문방송학과 졸업",
+      "career": [
+        "(현)더불어민주당 중앙당 부대변인",
+        "(전)이재명 경기도지사 정책수석"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152283",
+      "name": "김희택",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "62",
+      "job": "넬종합환경 대표",
+      "education": "여수수산전문대학 통신과 졸업 (현 전남대학교 여수캠퍼스)",
+      "career": [
+        "(현) 국민의힘 중앙위원회 해양수산분과 부위원장",
+        "(현) 2026 여수세계섬박람회 준비위원회 위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151189",
+      "name": "여찬",
+      "party": "진보당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "28",
+      "job": "정당인",
+      "education": "순천제일고등학교 졸업",
+      "career": [
+        "(현)진보당 여수시지역위원회 공동위원장",
+        "(현)청년노동희망제작소 대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151720",
+      "name": "권오봉",
+      "party": "무소속",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "64",
+      "job": "권오봉 행정사 사무소 대표",
+      "education": "미국 미주리대학교 경제학 석사(2000년5월~2002년5월)",
+      "career": [
+        "(전)제7대 전라남도 여수시 시장",
+        "(전)기획재정부 재정정책 국장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

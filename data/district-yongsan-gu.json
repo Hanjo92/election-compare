@@ -1,0 +1,129 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:31:41 KST"
+  },
+  "district": {
+    "code": "yongsan-gu",
+    "name": "용산구",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100151188",
+      "name": "강태웅",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "60",
+      "job": "정당인",
+      "education": "서울대학교 행정대학원 졸업(행정학석사)",
+      "career": [
+        "(전)서울특별시 행정1부시장",
+        "(전)제21대 국회의원선거(용산구 선거구) 더불어민주당 후보"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152964",
+      "name": "권영세",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "65",
+      "job": "국회의원",
+      "education": "미국 하버드대학교 케네디스쿨 졸업(행정학석사, 2000.7.~2001.6.)",
+      "career": [
+        "(현)서울 용산구 국회의원",
+        "(전)통일부 장관"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152848",
+      "name": "구산하",
+      "party": "국민주권당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "30",
+      "job": "사회운동가",
+      "education": "이화여자대학교 사회학과 졸업",
+      "career": [
+        "(전)대안대학 청춘의지성 전국대표",
+        "(현)자주민주평화통일민족위원회 선전위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152330",
+      "name": "김정현",
+      "party": "무소속",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "40",
+      "job": "(주)백서스미디어 대표",
+      "education": "미국 캔자스대학교 커뮤니케이션학 학사(2002.08.22.-2012.05.11.)",
+      "career": [
+        "(전) 월간조선 기자",
+        "(현) 백서스정책연구소 소장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-yongsan-gu.json",
+    "overlayPath": "data/overlays/district-yongsan-gu.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:32:47 KST",
+    "updatedAt": "",
+    "note": "용산구 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

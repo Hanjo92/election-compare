@@ -80,7 +80,8 @@
         },
         {
           "districtCode": "nowon-gu-byeong",
-          "sggName": "노원구병"
+          "sggName": "노원구병",
+          "enabled": false
         },
         {
           "districtCode": "eunpyeong-gu-gap",

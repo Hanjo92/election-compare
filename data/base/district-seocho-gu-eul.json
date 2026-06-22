@@ -1,0 +1,65 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:04 KST"
+  },
+  "district": {
+    "code": "seocho-gu-eul",
+    "name": "서초구을",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152375",
+      "name": "홍익표",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "56",
+      "job": "정치인",
+      "education": "한양대학교 대학원 정치외교학과 졸업(정치학 박사)",
+      "career": [
+        "(현) 더불어민주당 원내대표",
+        "(전) 국회 문화체육관광위원회 위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152991",
+      "name": "신동욱",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "56",
+      "job": "정당인",
+      "education": "서울대학교 보건대학원 보건학과 졸업 (보건학석사)",
+      "career": [
+        "(전) SBS 워싱턴 특파원",
+        "(전) TV조선 뉴스9 앵커"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

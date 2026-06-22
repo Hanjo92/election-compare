@@ -1,0 +1,129 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:42 KST"
+  },
+  "district": {
+    "code": "suncheon-gwangyang-gokseong-gurye-gap",
+    "name": "순천시광양시곡성군구례군갑",
+    "region": "전라남도"
+  },
+  "candidates": [
+    {
+      "id": "100151309",
+      "name": "김문수",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "55",
+      "job": "정당인",
+      "education": "고려대학교 정치외교학과 졸업",
+      "career": [
+        "(현)더불어민주당 이재명 당대표 특별보좌역",
+        "(현)더불어민주당 순천시광양시곡성군구례군갑 지역위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152687",
+      "name": "김형석",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "58",
+      "job": "대진대학교 객원교수",
+      "education": "서울대학교 영어영문학과 졸업",
+      "career": [
+        "(전)제23대 통일부 차관",
+        "(현)대한체육회 남북체육교류위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151023",
+      "name": "이성수",
+      "party": "진보당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "54",
+      "job": "진보당 전라남도당 위원장",
+      "education": "중앙대학교 정치외교학과 졸업",
+      "career": [
+        "(전)박근혜정권 퇴진 전남운동본부 공동대표",
+        "(현)진보당 전라남도당 위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152196",
+      "name": "신성식",
+      "party": "무소속",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "58",
+      "job": "정치인",
+      "education": "중앙대학교 법과대학 법학과 졸업",
+      "career": [
+        "(전)제42대 수원지방검찰청 검사장",
+        "(전)대검찰청 반부패강력부장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-suncheon-gwangyang-gokseong-gurye-gap.json",
+    "overlayPath": "data/overlays/district-suncheon-gwangyang-gokseong-gurye-gap.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:32:47 KST",
+    "updatedAt": "",
+    "note": "순천시광양시곡성군구례군갑 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

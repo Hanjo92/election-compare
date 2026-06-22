@@ -1,0 +1,79 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:31:55 KST"
+  },
+  "district": {
+    "code": "gangseo-gu-byeong",
+    "name": "강서구병",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152887",
+      "name": "한정애",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "59",
+      "job": "국회의원",
+      "education": "영국 노팅엄대학교 산업공학박사 (1999.9~2003.4)",
+      "career": [
+        "(현)강서구병 국회의원",
+        "(전)제19대 환경부 장관"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152808",
+      "name": "김일호",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "50",
+      "job": "정당인",
+      "education": "서울대학교 사범대학 역사교육과 졸업",
+      "career": [
+        "(전)제20대 대통령직 인수위원회 전문위원",
+        "(현)국민의힘 서울시당 전략기획위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-gangseo-gu-byeong.json",
+    "overlayPath": "data/overlays/district-gangseo-gu-byeong.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:32:47 KST",
+    "updatedAt": "",
+    "note": "강서구병 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

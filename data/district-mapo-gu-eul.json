@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:31:53 KST"
+  },
+  "district": {
+    "code": "mapo-gu-eul",
+    "name": "마포구을",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152897",
+      "name": "정청래",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "58",
+      "job": "국회의원",
+      "education": "서강대학교 공공정책대학원 북한통일정책학과 졸업(정치학석사)",
+      "career": [
+        "(전) 제17·19대 국회의원(마포구을선거구)",
+        "(현) 제21대 국회의원(마포구을선거구)"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153115",
+      "name": "함운경",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "60",
+      "job": "도소매업(생선장수)",
+      "education": "서울대학교 자연과학대학 물리학과 졸업",
+      "career": [
+        "(현)주식회사 네모선장 대표",
+        "(현)국민의힘 제22대 총선 영입인재"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152581",
+      "name": "장혜영",
+      "party": "녹색정의당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "37",
+      "job": "녹색정의당 비례대표 국회의원",
+      "education": "연세대학교 신문방송학과 중퇴(2006.03.~2011.11.)",
+      "career": [
+        "(현)녹색정의당 원내수석부대표",
+        "(현)제21대 국회의원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-mapo-gu-eul.json",
+    "overlayPath": "data/overlays/district-mapo-gu-eul.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:32:47 KST",
+    "updatedAt": "",
+    "note": "마포구을 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

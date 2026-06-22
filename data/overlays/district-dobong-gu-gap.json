@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "updatedAt": "",
+    "note": "도봉구갑 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  },
+  "candidates": [
+    {
+      "match": {
+        "id": "100152893",
+        "name": "안귀령",
+        "number": "1"
+      },
+      "patch": {
+        "assets": null,
+        "military": null,
+        "tax": null,
+        "crime": null,
+        "incumbentLabel": null
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "military": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "tax": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "incumbentLabel": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 체납사실 기준",
+        "crime": "전과기록 기준",
+        "incumbentLabel": "현직 기재 기준"
+      }
+    },
+    {
+      "match": {
+        "id": "100151942",
+        "name": "김재섭",
+        "number": "2"
+      },
+      "patch": {
+        "assets": null,
+        "military": null,
+        "tax": null,
+        "crime": null,
+        "incumbentLabel": null
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "military": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "tax": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "incumbentLabel": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 체납사실 기준",
+        "crime": "전과기록 기준",
+        "incumbentLabel": "현직 기재 기준"
+      }
+    },
+    {
+      "match": {
+        "id": "100152911",
+        "name": "윤오",
+        "number": "3"
+      },
+      "patch": {
+        "assets": null,
+        "military": null,
+        "tax": null,
+        "crime": null,
+        "incumbentLabel": null
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "military": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "tax": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "incumbentLabel": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 체납사실 기준",
+        "crime": "전과기록 기준",
+        "incumbentLabel": "현직 기재 기준"
+      }
+    }
+  ]
+}

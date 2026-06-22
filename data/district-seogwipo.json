@@ -1,0 +1,79 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:47 KST"
+  },
+  "district": {
+    "code": "seogwipo",
+    "name": "서귀포시",
+    "region": "제주특별자치도"
+  },
+  "candidates": [
+    {
+      "id": "100152374",
+      "name": "위성곤",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "56",
+      "job": "국회의원",
+      "education": "제주대학교 농과대학 졸업",
+      "career": [
+        "(현) 국회의원(제20·21대)",
+        "(전) 제주대학교 총학생회장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151000",
+      "name": "고기철",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "정당인",
+      "education": "숭실대학교 대학원 IT정책경영학과 졸업(공학박사)",
+      "career": [
+        "(전)제주경찰청장",
+        "(현)제주제2공항추진범시민포럼 명예대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-seogwipo.json",
+    "overlayPath": "data/overlays/district-seogwipo.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:32:47 KST",
+    "updatedAt": "",
+    "note": "서귀포시 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

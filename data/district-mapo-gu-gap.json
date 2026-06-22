@@ -3,7 +3,7 @@
     "id": "20240410",
     "name": "제22대 국회의원선거",
     "type": "2",
-    "updatedAt": "2026-06-22 23:23:19 KST"
+    "updatedAt": "2026-06-22 23:31:51 KST"
   },
   "district": {
     "code": "mapo-gu-gap",
@@ -116,7 +116,7 @@
     "basePath": "data/base/district-mapo-gu-gap.json",
     "overlayPath": "data/overlays/district-mapo-gu-gap.json",
     "overlayApplied": true,
-    "mergedAt": "2026-06-22 23:23:56 KST",
+    "mergedAt": "2026-06-22 23:32:47 KST",
     "updatedAt": "",
     "note": "마포구갑 수동 보강 템플릿",
     "template": true,

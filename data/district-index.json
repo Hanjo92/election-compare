@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22 23:23:56 KST",
+  "updatedAt": "2026-06-22 23:32:47 KST",
   "districts": [
     {
       "code": "andong-yecheon",
@@ -8,6 +8,38 @@
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
       "path": "./district/andong-yecheon/"
+    },
+    {
+      "code": "buk-gu-eul",
+      "name": "북구을",
+      "region": "광주광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 5,
+      "path": "./district/buk-gu-eul/"
+    },
+    {
+      "code": "bupyeong-gu-gap",
+      "name": "부평구갑",
+      "region": "인천광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/bupyeong-gu-gap/"
+    },
+    {
+      "code": "busanjin-gu-eul",
+      "name": "부산진구을",
+      "region": "부산광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/busanjin-gu-eul/"
+    },
+    {
+      "code": "busanjin-gu-gap",
+      "name": "부산진구갑",
+      "region": "부산광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/busanjin-gu-gap/"
     },
     {
       "code": "changwon-seongsan",
@@ -34,12 +66,260 @@
       "path": "./district/cheongju-sangdang/"
     },
     {
+      "code": "chuncheon-cheorwon-hwacheon-yanggu-gap",
+      "name": "춘천시철원군화천군양구군갑",
+      "region": "강원특별자치도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/chuncheon-cheorwon-hwacheon-yanggu-gap/"
+    },
+    {
+      "code": "chungju",
+      "name": "충주시",
+      "region": "충청북도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/chungju/"
+    },
+    {
+      "code": "dalseo-gu-byeong",
+      "name": "달서구병",
+      "region": "대구광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/dalseo-gu-byeong/"
+    },
+    {
+      "code": "dobong-gu-eul",
+      "name": "도봉구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/dobong-gu-eul/"
+    },
+    {
+      "code": "dobong-gu-gap",
+      "name": "도봉구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/dobong-gu-gap/"
+    },
+    {
+      "code": "dong-gu-daejeon",
+      "name": "동구",
+      "region": "대전광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/dong-gu-daejeon/"
+    },
+    {
+      "code": "dong-gunwi-gap",
+      "name": "동구군위군갑",
+      "region": "대구광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/dong-gunwi-gap/"
+    },
+    {
+      "code": "dong-michuhol-gap",
+      "name": "동구미추홀구갑",
+      "region": "인천광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/dong-michuhol-gap/"
+    },
+    {
+      "code": "dong-nam-gu-eul",
+      "name": "동구남구을",
+      "region": "광주광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 5,
+      "path": "./district/dong-nam-gu-eul/"
+    },
+    {
+      "code": "dongdaemun-gu-eul",
+      "name": "동대문구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/dongdaemun-gu-eul/"
+    },
+    {
+      "code": "dongdaemun-gu-gap",
+      "name": "동대문구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/dongdaemun-gu-gap/"
+    },
+    {
+      "code": "dongjak-gu-eul",
+      "name": "동작구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/dongjak-gu-eul/"
+    },
+    {
+      "code": "dongjak-gu-gap",
+      "name": "동작구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/dongjak-gu-gap/"
+    },
+    {
+      "code": "eunpyeong-gu-eul",
+      "name": "은평구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/eunpyeong-gu-eul/"
+    },
+    {
+      "code": "eunpyeong-gu-gap",
+      "name": "은평구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/eunpyeong-gu-gap/"
+    },
+    {
+      "code": "gangbuk-gu-eul",
+      "name": "강북구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/gangbuk-gu-eul/"
+    },
+    {
+      "code": "gangbuk-gu-gap",
+      "name": "강북구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/gangbuk-gu-gap/"
+    },
+    {
+      "code": "gangdong-gu-eul",
+      "name": "강동구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/gangdong-gu-eul/"
+    },
+    {
+      "code": "gangdong-gu-gap",
+      "name": "강동구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/gangdong-gu-gap/"
+    },
+    {
+      "code": "gangnam-gu-byeong",
+      "name": "강남구병",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/gangnam-gu-byeong/"
+    },
+    {
+      "code": "gangnam-gu-eul",
+      "name": "강남구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/gangnam-gu-eul/"
+    },
+    {
+      "code": "gangnam-gu-gap",
+      "name": "강남구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/gangnam-gu-gap/"
+    },
+    {
+      "code": "gangneung",
+      "name": "강릉시",
+      "region": "강원특별자치도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/gangneung/"
+    },
+    {
+      "code": "gangseo-gu-byeong",
+      "name": "강서구병",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/gangseo-gu-byeong/"
+    },
+    {
+      "code": "gangseo-gu-eul",
+      "name": "강서구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/gangseo-gu-eul/"
+    },
+    {
+      "code": "gangseo-gu-gap",
+      "name": "강서구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/gangseo-gu-gap/"
+    },
+    {
+      "code": "geumcheon-gu",
+      "name": "금천구",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/geumcheon-gu/"
+    },
+    {
+      "code": "gimhae-gap",
+      "name": "김해시갑",
+      "region": "경상남도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/gimhae-gap/"
+    },
+    {
       "code": "gimpo-gap",
       "name": "김포시갑",
       "region": "경기도",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
       "path": "./district/gimpo-gap/"
+    },
+    {
+      "code": "gongju-buyeo-cheongyang",
+      "name": "공주시부여군청양군",
+      "region": "충청남도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/gongju-buyeo-cheongyang/"
+    },
+    {
+      "code": "goyang-jeong",
+      "name": "고양시정",
+      "region": "경기도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/goyang-jeong/"
+    },
+    {
+      "code": "gumi-gap",
+      "name": "구미시갑",
+      "region": "경상북도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/gumi-gap/"
     },
     {
       "code": "gunsan-gimje-buan-eul",
@@ -50,12 +330,52 @@
       "path": "./district/gunsan-gimje-buan-eul/"
     },
     {
+      "code": "guro-gu-eul",
+      "name": "구로구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/guro-gu-eul/"
+    },
+    {
+      "code": "guro-gu-gap",
+      "name": "구로구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/guro-gu-gap/"
+    },
+    {
+      "code": "gwanak-gu-eul",
+      "name": "관악구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/gwanak-gu-eul/"
+    },
+    {
       "code": "gwanak-gu-gap",
       "name": "관악구갑",
       "region": "서울특별시",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
       "path": "./district/gwanak-gu-gap/"
+    },
+    {
+      "code": "gwangjin-gu-eul",
+      "name": "광진구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/gwangjin-gu-eul/"
+    },
+    {
+      "code": "gwangjin-gu-gap",
+      "name": "광진구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/gwangjin-gu-gap/"
     },
     {
       "code": "gwangsan-gu-gap",
@@ -66,12 +386,28 @@
       "path": "./district/gwangsan-gu-gap/"
     },
     {
+      "code": "haeundae-gu-eul",
+      "name": "해운대구을",
+      "region": "부산광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/haeundae-gu-eul/"
+    },
+    {
       "code": "haeundae-gu-gap",
       "name": "해운대구갑",
       "region": "부산광역시",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
       "path": "./district/haeundae-gu-gap/"
+    },
+    {
+      "code": "hongseong-yesan",
+      "name": "홍성군예산군",
+      "region": "충청남도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/hongseong-yesan/"
     },
     {
       "code": "hwaseong-eul",
@@ -82,12 +418,36 @@
       "path": "./district/hwaseong-eul/"
     },
     {
+      "code": "iksan-gap",
+      "name": "익산시갑",
+      "region": "전북특별자치도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/iksan-gap/"
+    },
+    {
+      "code": "jecheon-danyang",
+      "name": "제천시단양군",
+      "region": "충청북도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/jecheon-danyang/"
+    },
+    {
       "code": "jeju-gap",
       "name": "제주시갑",
       "region": "제주특별자치도",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
       "path": "./district/jeju-gap/"
+    },
+    {
+      "code": "jeongeup-gochang",
+      "name": "정읍시고창군",
+      "region": "전북특별자치도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/jeongeup-gochang/"
     },
     {
       "code": "jeonju-byeong",
@@ -98,12 +458,108 @@
       "path": "./district/jeonju-byeong/"
     },
     {
+      "code": "jeonju-eul",
+      "name": "전주시을",
+      "region": "전북특별자치도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 5,
+      "path": "./district/jeonju-eul/"
+    },
+    {
+      "code": "jeonju-gap",
+      "name": "전주시갑",
+      "region": "전북특별자치도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/jeonju-gap/"
+    },
+    {
+      "code": "jinju-gap",
+      "name": "진주시갑",
+      "region": "경상남도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/jinju-gap/"
+    },
+    {
       "code": "jongno-gu",
       "name": "종로구",
       "region": "서울특별시",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 7,
       "path": "./district/jongno-gu/"
+    },
+    {
+      "code": "jung-ganghwa-ongjin",
+      "name": "중구강화군옹진군",
+      "region": "인천광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/jung-ganghwa-ongjin/"
+    },
+    {
+      "code": "jung-gu-ulsan",
+      "name": "중구",
+      "region": "울산광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/jung-gu-ulsan/"
+    },
+    {
+      "code": "jung-nam-gu",
+      "name": "중구남구",
+      "region": "대구광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/jung-nam-gu/"
+    },
+    {
+      "code": "jung-seongdong-eul",
+      "name": "중구성동구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/jung-seongdong-eul/"
+    },
+    {
+      "code": "jung-seongdong-gap",
+      "name": "중구성동구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/jung-seongdong-gap/"
+    },
+    {
+      "code": "jung-yeongdo-gu",
+      "name": "중구영도구",
+      "region": "부산광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/jung-yeongdo-gu/"
+    },
+    {
+      "code": "jungnang-gu-eul",
+      "name": "중랑구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/jungnang-gu-eul/"
+    },
+    {
+      "code": "jungnang-gu-gap",
+      "name": "중랑구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/jungnang-gu-gap/"
+    },
+    {
+      "code": "mapo-gu-eul",
+      "name": "마포구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/mapo-gu-eul/"
     },
     {
       "code": "mapo-gu-gap",
@@ -130,12 +586,92 @@
       "path": "./district/nam-gu-gap-ulsan/"
     },
     {
+      "code": "nowon-gu-eul",
+      "name": "노원구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/nowon-gu-eul/"
+    },
+    {
+      "code": "nowon-gu-gap",
+      "name": "노원구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/nowon-gu-gap/"
+    },
+    {
+      "code": "pohang-buk-gu",
+      "name": "포항시북구",
+      "region": "경상북도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/pohang-buk-gu/"
+    },
+    {
+      "code": "saha-gu-eul",
+      "name": "사하구을",
+      "region": "부산광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/saha-gu-eul/"
+    },
+    {
+      "code": "saha-gu-gap",
+      "name": "사하구갑",
+      "region": "부산광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/saha-gu-gap/"
+    },
+    {
+      "code": "sejong-eul",
+      "name": "세종특별자치시을",
+      "region": "세종특별자치시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 5,
+      "path": "./district/sejong-eul/"
+    },
+    {
       "code": "sejong-gap",
       "name": "세종특별자치시갑",
       "region": "세종특별자치시",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
       "path": "./district/sejong-gap/"
+    },
+    {
+      "code": "seo-gu-byeong",
+      "name": "서구병",
+      "region": "인천광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/seo-gu-byeong/"
+    },
+    {
+      "code": "seo-gu-gap-daejeon",
+      "name": "서구갑",
+      "region": "대전광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/seo-gu-gap-daejeon/"
+    },
+    {
+      "code": "seo-gu-gap",
+      "name": "서구갑",
+      "region": "광주광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/seo-gu-gap/"
+    },
+    {
+      "code": "seocho-gu-eul",
+      "name": "서초구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/seocho-gu-eul/"
     },
     {
       "code": "seocho-gu-gap",
@@ -146,12 +682,84 @@
       "path": "./district/seocho-gu-gap/"
     },
     {
+      "code": "seodaemun-gu-eul",
+      "name": "서대문구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/seodaemun-gu-eul/"
+    },
+    {
+      "code": "seodaemun-gu-gap",
+      "name": "서대문구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/seodaemun-gu-gap/"
+    },
+    {
+      "code": "seogwipo",
+      "name": "서귀포시",
+      "region": "제주특별자치도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/seogwipo/"
+    },
+    {
+      "code": "seongbuk-gu-eul",
+      "name": "성북구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/seongbuk-gu-eul/"
+    },
+    {
+      "code": "seongbuk-gu-gap",
+      "name": "성북구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/seongbuk-gu-gap/"
+    },
+    {
       "code": "seongnam-bundang-gap",
       "name": "성남시분당구갑",
       "region": "경기도",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
       "path": "./district/seongnam-bundang-gap/"
+    },
+    {
+      "code": "songpa-gu-byeong",
+      "name": "송파구병",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/songpa-gu-byeong/"
+    },
+    {
+      "code": "songpa-gu-eul",
+      "name": "송파구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/songpa-gu-eul/"
+    },
+    {
+      "code": "songpa-gu-gap",
+      "name": "송파구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/songpa-gu-gap/"
+    },
+    {
+      "code": "suncheon-gwangyang-gokseong-gurye-gap",
+      "name": "순천시광양시곡성군구례군갑",
+      "region": "전라남도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/suncheon-gwangyang-gokseong-gurye-gap/"
     },
     {
       "code": "suseong-gu-gap",
@@ -162,12 +770,28 @@
       "path": "./district/suseong-gu-gap/"
     },
     {
+      "code": "suwon-gap",
+      "name": "수원시갑",
+      "region": "경기도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/suwon-gap/"
+    },
+    {
       "code": "suyeong-gu",
       "name": "수영구",
       "region": "부산광역시",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
       "path": "./district/suyeong-gu/"
+    },
+    {
+      "code": "ulju-gun",
+      "name": "울주군",
+      "region": "울산광역시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/ulju-gun/"
     },
     {
       "code": "wonju-gap",
@@ -178,6 +802,30 @@
       "path": "./district/wonju-gap/"
     },
     {
+      "code": "yangcheon-gu-eul",
+      "name": "양천구을",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/yangcheon-gu-eul/"
+    },
+    {
+      "code": "yangcheon-gu-gap",
+      "name": "양천구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/yangcheon-gu-gap/"
+    },
+    {
+      "code": "yangsan-eul",
+      "name": "양산시을",
+      "region": "경상남도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 2,
+      "path": "./district/yangsan-eul/"
+    },
+    {
       "code": "yeongdeungpo-gu-eul",
       "name": "영등포구을",
       "region": "서울특별시",
@@ -186,12 +834,44 @@
       "path": "./district/yeongdeungpo-gu-eul/"
     },
     {
+      "code": "yeongdeungpo-gu-gap",
+      "name": "영등포구갑",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/yeongdeungpo-gu-gap/"
+    },
+    {
       "code": "yeonsu-gu-eul",
       "name": "연수구을",
       "region": "인천광역시",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
       "path": "./district/yeonsu-gu-eul/"
+    },
+    {
+      "code": "yeosu-eul",
+      "name": "여수시을",
+      "region": "전라남도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/yeosu-eul/"
+    },
+    {
+      "code": "yongin-jeong",
+      "name": "용인시정",
+      "region": "경기도",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 3,
+      "path": "./district/yongin-jeong/"
+    },
+    {
+      "code": "yongsan-gu",
+      "name": "용산구",
+      "region": "서울특별시",
+      "electionName": "제22대 국회의원선거",
+      "candidateCount": 4,
+      "path": "./district/yongsan-gu/"
     },
     {
       "code": "yuseong-gu-eul",
