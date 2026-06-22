@@ -15,6 +15,7 @@ OUTPUT = DATA_DIR / "district-index.json"
 
 def main() -> int:
     districts = []
+    election_map = {}
 
     for path in sorted(DATA_DIR.glob("district-*.json")):
         if path.name == OUTPUT.name:
@@ -25,20 +26,41 @@ def main() -> int:
         election = payload.get("election", {})
         candidates = payload.get("candidates", [])
         code = district.get("code") or path.stem.removeprefix("district-")
+        election_id = election.get("id", "unknown")
+        election_name = election.get("name", "선거 정보")
+        candidate_count = len(candidates)
 
-        districts.append(
-            {
-                "code": code,
-                "name": district.get("name", code),
-                "region": district.get("region", "전국"),
-                "electionName": election.get("name", "선거 정보"),
-                "candidateCount": len(candidates),
-                "path": f"./district/{code}/",
-            },
-        )
+        district_row = {
+            "code": code,
+            "name": district.get("name", code),
+            "region": district.get("region", "전국"),
+            "electionId": election_id,
+            "electionName": election_name,
+            "candidateCount": candidate_count,
+            "path": f"./district/{code}/",
+        }
+        districts.append(district_row)
+
+        if election_id not in election_map:
+            election_map[election_id] = {
+                "id": election_id,
+                "name": election_name,
+                "districtCount": 0,
+                "candidateCount": 0,
+            }
+
+        election_map[election_id]["districtCount"] += 1
+        election_map[election_id]["candidateCount"] += candidate_count
+
+    elections = sorted(
+        election_map.values(),
+        key=lambda election: str(election["id"]),
+        reverse=True,
+    )
 
     output = {
         "updatedAt": time.strftime("%Y-%m-%d %H:%M:%S KST", time.localtime()),
+        "elections": elections,
         "districts": districts,
     }
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

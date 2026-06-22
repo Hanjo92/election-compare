@@ -40,14 +40,21 @@
 
         <section class="panel">
           <p class="section-kicker">District search</p>
-          <h2>지역구 찾기</h2>
+          <h2>선거와 지역구 찾기</h2>
           <p class="panel-copy">
-            수집된 지역구 데이터가 늘어나면 이 목록도 자동으로 확장됩니다.
+            선거별로 목록을 나눠 보고, 그 안에서 지역구를 찾을 수 있게 바꿔둡니다.
           </p>
-          <label class="search-field" for="district-search">
-            <span class="meta-key">지역구명 또는 코드</span>
-            <input id="district-search" type="search" placeholder="예: 서초구갑, seocho" />
-          </label>
+          <div class="filter-grid">
+            <label class="search-field" for="election-select">
+              <span class="meta-key">선거 선택</span>
+              <select id="election-select"></select>
+            </label>
+            <label class="search-field" for="district-search">
+              <span class="meta-key">지역구명 또는 코드</span>
+              <input id="district-search" type="search" placeholder="예: 서초구갑, seocho" />
+            </label>
+          </div>
+          <p class="filter-summary" id="election-summary"></p>
           <div class="district-list" id="district-list"></div>
         </section>
 

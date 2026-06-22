@@ -205,6 +205,14 @@ span {
   margin-top: 18px;
 }
 
+.filter-grid {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: 14px;
+  align-items: end;
+}
+
+.search-field select,
 .search-field input {
   width: 100%;
   border: 1px solid var(--line);
@@ -215,9 +223,16 @@ span {
   background: rgba(255, 255, 255, 0.72);
 }
 
+.search-field select:focus,
 .search-field input:focus {
   outline: 2px solid rgba(187, 77, 0, 0.18);
   border-color: rgba(187, 77, 0, 0.32);
+}
+
+.filter-summary {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .text-link {
@@ -412,6 +427,11 @@ span {
 @media (max-width: 900px) {
   .layout-grid {
     grid-template-columns: 1fr;
+  }
+
+  .filter-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .hero,

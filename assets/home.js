@@ -3,6 +3,7 @@ const DISTRICT_INDEX_PATH = "./data/district-index.json";
 const $ = (selector) => document.querySelector(selector);
 
 const normalize = (value) => String(value || "").toLowerCase().trim();
+const ALL_ELECTIONS = "__all__";
 
 const renderDistricts = (districts) => {
   const container = $("#district-list");
@@ -27,26 +28,67 @@ const renderDistricts = (districts) => {
     .join("");
 };
 
-const setupSearch = (districts) => {
+const updateElectionSummary = (elections, selectedElectionId, filteredDistricts) => {
+  const summary = $("#election-summary");
+  if (!summary) {
+    return;
+  }
+
+  const selectedElection =
+    selectedElectionId === ALL_ELECTIONS
+      ? null
+      : elections.find((election) => election.id === selectedElectionId);
+
+  if (!filteredDistricts.length) {
+    summary.textContent = "현재 조건에 맞는 지역구가 없습니다.";
+    return;
+  }
+
+  if (!selectedElection) {
+    summary.textContent = `전체 ${filteredDistricts.length}개 지역구`;
+    return;
+  }
+
+  summary.textContent = `${selectedElection.name} · ${filteredDistricts.length}개 지역구`;
+};
+
+const setupFilters = (payload) => {
+  const districts = payload.districts || [];
+  const elections = payload.elections || [];
   const input = $("#district-search");
-  renderDistricts(districts);
+  const select = $("#election-select");
 
-  input.addEventListener("input", () => {
+  if (select) {
+    const options = [
+      `<option value="${ALL_ELECTIONS}">전체 선거</option>`,
+      ...elections.map(
+        (election) =>
+          `<option value="${election.id}">${election.name} (${election.districtCount}개 지역구)</option>`,
+      ),
+    ];
+    select.innerHTML = options.join("");
+  }
+
+  const applyFilters = () => {
     const keyword = normalize(input.value);
-    if (!keyword) {
-      renderDistricts(districts);
-      return;
-    }
-
+    const selectedElectionId = select?.value || ALL_ELECTIONS;
     const filtered = districts.filter((district) => {
+      if (selectedElectionId !== ALL_ELECTIONS && district.electionId !== selectedElectionId) {
+        return false;
+      }
       const haystack = [district.name, district.region, district.code, district.electionName]
         .map(normalize)
         .join(" ");
-      return haystack.includes(keyword);
+      return !keyword || haystack.includes(keyword);
     });
-
     renderDistricts(filtered);
-  });
+    updateElectionSummary(elections, selectedElectionId, filtered);
+  };
+
+  renderDistricts(districts);
+  updateElectionSummary(elections, ALL_ELECTIONS, districts);
+  input.addEventListener("input", applyFilters);
+  select?.addEventListener("change", applyFilters);
 };
 
 const renderError = () => {
@@ -61,5 +103,5 @@ fetch(DISTRICT_INDEX_PATH)
     }
     return response.json();
   })
-  .then((payload) => setupSearch(payload.districts || []))
+  .then((payload) => setupFilters(payload))
   .catch(renderError);

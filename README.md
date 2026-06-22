@@ -9,7 +9,7 @@
 - `data/district-seocho-gu-gap.json`: 샘플 후보 데이터
 - `data/base/`: API 수집 원본 또는 기본 데이터
 - `data/overlays/`: 수동 보강 오버레이
-- `data/district-index.json`: 홈에서 읽는 지역구 인덱스
+- `data/district-index.json`: 홈에서 읽는 선거별/지역구별 인덱스
 - `assets/district.js`: 지역구 데이터를 렌더링하는 스크립트
 - `assets/home.js`: 홈 검색과 지역구 목록 렌더링
 - `assets/styles.css`: 공통 스타일
