@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:39 KST"
+  },
+  "district": {
+    "code": "gunsan-gimje-buan-eul",
+    "name": "군산시김제시부안군을",
+    "region": "전북특별자치도"
+  },
+  "candidates": [
+    {
+      "id": "100152198",
+      "name": "이원택",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "54",
+      "job": "국회의원",
+      "education": "전북대학교 화학공업공학과 졸업",
+      "career": [
+        "(전)전라북도 정무부지사",
+        "(현)제21대 국회의원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153130",
+      "name": "최홍우",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "70",
+      "job": "정당인",
+      "education": "수원대학교 체육학 학사",
+      "career": [
+        "(현)국민의힘 서울시당 홍보위원장",
+        "(현)국민의힘 전국광역의원협의회 공동대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151694",
+      "name": "김종훈",
+      "party": "무소속",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "63",
+      "job": "무직",
+      "education": "전북과학대학교(조경전공) 졸업",
+      "career": [
+        "(전)한국노동조합총연맹 부위원장",
+        "(전)대한적십자사봉사회 부안지구협의회 귀농귀촌단위봉사회 회장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-gunsan-gimje-buan-eul.json",
+    "overlayPath": "data/overlays/20240410/district-gunsan-gimje-buan-eul.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "군산시김제시부안군을 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

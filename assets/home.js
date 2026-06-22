@@ -28,16 +28,16 @@ const renderDistricts = (districts) => {
     .join("");
 };
 
-const updateElectionSummary = (elections, selectedElectionId, filteredDistricts) => {
+const updateElectionSummary = (elections, selectedElectionKey, filteredDistricts) => {
   const summary = $("#election-summary");
   if (!summary) {
     return;
   }
 
   const selectedElection =
-    selectedElectionId === ALL_ELECTIONS
+    selectedElectionKey === ALL_ELECTIONS
       ? null
-      : elections.find((election) => election.id === selectedElectionId);
+      : elections.find((election) => election.key === selectedElectionKey);
 
   if (!filteredDistricts.length) {
     summary.textContent = "현재 조건에 맞는 지역구가 없습니다.";
@@ -63,7 +63,7 @@ const setupFilters = (payload) => {
       `<option value="${ALL_ELECTIONS}">전체 선거</option>`,
       ...elections.map(
         (election) =>
-          `<option value="${election.id}">${election.name} (${election.districtCount}개 지역구)</option>`,
+          `<option value="${election.key}">${election.name} (${election.districtCount}개 지역구)</option>`,
       ),
     ];
     select.innerHTML = options.join("");
@@ -71,9 +71,9 @@ const setupFilters = (payload) => {
 
   const applyFilters = () => {
     const keyword = normalize(input.value);
-    const selectedElectionId = select?.value || ALL_ELECTIONS;
+    const selectedElectionKey = select?.value || ALL_ELECTIONS;
     const filtered = districts.filter((district) => {
-      if (selectedElectionId !== ALL_ELECTIONS && district.electionId !== selectedElectionId) {
+      if (selectedElectionKey !== ALL_ELECTIONS && district.electionKey !== selectedElectionKey) {
         return false;
       }
       const haystack = [district.name, district.region, district.code, district.electionName]
@@ -82,7 +82,7 @@ const setupFilters = (payload) => {
       return !keyword || haystack.includes(keyword);
     });
     renderDistricts(filtered);
-    updateElectionSummary(elections, selectedElectionId, filtered);
+    updateElectionSummary(elections, selectedElectionKey, filtered);
   };
 
   renderDistricts(districts);

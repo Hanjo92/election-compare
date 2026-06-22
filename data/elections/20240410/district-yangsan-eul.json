@@ -1,0 +1,79 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:46 KST"
+  },
+  "district": {
+    "code": "yangsan-eul",
+    "name": "양산시을",
+    "region": "경상남도"
+  },
+  "candidates": [
+    {
+      "id": "100152427",
+      "name": "김두관",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "65",
+      "job": "국회의원",
+      "education": "동아대학교 정치외교학과 졸업",
+      "career": [
+        "(현)국회의원(제20대, 제21대)",
+        "(전)제34대 경상남도지사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152733",
+      "name": "김태호",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "국회의원",
+      "education": "서울대학교 대학원 졸업(교육학박사)",
+      "career": [
+        "(현)제21대 국회의원",
+        "(전)제32대·제33대 경상남도도지사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-yangsan-eul.json",
+    "overlayPath": "data/overlays/20240410/district-yangsan-eul.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "양산시을 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

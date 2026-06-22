@@ -1,5 +1,8 @@
-const districtCode = window.location.pathname.split("/").filter(Boolean).at(-1) || "seocho-gu-gap";
-const DISTRICT_DATA_PATH = `../../data/district-${districtCode}.json`;
+const pathSegments = window.location.pathname.split("/").filter(Boolean);
+const districtIndex = pathSegments.lastIndexOf("district");
+const electionId = pathSegments[districtIndex + 1] || "20240410";
+const districtCode = pathSegments[districtIndex + 2] || "seocho-gu-gap";
+const DISTRICT_DATA_PATH = `../../../data/elections/${electionId}/district-${districtCode}.json`;
 
 const COMPARISON_ROWS = [
   ["학력", "education", (candidate) => candidate.education],

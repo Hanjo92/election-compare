@@ -1,0 +1,65 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:21 KST"
+  },
+  "district": {
+    "code": "jung-gu-ulsan",
+    "name": "중구",
+    "region": "울산광역시"
+  },
+  "candidates": [
+    {
+      "id": "100151512",
+      "name": "오상택",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "43",
+      "job": "정당인",
+      "education": "성균관대학교 대학원 졸업(정치학박사)",
+      "career": [
+        "(전)문재인 대통령 청와대 행정관",
+        "(전)울산대학교 겸임교수"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152554",
+      "name": "박성민",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "64",
+      "job": "국회의원",
+      "education": "울산대학교 정책대학원 졸업(행정학석사)",
+      "career": [
+        "(현)제21대 국회의원(울산 중구)",
+        "(전)민선5.6대 울산 중구청장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

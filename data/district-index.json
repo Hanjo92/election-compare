@@ -1,8 +1,34 @@
 {
-  "updatedAt": "2026-06-22 23:44:20 KST",
+  "updatedAt": "2026-06-22 23:59:58 KST",
   "elections": [
     {
+      "key": "20260603:4",
+      "id": "20260603",
+      "type": "4",
+      "name": "제9회 전국동시지방선거 구시군의장선거",
+      "districtCount": 1,
+      "candidateCount": 2
+    },
+    {
+      "key": "20260603:3",
+      "id": "20260603",
+      "type": "3",
+      "name": "제9회 전국동시지방선거 시도지사선거",
+      "districtCount": 1,
+      "candidateCount": 6
+    },
+    {
+      "key": "20260603:11",
+      "id": "20260603",
+      "type": "11",
+      "name": "제9회 전국동시지방선거 교육감선거",
+      "districtCount": 1,
+      "candidateCount": 8
+    },
+    {
+      "key": "20240410:2",
       "id": "20240410",
+      "type": "2",
       "name": "제22대 국회의원선거",
       "districtCount": 110,
       "candidateCount": 317
@@ -14,990 +40,1243 @@
       "name": "안동시예천군",
       "region": "경상북도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/andong-yecheon/"
+      "path": "./district/20240410/andong-yecheon/"
     },
     {
       "code": "buk-gu-eul",
       "name": "북구을",
       "region": "광주광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/buk-gu-eul/"
+      "path": "./district/20240410/buk-gu-eul/"
     },
     {
       "code": "bupyeong-gu-gap",
       "name": "부평구갑",
       "region": "인천광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/bupyeong-gu-gap/"
+      "path": "./district/20240410/bupyeong-gu-gap/"
     },
     {
       "code": "busanjin-gu-eul",
       "name": "부산진구을",
       "region": "부산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/busanjin-gu-eul/"
+      "path": "./district/20240410/busanjin-gu-eul/"
     },
     {
       "code": "busanjin-gu-gap",
       "name": "부산진구갑",
       "region": "부산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/busanjin-gu-gap/"
+      "path": "./district/20240410/busanjin-gu-gap/"
     },
     {
       "code": "changwon-seongsan",
       "name": "창원시성산구",
       "region": "경상남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/changwon-seongsan/"
+      "path": "./district/20240410/changwon-seongsan/"
     },
     {
       "code": "cheonan-gap",
       "name": "천안시갑",
       "region": "충청남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/cheonan-gap/"
+      "path": "./district/20240410/cheonan-gap/"
     },
     {
       "code": "cheongju-sangdang",
       "name": "청주시상당구",
       "region": "충청북도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/cheongju-sangdang/"
+      "path": "./district/20240410/cheongju-sangdang/"
     },
     {
       "code": "chuncheon-cheorwon-hwacheon-yanggu-gap",
       "name": "춘천시철원군화천군양구군갑",
       "region": "강원특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/chuncheon-cheorwon-hwacheon-yanggu-gap/"
+      "path": "./district/20240410/chuncheon-cheorwon-hwacheon-yanggu-gap/"
     },
     {
       "code": "chungju",
       "name": "충주시",
       "region": "충청북도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/chungju/"
+      "path": "./district/20240410/chungju/"
     },
     {
       "code": "dalseo-gu-byeong",
       "name": "달서구병",
       "region": "대구광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/dalseo-gu-byeong/"
+      "path": "./district/20240410/dalseo-gu-byeong/"
     },
     {
       "code": "dobong-gu-eul",
       "name": "도봉구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/dobong-gu-eul/"
+      "path": "./district/20240410/dobong-gu-eul/"
     },
     {
       "code": "dobong-gu-gap",
       "name": "도봉구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/dobong-gu-gap/"
+      "path": "./district/20240410/dobong-gu-gap/"
     },
     {
       "code": "dong-gu-daejeon",
       "name": "동구",
       "region": "대전광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/dong-gu-daejeon/"
+      "path": "./district/20240410/dong-gu-daejeon/"
     },
     {
       "code": "dong-gunwi-gap",
       "name": "동구군위군갑",
       "region": "대구광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/dong-gunwi-gap/"
+      "path": "./district/20240410/dong-gunwi-gap/"
     },
     {
       "code": "dong-michuhol-gap",
       "name": "동구미추홀구갑",
       "region": "인천광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/dong-michuhol-gap/"
+      "path": "./district/20240410/dong-michuhol-gap/"
     },
     {
       "code": "dong-nam-gu-eul",
       "name": "동구남구을",
       "region": "광주광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/dong-nam-gu-eul/"
+      "path": "./district/20240410/dong-nam-gu-eul/"
     },
     {
       "code": "dongdaemun-gu-eul",
       "name": "동대문구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/dongdaemun-gu-eul/"
+      "path": "./district/20240410/dongdaemun-gu-eul/"
     },
     {
       "code": "dongdaemun-gu-gap",
       "name": "동대문구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/dongdaemun-gu-gap/"
+      "path": "./district/20240410/dongdaemun-gu-gap/"
     },
     {
       "code": "dongjak-gu-eul",
       "name": "동작구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/dongjak-gu-eul/"
+      "path": "./district/20240410/dongjak-gu-eul/"
     },
     {
       "code": "dongjak-gu-gap",
       "name": "동작구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/dongjak-gu-gap/"
+      "path": "./district/20240410/dongjak-gu-gap/"
     },
     {
       "code": "eunpyeong-gu-eul",
       "name": "은평구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/eunpyeong-gu-eul/"
+      "path": "./district/20240410/eunpyeong-gu-eul/"
     },
     {
       "code": "eunpyeong-gu-gap",
       "name": "은평구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/eunpyeong-gu-gap/"
+      "path": "./district/20240410/eunpyeong-gu-gap/"
     },
     {
       "code": "gangbuk-gu-eul",
       "name": "강북구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gangbuk-gu-eul/"
+      "path": "./district/20240410/gangbuk-gu-eul/"
     },
     {
       "code": "gangbuk-gu-gap",
       "name": "강북구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gangbuk-gu-gap/"
+      "path": "./district/20240410/gangbuk-gu-gap/"
     },
     {
       "code": "gangdong-gu-eul",
       "name": "강동구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gangdong-gu-eul/"
+      "path": "./district/20240410/gangdong-gu-eul/"
     },
     {
       "code": "gangdong-gu-gap",
       "name": "강동구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gangdong-gu-gap/"
+      "path": "./district/20240410/gangdong-gu-gap/"
     },
     {
       "code": "gangnam-gu-byeong",
       "name": "강남구병",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gangnam-gu-byeong/"
+      "path": "./district/20240410/gangnam-gu-byeong/"
     },
     {
       "code": "gangnam-gu-eul",
       "name": "강남구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gangnam-gu-eul/"
+      "path": "./district/20240410/gangnam-gu-eul/"
     },
     {
       "code": "gangnam-gu-gap",
       "name": "강남구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gangnam-gu-gap/"
+      "path": "./district/20240410/gangnam-gu-gap/"
     },
     {
       "code": "gangneung",
       "name": "강릉시",
       "region": "강원특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gangneung/"
+      "path": "./district/20240410/gangneung/"
     },
     {
       "code": "gangseo-gu-byeong",
       "name": "강서구병",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gangseo-gu-byeong/"
+      "path": "./district/20240410/gangseo-gu-byeong/"
     },
     {
       "code": "gangseo-gu-eul",
       "name": "강서구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gangseo-gu-eul/"
+      "path": "./district/20240410/gangseo-gu-eul/"
     },
     {
       "code": "gangseo-gu-gap",
       "name": "강서구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gangseo-gu-gap/"
+      "path": "./district/20240410/gangseo-gu-gap/"
     },
     {
       "code": "geumcheon-gu",
       "name": "금천구",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/geumcheon-gu/"
+      "path": "./district/20240410/geumcheon-gu/"
     },
     {
       "code": "gimhae-gap",
       "name": "김해시갑",
       "region": "경상남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gimhae-gap/"
+      "path": "./district/20240410/gimhae-gap/"
     },
     {
       "code": "gimpo-gap",
       "name": "김포시갑",
       "region": "경기도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gimpo-gap/"
+      "path": "./district/20240410/gimpo-gap/"
     },
     {
       "code": "gongju-buyeo-cheongyang",
       "name": "공주시부여군청양군",
       "region": "충청남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gongju-buyeo-cheongyang/"
+      "path": "./district/20240410/gongju-buyeo-cheongyang/"
     },
     {
       "code": "goyang-jeong",
       "name": "고양시정",
       "region": "경기도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/goyang-jeong/"
+      "path": "./district/20240410/goyang-jeong/"
     },
     {
       "code": "gumi-gap",
       "name": "구미시갑",
       "region": "경상북도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gumi-gap/"
+      "path": "./district/20240410/gumi-gap/"
     },
     {
       "code": "gunsan-gimje-buan-eul",
       "name": "군산시김제시부안군을",
       "region": "전북특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gunsan-gimje-buan-eul/"
+      "path": "./district/20240410/gunsan-gimje-buan-eul/"
     },
     {
       "code": "guro-gu-eul",
       "name": "구로구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/guro-gu-eul/"
+      "path": "./district/20240410/guro-gu-eul/"
     },
     {
       "code": "guro-gu-gap",
       "name": "구로구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/guro-gu-gap/"
+      "path": "./district/20240410/guro-gu-gap/"
     },
     {
       "code": "gwanak-gu-eul",
       "name": "관악구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gwanak-gu-eul/"
+      "path": "./district/20240410/gwanak-gu-eul/"
     },
     {
       "code": "gwanak-gu-gap",
       "name": "관악구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gwanak-gu-gap/"
+      "path": "./district/20240410/gwanak-gu-gap/"
     },
     {
       "code": "gwangjin-gu-eul",
       "name": "광진구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/gwangjin-gu-eul/"
+      "path": "./district/20240410/gwangjin-gu-eul/"
     },
     {
       "code": "gwangjin-gu-gap",
       "name": "광진구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/gwangjin-gu-gap/"
+      "path": "./district/20240410/gwangjin-gu-gap/"
     },
     {
       "code": "gwangsan-gu-gap",
       "name": "광산구갑",
       "region": "광주광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/gwangsan-gu-gap/"
+      "path": "./district/20240410/gwangsan-gu-gap/"
     },
     {
       "code": "haeundae-gu-eul",
       "name": "해운대구을",
       "region": "부산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/haeundae-gu-eul/"
+      "path": "./district/20240410/haeundae-gu-eul/"
     },
     {
       "code": "haeundae-gu-gap",
       "name": "해운대구갑",
       "region": "부산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/haeundae-gu-gap/"
+      "path": "./district/20240410/haeundae-gu-gap/"
     },
     {
       "code": "hongseong-yesan",
       "name": "홍성군예산군",
       "region": "충청남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/hongseong-yesan/"
+      "path": "./district/20240410/hongseong-yesan/"
     },
     {
       "code": "hwaseong-eul",
       "name": "화성시을",
       "region": "경기도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/hwaseong-eul/"
+      "path": "./district/20240410/hwaseong-eul/"
     },
     {
       "code": "iksan-gap",
       "name": "익산시갑",
       "region": "전북특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/iksan-gap/"
+      "path": "./district/20240410/iksan-gap/"
     },
     {
       "code": "jecheon-danyang",
       "name": "제천시단양군",
       "region": "충청북도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/jecheon-danyang/"
+      "path": "./district/20240410/jecheon-danyang/"
     },
     {
       "code": "jeju-gap",
       "name": "제주시갑",
       "region": "제주특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/jeju-gap/"
+      "path": "./district/20240410/jeju-gap/"
     },
     {
       "code": "jeongeup-gochang",
       "name": "정읍시고창군",
       "region": "전북특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/jeongeup-gochang/"
+      "path": "./district/20240410/jeongeup-gochang/"
     },
     {
       "code": "jeonju-byeong",
       "name": "전주시병",
       "region": "전북특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/jeonju-byeong/"
+      "path": "./district/20240410/jeonju-byeong/"
     },
     {
       "code": "jeonju-eul",
       "name": "전주시을",
       "region": "전북특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/jeonju-eul/"
+      "path": "./district/20240410/jeonju-eul/"
     },
     {
       "code": "jeonju-gap",
       "name": "전주시갑",
       "region": "전북특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/jeonju-gap/"
+      "path": "./district/20240410/jeonju-gap/"
     },
     {
       "code": "jinju-gap",
       "name": "진주시갑",
       "region": "경상남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/jinju-gap/"
+      "path": "./district/20240410/jinju-gap/"
     },
     {
       "code": "jongno-gu",
       "name": "종로구",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 7,
-      "path": "./district/jongno-gu/"
+      "path": "./district/20240410/jongno-gu/"
     },
     {
       "code": "jung-ganghwa-ongjin",
       "name": "중구강화군옹진군",
       "region": "인천광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/jung-ganghwa-ongjin/"
+      "path": "./district/20240410/jung-ganghwa-ongjin/"
     },
     {
       "code": "jung-gu-ulsan",
       "name": "중구",
       "region": "울산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/jung-gu-ulsan/"
+      "path": "./district/20240410/jung-gu-ulsan/"
     },
     {
       "code": "jung-nam-gu",
       "name": "중구남구",
       "region": "대구광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/jung-nam-gu/"
+      "path": "./district/20240410/jung-nam-gu/"
     },
     {
       "code": "jung-seongdong-eul",
       "name": "중구성동구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/jung-seongdong-eul/"
+      "path": "./district/20240410/jung-seongdong-eul/"
     },
     {
       "code": "jung-seongdong-gap",
       "name": "중구성동구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/jung-seongdong-gap/"
+      "path": "./district/20240410/jung-seongdong-gap/"
     },
     {
       "code": "jung-yeongdo-gu",
       "name": "중구영도구",
       "region": "부산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/jung-yeongdo-gu/"
+      "path": "./district/20240410/jung-yeongdo-gu/"
     },
     {
       "code": "jungnang-gu-eul",
       "name": "중랑구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/jungnang-gu-eul/"
+      "path": "./district/20240410/jungnang-gu-eul/"
     },
     {
       "code": "jungnang-gu-gap",
       "name": "중랑구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/jungnang-gu-gap/"
+      "path": "./district/20240410/jungnang-gu-gap/"
     },
     {
       "code": "mapo-gu-eul",
       "name": "마포구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/mapo-gu-eul/"
+      "path": "./district/20240410/mapo-gu-eul/"
     },
     {
       "code": "mapo-gu-gap",
       "name": "마포구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/mapo-gu-gap/"
+      "path": "./district/20240410/mapo-gu-gap/"
     },
     {
       "code": "mokpo",
       "name": "목포시",
       "region": "전라남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 6,
-      "path": "./district/mokpo/"
+      "path": "./district/20240410/mokpo/"
     },
     {
       "code": "nam-gu-gap-ulsan",
       "name": "남구갑",
       "region": "울산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/nam-gu-gap-ulsan/"
+      "path": "./district/20240410/nam-gu-gap-ulsan/"
     },
     {
       "code": "nowon-gu-eul",
       "name": "노원구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/nowon-gu-eul/"
+      "path": "./district/20240410/nowon-gu-eul/"
     },
     {
       "code": "nowon-gu-gap",
       "name": "노원구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/nowon-gu-gap/"
+      "path": "./district/20240410/nowon-gu-gap/"
     },
     {
       "code": "pohang-buk-gu",
       "name": "포항시북구",
       "region": "경상북도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/pohang-buk-gu/"
+      "path": "./district/20240410/pohang-buk-gu/"
     },
     {
       "code": "saha-gu-eul",
       "name": "사하구을",
       "region": "부산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/saha-gu-eul/"
+      "path": "./district/20240410/saha-gu-eul/"
     },
     {
       "code": "saha-gu-gap",
       "name": "사하구갑",
       "region": "부산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/saha-gu-gap/"
+      "path": "./district/20240410/saha-gu-gap/"
     },
     {
       "code": "sejong-eul",
       "name": "세종특별자치시을",
       "region": "세종특별자치시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/sejong-eul/"
+      "path": "./district/20240410/sejong-eul/"
     },
     {
       "code": "sejong-gap",
       "name": "세종특별자치시갑",
       "region": "세종특별자치시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/sejong-gap/"
+      "path": "./district/20240410/sejong-gap/"
     },
     {
       "code": "seo-gu-byeong",
       "name": "서구병",
       "region": "인천광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/seo-gu-byeong/"
+      "path": "./district/20240410/seo-gu-byeong/"
     },
     {
       "code": "seo-gu-gap-daejeon",
       "name": "서구갑",
       "region": "대전광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/seo-gu-gap-daejeon/"
+      "path": "./district/20240410/seo-gu-gap-daejeon/"
     },
     {
       "code": "seo-gu-gap",
       "name": "서구갑",
       "region": "광주광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/seo-gu-gap/"
+      "path": "./district/20240410/seo-gu-gap/"
     },
     {
       "code": "seocho-gu-eul",
       "name": "서초구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/seocho-gu-eul/"
+      "path": "./district/20240410/seocho-gu-eul/"
     },
     {
       "code": "seocho-gu-gap",
       "name": "서초구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/seocho-gu-gap/"
+      "path": "./district/20240410/seocho-gu-gap/"
     },
     {
       "code": "seodaemun-gu-eul",
       "name": "서대문구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/seodaemun-gu-eul/"
+      "path": "./district/20240410/seodaemun-gu-eul/"
     },
     {
       "code": "seodaemun-gu-gap",
       "name": "서대문구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/seodaemun-gu-gap/"
+      "path": "./district/20240410/seodaemun-gu-gap/"
     },
     {
       "code": "seogwipo",
       "name": "서귀포시",
       "region": "제주특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/seogwipo/"
+      "path": "./district/20240410/seogwipo/"
     },
     {
       "code": "seongbuk-gu-eul",
       "name": "성북구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/seongbuk-gu-eul/"
+      "path": "./district/20240410/seongbuk-gu-eul/"
     },
     {
       "code": "seongbuk-gu-gap",
       "name": "성북구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/seongbuk-gu-gap/"
+      "path": "./district/20240410/seongbuk-gu-gap/"
     },
     {
       "code": "seongnam-bundang-gap",
       "name": "성남시분당구갑",
       "region": "경기도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/seongnam-bundang-gap/"
+      "path": "./district/20240410/seongnam-bundang-gap/"
     },
     {
       "code": "songpa-gu-byeong",
       "name": "송파구병",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/songpa-gu-byeong/"
+      "path": "./district/20240410/songpa-gu-byeong/"
     },
     {
       "code": "songpa-gu-eul",
       "name": "송파구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/songpa-gu-eul/"
+      "path": "./district/20240410/songpa-gu-eul/"
     },
     {
       "code": "songpa-gu-gap",
       "name": "송파구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/songpa-gu-gap/"
+      "path": "./district/20240410/songpa-gu-gap/"
     },
     {
       "code": "suncheon-gwangyang-gokseong-gurye-gap",
       "name": "순천시광양시곡성군구례군갑",
       "region": "전라남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/suncheon-gwangyang-gokseong-gurye-gap/"
+      "path": "./district/20240410/suncheon-gwangyang-gokseong-gurye-gap/"
     },
     {
       "code": "suseong-gu-gap",
       "name": "수성구갑",
       "region": "대구광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/suseong-gu-gap/"
+      "path": "./district/20240410/suseong-gu-gap/"
     },
     {
       "code": "suwon-gap",
       "name": "수원시갑",
       "region": "경기도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/suwon-gap/"
+      "path": "./district/20240410/suwon-gap/"
     },
     {
       "code": "suyeong-gu",
       "name": "수영구",
       "region": "부산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/suyeong-gu/"
+      "path": "./district/20240410/suyeong-gu/"
     },
     {
       "code": "ulju-gun",
       "name": "울주군",
       "region": "울산광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/ulju-gun/"
+      "path": "./district/20240410/ulju-gun/"
     },
     {
       "code": "wonju-gap",
       "name": "원주시갑",
       "region": "강원특별자치도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/wonju-gap/"
+      "path": "./district/20240410/wonju-gap/"
     },
     {
       "code": "yangcheon-gu-eul",
       "name": "양천구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/yangcheon-gu-eul/"
+      "path": "./district/20240410/yangcheon-gu-eul/"
     },
     {
       "code": "yangcheon-gu-gap",
       "name": "양천구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/yangcheon-gu-gap/"
+      "path": "./district/20240410/yangcheon-gu-gap/"
     },
     {
       "code": "yangsan-eul",
       "name": "양산시을",
       "region": "경상남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/yangsan-eul/"
+      "path": "./district/20240410/yangsan-eul/"
     },
     {
       "code": "yeongdeungpo-gu-eul",
       "name": "영등포구을",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/yeongdeungpo-gu-eul/"
+      "path": "./district/20240410/yeongdeungpo-gu-eul/"
     },
     {
       "code": "yeongdeungpo-gu-gap",
       "name": "영등포구갑",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/yeongdeungpo-gu-gap/"
+      "path": "./district/20240410/yeongdeungpo-gu-gap/"
     },
     {
       "code": "yeonsu-gu-eul",
       "name": "연수구을",
       "region": "인천광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/yeonsu-gu-eul/"
+      "path": "./district/20240410/yeonsu-gu-eul/"
     },
     {
       "code": "yeosu-eul",
       "name": "여수시을",
       "region": "전라남도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/yeosu-eul/"
+      "path": "./district/20240410/yeosu-eul/"
     },
     {
       "code": "yongin-jeong",
       "name": "용인시정",
       "region": "경기도",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/yongin-jeong/"
+      "path": "./district/20240410/yongin-jeong/"
     },
     {
       "code": "yongsan-gu",
       "name": "용산구",
       "region": "서울특별시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/yongsan-gu/"
+      "path": "./district/20240410/yongsan-gu/"
     },
     {
       "code": "yuseong-gu-eul",
       "name": "유성구을",
       "region": "대전광역시",
       "electionId": "20240410",
+      "electionTypecode": "2",
+      "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/yuseong-gu-eul/"
+      "path": "./district/20240410/yuseong-gu-eul/"
+    },
+    {
+      "code": "jongno-mayor-2026",
+      "name": "종로구",
+      "region": "서울특별시",
+      "electionId": "20260603",
+      "electionTypecode": "4",
+      "electionKey": "20260603:4",
+      "electionName": "제9회 전국동시지방선거 구시군의장선거",
+      "candidateCount": 2,
+      "path": "./district/20260603/jongno-mayor-2026/"
+    },
+    {
+      "code": "seoul-education-2026",
+      "name": "서울특별시",
+      "region": "서울특별시",
+      "electionId": "20260603",
+      "electionTypecode": "11",
+      "electionKey": "20260603:11",
+      "electionName": "제9회 전국동시지방선거 교육감선거",
+      "candidateCount": 8,
+      "path": "./district/20260603/seoul-education-2026/"
+    },
+    {
+      "code": "seoul-mayor-2026",
+      "name": "서울특별시",
+      "region": "서울특별시",
+      "electionId": "20260603",
+      "electionTypecode": "3",
+      "electionKey": "20260603:3",
+      "electionName": "제9회 전국동시지방선거 시도지사선거",
+      "candidateCount": 6,
+      "path": "./district/20260603/seoul-mayor-2026/"
     }
   ]
 }

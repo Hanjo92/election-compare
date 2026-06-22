@@ -1,0 +1,79 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:15 KST"
+  },
+  "district": {
+    "code": "dong-michuhol-gap",
+    "name": "동구미추홀구갑",
+    "region": "인천광역시"
+  },
+  "candidates": [
+    {
+      "id": "100152019",
+      "name": "허종식",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "62",
+      "job": "국회의원",
+      "education": "인하대학교 국어국문학과 졸업",
+      "career": [
+        "(전)인천광역시 균형발전정무부시장",
+        "(현)동구미추홀구갑 국회의원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151815",
+      "name": "심재돈",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "57",
+      "job": "변호사",
+      "education": "서울대학교 공법학과 졸업",
+      "career": [
+        "(전)서울중앙지검 부장검사",
+        "(전)김앤장 법률사무소 변호사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-dong-michuhol-gap.json",
+    "overlayPath": "data/overlays/20240410/district-dong-michuhol-gap.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "동구미추홀구갑 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

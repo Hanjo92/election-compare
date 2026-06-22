@@ -1,0 +1,65 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:02 KST"
+  },
+  "district": {
+    "code": "gwanak-gu-gap",
+    "name": "관악구갑",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100151602",
+      "name": "박민규",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "50",
+      "job": "사단법인 관악경제사회연구소 연구소장",
+      "education": "서울시립대학교대학원 졸업(행정학박사)",
+      "career": [
+        "(전)서울대학교 BK조교수",
+        "(현)더불어민주당 정책위원회 부의장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151384",
+      "name": "유종필",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "66",
+      "job": "정당인",
+      "education": "서울대학교 철학과 졸업",
+      "career": [
+        "(전)관악구청장(2010~2018)",
+        "(전)청와대 비서관"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

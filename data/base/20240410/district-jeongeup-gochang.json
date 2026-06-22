@@ -1,0 +1,90 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:40 KST"
+  },
+  "district": {
+    "code": "jeongeup-gochang",
+    "name": "정읍시고창군",
+    "region": "전북특별자치도"
+  },
+  "candidates": [
+    {
+      "id": "100152161",
+      "name": "윤준병",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "63",
+      "job": "국회의원",
+      "education": "서울대학교 독어독문학과 졸업(경제학 부전공)",
+      "career": [
+        "(전) 서울특별시장 권한대행",
+        "(현) 제21대 국회의원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151481",
+      "name": "최용운",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "정당인",
+      "education": "서남대학교 일반대학원 사회체육학과 졸업(체육학박사)",
+      "career": [
+        "(전) 인천관내 중.고교교사 31년 역임",
+        "(현) 국민의힘 정읍.고창 조직강화위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151833",
+      "name": "정후영",
+      "party": "자유통일당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "71",
+      "job": "목회자",
+      "education": "서울대학교부설 한국방송통신대학(현 한국방송통신대학교) 농학과 졸업",
+      "career": [
+        "(현) 고창 우리교회 담임목사",
+        "(현) 자유통일당 정읍고창당협위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

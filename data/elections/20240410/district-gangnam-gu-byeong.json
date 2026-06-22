@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:05 KST"
+  },
+  "district": {
+    "code": "gangnam-gu-byeong",
+    "name": "강남구병",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152968",
+      "name": "박경미",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "58",
+      "job": "정치인",
+      "education": "미국 일리노이대학교 수학교육학 박사 (Ph.D)(1990.8.~1993.1.)",
+      "career": [
+        "(전) 제20대 국회의원",
+        "(전) 청와대 대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153038",
+      "name": "고동진",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "63",
+      "job": "정당인",
+      "education": "성균관대학교 산업공학과 졸업",
+      "career": [
+        "(전) 삼성전자 대표이사",
+        "(현) 국민의힘 선거대책위원회 부위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153168",
+      "name": "양한별",
+      "party": "내일로미래로",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "67",
+      "job": "정당인",
+      "education": "한국방송통신대학교 법학과 졸업",
+      "career": [
+        "(전)2020 강남구 병선거구 국회의원 후보",
+        "(현)국가유공자 공상군경 7급"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-gangnam-gu-byeong.json",
+    "overlayPath": "data/overlays/20240410/district-gangnam-gu-byeong.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "강남구병 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

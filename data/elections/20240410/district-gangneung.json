@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:32 KST"
+  },
+  "district": {
+    "code": "gangneung",
+    "name": "강릉시",
+    "region": "강원특별자치도"
+  },
+  "candidates": [
+    {
+      "id": "100151927",
+      "name": "김중남",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "정당인",
+      "education": "강릉원주대학교 일반대학원 행정학과 박사과정 수료",
+      "career": [
+        "(현) 더불어민주당 탄소중립위원회 부위원장",
+        "(현) 더불어민주당 부대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152879",
+      "name": "권성동",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "63",
+      "job": "국회의원",
+      "education": "중앙대학교 법과대학 법학과 졸업",
+      "career": [
+        "(전) 국회 법제사법위원장",
+        "(전) 국민의힘 원내대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151027",
+      "name": "이영랑",
+      "party": "개혁신당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "48",
+      "job": "이미지컨설턴트",
+      "education": "강릉원주대학교 일반대학원 박사과정 교육학과 중퇴(2013. 3. 1.~2016. 3. 29.)",
+      "career": [
+        "(현)개혁신당 당대표 정무특보",
+        "(현)강릉원주대학교 평생교육원 강사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-gangneung.json",
+    "overlayPath": "data/overlays/20240410/district-gangneung.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "강릉시 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

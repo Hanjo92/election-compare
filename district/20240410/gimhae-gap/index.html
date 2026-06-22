@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ballot Mirror | 김해시갑 | 제22대 국회의원선거</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../assets/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="subhero district-hero">
+        <a class="text-link back-link" href="../../../index.html">홈으로</a>
+        <p class="eyebrow" id="district-region">지역구</p>
+        <h1 id="district-name">후보 비교</h1>
+        <p class="hero-copy" id="election-name">데이터를 불러오는 중입니다.</p>
+      </header>
+
+      <main class="panel-stack">
+        <section class="panel meta-strip">
+          <div>
+            <span class="meta-label">업데이트</span>
+            <strong id="updated-at">-</strong>
+          </div>
+          <div>
+            <span class="meta-label">후보 수</span>
+            <strong id="candidate-count">-</strong>
+          </div>
+        </section>
+
+        <section class="candidate-grid" id="candidate-grid"></section>
+
+        <section class="panel">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Compare</p>
+              <h2>핵심 비교표</h2>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table class="comparison-table" id="comparison-table"></table>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Sources</p>
+              <h2>공식 출처</h2>
+            </div>
+          </div>
+          <div class="source-grid" id="source-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="../../../assets/district.js"></script>
+  </body>
+</html>

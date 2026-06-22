@@ -163,6 +163,14 @@ def build_empty_overlay_template(district: dict[str, Any]) -> dict:
     }
 
 
+def detect_election_id(payload: dict[str, Any], fallback: str | None = None) -> str:
+    election = payload.get("election", {})
+    election_id = str(election.get("id") or fallback or "").strip()
+    if not election_id:
+        raise SystemExit("Could not determine election id for overlay template generation.")
+    return election_id
+
+
 def main() -> int:
     args = parse_args()
     base_dir = Path(args.base_dir)
@@ -176,13 +184,15 @@ def main() -> int:
     if args.config:
         config_path = Path(args.config)
         districts = load_config_districts(config_path)
+        config_payload = json.loads(config_path.read_text(encoding="utf-8"))
+        election_id = str(config_payload.get("sgId") or "").strip()
         if not districts:
             raise SystemExit(f"No enabled districts found in config: {config_path}")
 
         for district in districts:
             code = district["districtCode"]
-            base_path = base_dir / f"district-{code}.json"
-            output_path = overlay_dir / f"district-{code}.json"
+            base_path = base_dir / election_id / f"district-{code}.json"
+            output_path = overlay_dir / election_id / f"district-{code}.json"
             if output_path.exists() and not args.force:
                 skipped += 1
                 continue
@@ -195,13 +205,14 @@ def main() -> int:
             else:
                 raise SystemExit(f"Missing base file: {base_path}")
 
+            output_path.parent.mkdir(parents=True, exist_ok=True)
             output_path.write_text(json.dumps(template, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             written += 1
     else:
         if args.district_code:
-            base_paths = [base_dir / f"district-{args.district_code}.json"]
+            base_paths = sorted(base_dir.glob(f"*/district-{args.district_code}.json"))
         else:
-            base_paths = sorted(base_dir.glob("district-*.json"))
+            base_paths = sorted(base_dir.glob("*/district-*.json"))
 
         if not base_paths:
             raise SystemExit(f"No base district files found in {base_dir}")
@@ -211,13 +222,15 @@ def main() -> int:
                 raise SystemExit(f"Missing base file: {base_path}")
 
             code = base_path.stem.removeprefix("district-")
-            output_path = overlay_dir / f"district-{code}.json"
+            payload = json.loads(base_path.read_text(encoding="utf-8"))
+            election_id = detect_election_id(payload, base_path.parent.name)
+            output_path = overlay_dir / election_id / f"district-{code}.json"
             if output_path.exists() and not args.force:
                 skipped += 1
                 continue
 
-            payload = json.loads(base_path.read_text(encoding="utf-8"))
             template = build_overlay_template(payload, fields)
+            output_path.parent.mkdir(parents=True, exist_ok=True)
             output_path.write_text(json.dumps(template, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             written += 1
 

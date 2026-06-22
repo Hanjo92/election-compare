@@ -61,6 +61,28 @@ def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def detect_election_id(payload: dict[str, Any], fallback: str | None = None) -> str:
+    election = payload.get("election", {})
+    election_id = str(election.get("id") or fallback or "").strip()
+    if not election_id:
+        raise SystemExit("Could not determine election id while merging overlays.")
+    return election_id
+
+
+def discover_base_paths(base_dir: Path, district_code: str | None) -> list[Path]:
+    if district_code:
+        nested = sorted(base_dir.glob(f"*/district-{district_code}.json"))
+        if nested:
+            return nested
+        flat = base_dir / f"district-{district_code}.json"
+        return [flat] if flat.exists() else []
+
+    nested = sorted(base_dir.glob("*/district-*.json"))
+    if nested:
+        return nested
+    return sorted(base_dir.glob("district-*.json"))
+
+
 def candidate_matches(candidate: dict[str, Any], matcher: dict[str, Any]) -> bool:
     for key, expected in matcher.items():
         if expected is None:
@@ -180,10 +202,7 @@ def main() -> int:
     overlay_dir = Path(args.overlay_dir)
     output_dir = Path(args.output_dir)
 
-    if args.district_code:
-        base_paths = [base_dir / f"district-{args.district_code}.json"]
-    else:
-        base_paths = sorted(base_dir.glob("district-*.json"))
+    base_paths = discover_base_paths(base_dir, args.district_code)
 
     if not base_paths:
         raise SystemExit(f"No base district files found in {base_dir}")
@@ -194,8 +213,13 @@ def main() -> int:
             raise SystemExit(f"Missing base file: {base_path}")
 
         code = base_path.stem.removeprefix("district-")
-        overlay_path = overlay_dir / f"district-{code}.json"
-        output_path = output_dir / f"district-{code}.json"
+        base_payload = load_json(base_path)
+        election_id = detect_election_id(base_payload, None if base_path.parent == base_dir else base_path.parent.name)
+        overlay_path = overlay_dir / election_id / f"district-{code}.json"
+        if not overlay_path.exists():
+            legacy_overlay_path = overlay_dir / f"district-{code}.json"
+            overlay_path = legacy_overlay_path if legacy_overlay_path.exists() else overlay_path
+        output_path = output_dir / "elections" / election_id / f"district-{code}.json"
         merge_one(base_path, overlay_path if overlay_path.exists() else None, output_path)
         built += 1
 

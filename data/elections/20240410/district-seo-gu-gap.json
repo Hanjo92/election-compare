@@ -1,0 +1,129 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:17 KST"
+  },
+  "district": {
+    "code": "seo-gu-gap",
+    "name": "서구갑",
+    "region": "광주광역시"
+  },
+  "candidates": [
+    {
+      "id": "100151282",
+      "name": "조인철",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "59",
+      "job": "조인철 민생예산연구소(이사장)",
+      "education": "영국 버밍엄대학교 (정책학 박사, 2007.9~2010.12)",
+      "career": [
+        "(전)광주광역시 문화경제부시장",
+        "(전)기획재정부 예산실 총사업비관리과장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152491",
+      "name": "하헌식",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "57",
+      "job": "정당인",
+      "education": "조선대학교 경영대학원 경영학과 졸업(경영학 석사)",
+      "career": [
+        "(현)조선대학교 외래교수",
+        "(현)대통령직속 국민통합위원회 지역위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151295",
+      "name": "강승철",
+      "party": "진보당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "53",
+      "job": "정당인",
+      "education": "광주석산고등학교 졸업",
+      "career": [
+        "(전)전국민주노동조합총연맹 사무총장",
+        "(현)진보당 광주시당 서구갑 지역위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153089",
+      "name": "송영길",
+      "party": "소나무당",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "변호사",
+      "education": "연세대학교 상경대학 경영학과 졸업",
+      "career": [
+        "(전)더불어민주당 대표",
+        "(전)국회의원(5선)"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-seo-gu-gap.json",
+    "overlayPath": "data/overlays/20240410/district-seo-gu-gap.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "서구갑 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

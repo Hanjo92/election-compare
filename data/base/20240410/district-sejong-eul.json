@@ -1,0 +1,139 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:25 KST"
+  },
+  "district": {
+    "code": "sejong-eul",
+    "name": "세종특별자치시을",
+    "region": "세종특별자치시"
+  },
+  "candidates": [
+    {
+      "id": "100152549",
+      "name": "강준현",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "59",
+      "job": "국회의원",
+      "education": "충남대학교 대학원 건축공학과 졸업(공학석사)",
+      "career": [
+        "(현) 제21대 국회의원(세종특별자치시을)",
+        "(현) 더불어민주당 원내부대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151031",
+      "name": "이준배",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "55",
+      "job": "(재)세종미래전략연구원 이사장",
+      "education": "충남기계공업고등학교 졸업",
+      "career": [
+        "(전) 세종특별자치시 경제부시장(지방별정 1급 상당)",
+        "(전) 배재대학교 객원교수"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151024",
+      "name": "이태환",
+      "party": "개혁신당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "38",
+      "job": "정치인",
+      "education": "고려대학교 행정대학원 졸업(행정학석사)",
+      "career": [
+        "(전) 세종특별자치시의회의장",
+        "(전) 노무현재단 대전세종충남지역위 운영위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151725",
+      "name": "박종채",
+      "party": "한국국민당",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "76",
+      "job": "임대관리인",
+      "education": "대강초등학교 졸업",
+      "career": [
+        "미기재"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151065",
+      "name": "신용우",
+      "party": "무소속",
+      "number": "5",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "37",
+      "job": "정치인",
+      "education": "서울사이버대학교 상담심리학과 졸업",
+      "career": [
+        "(전) 충청남도 도지사비서실 주무관",
+        "(전) (주)세이프티코리아 본부장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

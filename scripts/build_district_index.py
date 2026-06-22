@@ -17,9 +17,7 @@ def main() -> int:
     districts = []
     election_map = {}
 
-    for path in sorted(DATA_DIR.glob("district-*.json")):
-        if path.name == OUTPUT.name:
-            continue
+    for path in sorted((DATA_DIR / "elections").glob("*/district-*.json")):
 
         payload = json.loads(path.read_text(encoding="utf-8"))
         district = payload.get("district", {})
@@ -27,6 +25,8 @@ def main() -> int:
         candidates = payload.get("candidates", [])
         code = district.get("code") or path.stem.removeprefix("district-")
         election_id = election.get("id", "unknown")
+        election_type = str(election.get("type", "")).strip()
+        election_key = f"{election_id}:{election_type}" if election_type else str(election_id)
         election_name = election.get("name", "선거 정보")
         candidate_count = len(candidates)
 
@@ -35,26 +35,30 @@ def main() -> int:
             "name": district.get("name", code),
             "region": district.get("region", "전국"),
             "electionId": election_id,
+            "electionTypecode": election_type,
+            "electionKey": election_key,
             "electionName": election_name,
             "candidateCount": candidate_count,
-            "path": f"./district/{code}/",
+            "path": f"./district/{election_id}/{code}/",
         }
         districts.append(district_row)
 
-        if election_id not in election_map:
-            election_map[election_id] = {
+        if election_key not in election_map:
+            election_map[election_key] = {
+                "key": election_key,
                 "id": election_id,
+                "type": election_type,
                 "name": election_name,
                 "districtCount": 0,
                 "candidateCount": 0,
             }
 
-        election_map[election_id]["districtCount"] += 1
-        election_map[election_id]["candidateCount"] += candidate_count
+        election_map[election_key]["districtCount"] += 1
+        election_map[election_key]["candidateCount"] += candidate_count
 
     elections = sorted(
         election_map.values(),
-        key=lambda election: str(election["id"]),
+        key=lambda election: (str(election["id"]), str(election.get("type", ""))),
         reverse=True,
     )
 

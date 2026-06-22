@@ -1,0 +1,115 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:38 KST"
+  },
+  "district": {
+    "code": "iksan-gap",
+    "name": "익산시갑",
+    "region": "전북특별자치도"
+  },
+  "candidates": [
+    {
+      "id": "100151245",
+      "name": "이춘석",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "변호사",
+      "education": "원광대학교 대학원 법학과 박사과정 수료",
+      "career": [
+        "(전)제34대 국회사무처 사무총장",
+        "(전)18,19,20대 국회의원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152856",
+      "name": "김민서",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "57",
+      "job": "싱글벙글 실버복지센터 센터장",
+      "education": "원광대학교대학원 박사과정 2학기 재학중(경영학)",
+      "career": [
+        "(전)제7대 익산시의회의원",
+        "(전)새만금개발청 기본계획수립위원회 위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153093",
+      "name": "신재용",
+      "party": "새로운미래",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "29",
+      "job": "대학원생",
+      "education": "서울대학교 행정대학원(석사과정)행정학과(정책학전공)2학년 재학",
+      "career": [
+        "(전)서울대학교 총학생회장",
+        "(전)삼보 국가대표 선수"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151184",
+      "name": "전권희",
+      "party": "진보당",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "53",
+      "job": "정당인",
+      "education": "고려대학교 경영학과 졸업",
+      "career": [
+        "(현)진보당 익산시지역위원장",
+        "(현)진보당 전북특별자치도당 정책위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

@@ -5,10 +5,10 @@
 ## 포함 내용
 
 - `index.html`: 서비스 소개와 샘플 지역구 진입점
-- `district/seocho-gu-gap/index.html`: 샘플 지역구 비교 페이지
-- `data/district-seocho-gu-gap.json`: 샘플 후보 데이터
-- `data/base/`: API 수집 원본 또는 기본 데이터
-- `data/overlays/`: 수동 보강 오버레이
+- `district/20240410/seocho-gu-gap/index.html`: 샘플 지역구 비교 페이지
+- `data/elections/20240410/district-seocho-gu-gap.json`: 샘플 후보 데이터
+- `data/base/`: 선거별 API 수집 원본 또는 기본 데이터
+- `data/overlays/`: 선거별 수동 보강 오버레이
 - `data/district-index.json`: 홈에서 읽는 선거별/지역구별 인덱스
 - `assets/district.js`: 지역구 데이터를 렌더링하는 스크립트
 - `assets/home.js`: 홈 검색과 지역구 목록 렌더링
@@ -70,7 +70,7 @@ python3 scripts/fetch_nec_candidates.py \
   --election-name '제22대 국회의원선거'
 ```
 
-성공하면 `data/base/district-seocho-gu-gap.json` 이 갱신됩니다.
+성공하면 `data/base/20240410/district-seocho-gu-gap.json` 이 갱신됩니다.
 
 여러 지역구를 한 번에 수집하려면 배치 설정 파일을 준비한 뒤 아래처럼 실행하면 됩니다.
 
@@ -188,15 +188,15 @@ python3 -m http.server 4173
 - 납세
 - 현직 여부
 
-이 값들은 기본적으로 `자료 미확인`으로 채워집니다. 수동 보강은 `data/overlays/`에서 별도 관리합니다.
+이 값들은 기본적으로 `자료 미확인`으로 채워집니다. 수동 보강은 `data/overlays/<선거ID>/`에서 별도 관리합니다.
 
 ## 수동 보강 구조
 
-- `data/base/district-<code>.json`
+- `data/base/<선거ID>/district-<code>.json`
   API 수집 결과나 기본 원본 데이터
-- `data/overlays/district-<code>.json`
+- `data/overlays/<선거ID>/district-<code>.json`
   후보별 수동 패치와 필드별 출처
-- `data/district-<code>.json`
+- `data/elections/<선거ID>/district-<code>.json`
   사이트가 실제로 읽는 병합 결과
 
 권장 수동 보강 필드셋:

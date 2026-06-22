@@ -1,0 +1,200 @@
+{
+  "election": {
+    "id": "20260603",
+    "name": "제9회 전국동시지방선거 시도지사선거",
+    "type": "3",
+    "updatedAt": "2026-06-22 23:58:00 KST"
+  },
+  "district": {
+    "code": "seoul-mayor-2026",
+    "name": "서울특별시",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100157144",
+      "name": "정원오",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "57",
+      "job": "정당인",
+      "education": "한양대학교 도시대학원 도시개발경영전공 박사 수료",
+      "career": [
+        "(전)민선 6,7,8기 성동구청장",
+        "(전)한양대학교 경영대학 특임교수"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100162984",
+      "name": "오세훈",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "65",
+      "job": "서울특별시장",
+      "education": "고려대학교 대학원 법학과 졸업(법학박사)",
+      "career": [
+        "(현)제39대 서울특별시장",
+        "(전)제16대 국회의원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100158541",
+      "name": "김정철",
+      "party": "개혁신당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "49",
+      "job": "변호사",
+      "education": "고려대학교 대학원 졸업(법학박사)",
+      "career": [
+        "(현)개혁신당 최고위원",
+        "(현)법무법인 우리 대표변호사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100162632",
+      "name": "유지혜",
+      "party": "여성의당",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "29",
+      "job": "정당인",
+      "education": "원광디지털대학교 한국문화학부 한국복식과학학과 졸업",
+      "career": [
+        "(현)여성의당 대변인",
+        "(전)제22대 국회의원선거 비례대표 여성의당 후보"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100162642",
+      "name": "이강산",
+      "party": "자유통일당",
+      "number": "5",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "36",
+      "job": "정당인",
+      "education": "서울대학교 경영전문대학원 경영학과(SNU MBA) 졸업(석사)",
+      "career": [
+        "(전)자유통일당 2025년 구로구청장 보궐선거 후보",
+        "(현)자유통일당 AI전략위원회 위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100162720",
+      "name": "권영국",
+      "party": "정의당",
+      "number": "6",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "62",
+      "job": "정당인",
+      "education": "서울대학교 공과대학 금속공과 졸업",
+      "career": [
+        "(현)정의당 대표",
+        "(현)SPC 파리바게뜨 시민대책위 상임대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/20260603/district-seoul-mayor-2026.json",
+    "overlayApplied": false,
+    "mergedAt": "2026-06-22 23:59:57 KST"
+  }
+}

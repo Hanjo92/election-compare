@@ -1,0 +1,268 @@
+{
+  "election": {
+    "id": "20260603",
+    "name": "제9회 전국동시지방선거 교육감선거",
+    "type": "11",
+    "updatedAt": "2026-06-22 23:56:58 KST"
+  },
+  "district": {
+    "code": "seoul-education-2026",
+    "name": "서울특별시",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100153800",
+      "name": "김영배",
+      "party": "정당 미확인",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "57",
+      "job": "예원예술대학교 부총장",
+      "education": "동방문화대학원대학교 자연치유학과졸업(교육학박사)",
+      "career": [
+        "(현)예원예술대학교 부총장",
+        "(전)상명대학교/성결대학교 교수 역임"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100155563",
+      "name": "한만중",
+      "party": "정당 미확인",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "62",
+      "job": "전국교육자치혁신연대 상임대표",
+      "education": "서울대학교 사범대학 국어교육과 졸업",
+      "career": [
+        "(전)노무현 대통령직인수위 자문위원(교육분야)",
+        "(전)조희연 서울시교육감 비서실장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100163258",
+      "name": "조전혁",
+      "party": "정당 미확인",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "65",
+      "job": "서울시 미래교육연구원 원장",
+      "education": "미국 위스콘신대학교 매디슨 캠퍼스 대학원 경제학 박사 (1989.12.~1991.12.)",
+      "career": [
+        "(전)2024년 서울특별시교육감보궐선거 통합대책위원회 중도·보수후보",
+        "(전)국회의원 (교육과학기술위원회 위원)"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100162651",
+      "name": "이학인",
+      "party": "정당 미확인",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "53",
+      "job": "신한대학교 부교수",
+      "education": "뉴욕시립대학교대학원 철학박사(경영학전공)(2006.8~2012.8)",
+      "career": [
+        "(전)미국Hofstra대학교 회계학 조교수",
+        "(전)안진회계법인 공인회계사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153774",
+      "name": "윤호상",
+      "party": "정당 미확인",
+      "number": "5",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "67",
+      "job": "한양대학교 교육대학원 겸임교수",
+      "education": "숭실대학교 대학원 평생교육학과 졸업(교육학 박사)",
+      "career": [
+        "(현)서울좋은교육감후보추대시민회의 보수단일후보(류수노,신평,윤호상,이건주 참여)",
+        "(전)서울시 중·고등학교 4개교 교장(강남중,도선고,서울미술고,신도림고)"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100161493",
+      "name": "정근식",
+      "party": "정당 미확인",
+      "number": "6",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "68",
+      "job": "서울특별시교육감",
+      "education": "서울대학교 대학원(박사과정) 사회학과 문학박사",
+      "career": [
+        "(현)2026서울민주진보교육감단일화 추진위 추대후보",
+        "(전)노무현정부 친일반민족행위진상규명위원회 위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153778",
+      "name": "홍제남",
+      "party": "정당 미확인",
+      "number": "7",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "다같이배움연구소장",
+      "education": "한국교원대학교 교육정책전문대학원 졸업 (교육학박사)",
+      "career": [
+        "(전)서울특별시남부교육지원청 교육지원국장",
+        "(전)오류중학교장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153786",
+      "name": "류수노",
+      "party": "정당 미확인",
+      "number": "8",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "69",
+      "job": "교수",
+      "education": "충남대학교 대학원 졸업(농학박사)",
+      "career": [
+        "(전)한국방송통신대학교 총장",
+        "(현)한성대학교 석좌교수"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [
+        {
+          "title": "공약",
+          "summary": "자료 미확인",
+          "source": "https://www.data.go.kr/data/15040587/openapi.do"
+        }
+      ],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/20260603/district-seoul-education-2026.json",
+    "overlayApplied": false,
+    "mergedAt": "2026-06-22 23:59:57 KST"
+  }
+}

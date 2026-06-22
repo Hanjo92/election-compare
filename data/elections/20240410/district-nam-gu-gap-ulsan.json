@@ -1,0 +1,154 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:21 KST"
+  },
+  "district": {
+    "code": "nam-gu-gap-ulsan",
+    "name": "남구갑",
+    "region": "울산광역시"
+  },
+  "candidates": [
+    {
+      "id": "100152783",
+      "name": "전은수",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "39",
+      "job": "변호사",
+      "education": "부산대학교 법학전문대학원 법무석사(법학) 졸업",
+      "career": [
+        "(현)더불어민주당 중앙당 부대변인",
+        "(전)한국에너지공단 상임감사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152036",
+      "name": "김상욱",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "44",
+      "job": "법무법인 더정성 대표변호사",
+      "education": "고려대학교 법과대학 법학과 졸업",
+      "career": [
+        "(현)법무법인 더정성 대표변호사",
+        "(전)국민의힘 울산광역시당 법률자문위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152855",
+      "name": "이미영",
+      "party": "새로운미래",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "52",
+      "job": "정당인",
+      "education": "고려대학교 행정전문대학원 행정학박사 수료",
+      "career": [
+        "(전)제6대 울산남구의회 의원",
+        "(전)제7대 울산광역시의회 부의장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152256",
+      "name": "오호정",
+      "party": "우리공화당",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "33",
+      "job": "정당인",
+      "education": "인디애나대학교영어학사졸업(2013.09.~2019.05.)",
+      "career": [
+        "(전)상신브레이크멕시코엔지니어",
+        "(현)우리공화당울산남구갑당협위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151331",
+      "name": "허언욱",
+      "party": "무소속",
+      "number": "5",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "60",
+      "job": "정치인",
+      "education": "한양대학교 행정대학원 행정학과 졸업",
+      "career": [
+        "(전)울산광역시 행정부시장",
+        "(전)행정안전부 안전정책실장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-nam-gu-gap-ulsan.json",
+    "overlayPath": "data/overlays/20240410/district-nam-gu-gap-ulsan.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "남구갑 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

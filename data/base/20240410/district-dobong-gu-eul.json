@@ -1,0 +1,65 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:31:48 KST"
+  },
+  "district": {
+    "code": "dobong-gu-eul",
+    "name": "도봉구을",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152438",
+      "name": "오기형",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "57",
+      "job": "국회의원",
+      "education": "서울대학교 법과대학 공법학과 졸업",
+      "career": [
+        "(현) 도봉(을) 국회의원",
+        "(현) 더불어민주당 서울시당 정책위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152292",
+      "name": "김선동",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "60",
+      "job": "정당인",
+      "education": "고려대학교 대학원 정치외교학과 졸업(정치학 석사)",
+      "career": [
+        "(전) 제18대·20대 국회의원",
+        "(전) 국민의힘 사무총장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

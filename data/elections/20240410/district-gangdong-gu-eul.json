@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:07 KST"
+  },
+  "district": {
+    "code": "gangdong-gu-eul",
+    "name": "강동구을",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152764",
+      "name": "이해식",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "60",
+      "job": "국회의원",
+      "education": "서울시립대학교 일반대학원 도시행정학과 박사과정 수료",
+      "career": [
+        "(전)강동구청장(3선)",
+        "(현)제21대 국회의원(강동구을)"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152086",
+      "name": "이재영",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "48",
+      "job": "동아방송예술대학교 초빙교수",
+      "education": "미국조지타운대학교 졸업(경영학학사, 1994. 9.~1998. 5.)",
+      "career": [
+        "(전)제19대 국회의원",
+        "(전)국민의힘 강동(을)당원협의회 위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152541",
+      "name": "정승우",
+      "party": "개혁신당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "54",
+      "job": "전주대학교 객원교수",
+      "education": "전주대학교 일반대학원 박사 학위과정 재학중",
+      "career": [
+        "(현)이준석 당대표 정무특보",
+        "(현)삼봉정도전역사문화진흥원 이사장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-gangdong-gu-eul.json",
+    "overlayPath": "data/overlays/20240410/district-gangdong-gu-eul.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "강동구을 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

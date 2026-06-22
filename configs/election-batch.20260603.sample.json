@@ -1,0 +1,25 @@
+{
+  "sgId": "20260603",
+  "electionName": "제9회 전국동시지방선거",
+  "districts": [
+    {
+      "districtCode": "seoul-mayor-2026",
+      "sdName": "서울특별시",
+      "sgTypecode": "3",
+      "electionName": "제9회 전국동시지방선거 시도지사선거"
+    },
+    {
+      "districtCode": "jongno-mayor-2026",
+      "sdName": "서울특별시",
+      "sggName": "종로구",
+      "sgTypecode": "4",
+      "electionName": "제9회 전국동시지방선거 구시군의장선거"
+    },
+    {
+      "districtCode": "seoul-education-2026",
+      "sdName": "서울특별시",
+      "sgTypecode": "11",
+      "electionName": "제9회 전국동시지방선거 교육감선거"
+    }
+  ]
+}

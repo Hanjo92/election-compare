@@ -1,0 +1,140 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:18 KST"
+  },
+  "district": {
+    "code": "buk-gu-eul",
+    "name": "북구을",
+    "region": "광주광역시"
+  },
+  "candidates": [
+    {
+      "id": "100151180",
+      "name": "전진숙",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "55",
+      "job": "정당인",
+      "education": "전남대학교 일반대학원 사회학과 수료(석사과정)",
+      "career": [
+        "(전)대통령비서실행정관",
+        "(현)더불어민주당 중앙당 부대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152883",
+      "name": "양종아",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "49",
+      "job": "한뼘클래식기획 대표",
+      "education": "조선대학교 신문방송학과 언론학 석사",
+      "career": [
+        "(전)부산·광주 MBC 아나운서",
+        "(전)제20대 대통령선거 국민의힘 정책본부 정책위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153047",
+      "name": "박병석",
+      "party": "새로운미래",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "54",
+      "job": "정당인",
+      "education": "서울대학교 인문대학 철학과 졸업",
+      "career": [
+        "(현)새로운미래 사무부총장",
+        "(전)국회의원 보좌관"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151434",
+      "name": "김원갑",
+      "party": "개혁신당",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "63",
+      "job": "정치인",
+      "education": "원광대학교 대학원 불교학과 기학전공 박사과정 졸업(철학박사)",
+      "career": [
+        "(전)5.18 시민군 대장",
+        "(현)개혁신당 이준석 대표 정무특보"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151203",
+      "name": "윤민호",
+      "party": "진보당",
+      "number": "5",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "53",
+      "job": "택배노동자",
+      "education": "조선대학교 자연과학대학 환경학과 4년 제적(1990.3.2.~1997.9.24.)",
+      "career": [
+        "(현)진보당 광주광역시 북구을지역위원회 위원장",
+        "(전)매곡동·연제동 송전탑 철거운동본부 공동대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

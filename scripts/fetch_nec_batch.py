@@ -96,8 +96,8 @@ def normalize_district_entry(district: dict[str, Any], inherited: dict[str, Any]
         return {}
 
     normalized = merge_dicts(inherited, district)
-    if "districtCode" not in normalized or "sggName" not in normalized:
-        raise SystemExit("Each district entry must include districtCode and sggName.")
+    if "districtCode" not in normalized:
+        raise SystemExit("Each district entry must include districtCode.")
     return normalized
 
 
@@ -140,20 +140,23 @@ def collect_districts(config: dict[str, Any]) -> list[dict[str, Any]]:
 
 def build_fetch_command(common: dict[str, Any], district: dict[str, Any]) -> list[str]:
     district_code = require_text(district, "districtCode")
-    sgg_name = require_text(district, "sggName")
+    sg_id = require_text(merge_dicts(common, district), "sgId")
+    sg_typecode = require_text(merge_dicts(common, district), "sgTypecode")
 
     cmd = [
         sys.executable,
         "scripts/fetch_nec_candidates.py",
         "--sg-id",
-        require_text(common, "sgId"),
+        sg_id,
         "--sg-typecode",
-        require_text(common, "sgTypecode"),
+        sg_typecode,
         "--district-code",
         district_code,
-        "--sgg-name",
-        sgg_name,
     ]
+
+    sgg_name = str(district.get("sggName") or "").strip()
+    if sgg_name:
+        cmd.extend(["--sgg-name", sgg_name])
 
     sd_name = str(district.get("sdName") or common.get("sdName") or "").strip()
     if sd_name:
@@ -167,7 +170,7 @@ def build_fetch_command(common: dict[str, Any], district: dict[str, Any]) -> lis
     if output:
         cmd.extend(["--output", output])
 
-    service_key = str(common.get("serviceKey") or "").strip()
+    service_key = str(district.get("serviceKey") or common.get("serviceKey") or "").strip()
     if service_key:
         cmd.extend(["--service-key", service_key])
 

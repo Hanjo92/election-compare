@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:31:39 KST"
+  },
+  "district": {
+    "code": "jung-seongdong-eul",
+    "name": "중구성동구을",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152664",
+      "name": "박성준",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "54",
+      "job": "국회의원",
+      "education": "성균관대학교 대학원 정치외교학과 정치학박사",
+      "career": [
+        "(현)서울 중구성동구을 국회의원(21대 국회)",
+        "(현)더불어민주당 대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152383",
+      "name": "이혜훈",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "59",
+      "job": "정치인",
+      "education": "미국 UCLA대학교 대학원 경제학 박사(1988.9~1993.12)",
+      "career": [
+        "(전)17, 18, 20대 국회의원",
+        "(전)한국개발연구원(KDI) 연구위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153271",
+      "name": "김영기",
+      "party": "한국국민당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "66",
+      "job": "자영업",
+      "education": "연세대 경영학과 졸업",
+      "career": [
+        "(현)민족회의 통일준비정부 대표",
+        "(현)개천절 (남북해외)민족공동행사 집행위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-jung-seongdong-eul.json",
+    "overlayPath": "data/overlays/20240410/district-jung-seongdong-eul.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "중구성동구을 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

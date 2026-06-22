@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:38 KST"
+  },
+  "district": {
+    "code": "jeonju-byeong",
+    "name": "전주시병",
+    "region": "전북특별자치도"
+  },
+  "candidates": [
+    {
+      "id": "100152124",
+      "name": "정동영",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "70",
+      "job": "(사)대륙으로 가는 길 이사장",
+      "education": "서울대학교 인문대학 국사학과 졸업",
+      "career": [
+        "(전)31대 통일부장관",
+        "(전)17대 대선 대통합민주신당 대통령후보"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152900",
+      "name": "전희재",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "73",
+      "job": "정당인",
+      "education": "전북대학교 대학원 행정학과 졸업(행정학박사)",
+      "career": [
+        "(전)전라북도 행정부지사",
+        "(전)새누리당 사무2부총장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151472",
+      "name": "한병옥",
+      "party": "녹색정의당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "53",
+      "job": "지앤비영어전문학원 원장",
+      "education": "사우스캐롤라이나주립대학교대학원졸업,철학박사(국제정치학전공)'99.8.10.-'04.12.13",
+      "career": [
+        "(현)녹색정의당전북특별자치도당위원장",
+        "(현)녹색정의당 정책위원회 부의장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-jeonju-byeong.json",
+    "overlayPath": "data/overlays/20240410/district-jeonju-byeong.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "전주시병 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

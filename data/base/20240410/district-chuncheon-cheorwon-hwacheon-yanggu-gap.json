@@ -1,0 +1,115 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:30 KST"
+  },
+  "district": {
+    "code": "chuncheon-cheorwon-hwacheon-yanggu-gap",
+    "name": "춘천시철원군화천군양구군갑",
+    "region": "강원특별자치도"
+  },
+  "candidates": [
+    {
+      "id": "100152616",
+      "name": "허영",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "54",
+      "job": "국회의원",
+      "education": "고려대학교 정책대학원 석사과정 국제관계학과 수료",
+      "career": [
+        "(현)춘천시철원군화천군양구군갑 국회의원",
+        "(전)더불어민주당 강원도당위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151351",
+      "name": "김혜란",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "47",
+      "job": "변호사",
+      "education": "서울대학교 공과대학 전기공학부(전기공학전공) 졸업",
+      "career": [
+        "(전)서울중앙지방법원 판사",
+        "(전)서울가정법원 판사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153094",
+      "name": "조일현",
+      "party": "새로운미래",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "68",
+      "job": "정당인",
+      "education": "북경대학 대학원 졸업(법학박사)(2001.09~2003.12)",
+      "career": [
+        "(전)제14대 총선 전국최연소 국회의원",
+        "(전)제17대 국회 건설교통위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151616",
+      "name": "오정규",
+      "party": "무소속",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "56",
+      "job": "자영업",
+      "education": "전남대학교 정밀화학과 졸업",
+      "career": [
+        "(현)전기 기술사",
+        "(전)한국공학교육인증원 대학평가위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

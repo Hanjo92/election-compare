@@ -1,0 +1,79 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:31:43 KST"
+  },
+  "district": {
+    "code": "jungnang-gu-gap",
+    "name": "중랑구갑",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152577",
+      "name": "서영교",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "59",
+      "job": "중랑구(갑)국회의원",
+      "education": "이화여자대학교대학원 동아시아학연구 비교정치경제전공 수료(박사학위과정)",
+      "career": [
+        "(전)국회 행정안전위원회 위원장",
+        "(현)더불어민주당 최고위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152401",
+      "name": "김삼화",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "61",
+      "job": "변호사",
+      "education": "중앙대학교 대학원 의회학과 졸업(의회학박사)",
+      "career": [
+        "(전)제20대 국회의원",
+        "(전)한국여성변호사회 회장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/overlays/base/district-jungnang-gu-gap.json",
+    "overlayPath": "data/overlays/20240410/district-jungnang-gu-gap.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:59:57 KST",
+    "updatedAt": "",
+    "note": "중랑구갑 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

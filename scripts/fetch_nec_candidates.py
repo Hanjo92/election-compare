@@ -53,7 +53,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output",
         default=None,
-        help="Output path. Defaults to data/base/district-<district-code>.json",
+        help="Output path. Defaults to data/base/<sg-id>/district-<district-code>.json",
     )
     return parser.parse_args()
 
@@ -154,15 +154,20 @@ def fetch_pledges(context: FetchContext, candidate_id: str) -> list[dict[str, st
     if context.sg_typecode not in PLEDGE_SUPPORTED_TYPES:
         return []
 
-    items = fetch_all(
-        PLEDGE_ENDPOINT,
-        {
-            "ServiceKey": context.service_key,
-            "sgId": context.sg_id,
-            "sgTypecode": context.sg_typecode,
-            "cnddtId": candidate_id,
-        },
-    )
+    try:
+        items = fetch_all(
+            PLEDGE_ENDPOINT,
+            {
+                "ServiceKey": context.service_key,
+                "sgId": context.sg_id,
+                "sgTypecode": context.sg_typecode,
+                "cnddtId": candidate_id,
+            },
+        )
+    except RuntimeError as exc:
+        if "INFO-03" in str(exc):
+            return []
+        raise
 
     pledges: list[dict[str, str]] = []
     for item in items:
@@ -261,7 +266,7 @@ def main() -> int:
 
     payload = build_payload(args, normalized)
 
-    output_path = Path(args.output or f"data/base/district-{args.district_code}.json")
+    output_path = Path(args.output or f"data/base/{args.sg_id}/district-{args.district_code}.json")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

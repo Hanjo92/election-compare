@@ -1,0 +1,90 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:23 KST"
+  },
+  "district": {
+    "code": "sejong-gap",
+    "name": "세종특별자치시갑",
+    "region": "세종특별자치시"
+  },
+  "candidates": [
+    {
+      "id": "100152561",
+      "name": "이영선",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "52",
+      "job": "변호사",
+      "education": "충남대학교 특허법무대학원 일반법무학과 졸업(법학석사)",
+      "career": [
+        "(현) 민주사회를위한변호사모임 변호사",
+        "(현) 더불어민주당 부대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152395",
+      "name": "류제화",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "40",
+      "job": "여민합동법률사무소 대표변호사",
+      "education": "서울대학교 법학전문대학원 졸업(법학전문석사)",
+      "career": [
+        "(전) 제20대 대통령직인수위 지역균형발전특별위원",
+        "(전) 국민의힘 세종시당 위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153027",
+      "name": "김종민",
+      "party": "새로운미래",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "59",
+      "job": "제21대 국회의원",
+      "education": "서울대학교 인문대학 국어국문학과 졸업(문학사)",
+      "career": [
+        "(현) 새로운미래 공동대표",
+        "(전) 더불어민주당 최고위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

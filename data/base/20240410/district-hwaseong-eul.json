@@ -1,0 +1,90 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:29 KST"
+  },
+  "district": {
+    "code": "hwaseong-eul",
+    "name": "화성시을",
+    "region": "경기도"
+  },
+  "candidates": [
+    {
+      "id": "100152943",
+      "name": "공영운",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "59",
+      "job": "정당인",
+      "education": "서울대학교 경영학과 졸업",
+      "career": [
+        "(전) 현대자동차 사장",
+        "(현) 더불어민주당 경제대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152642",
+      "name": "한정민",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "39",
+      "job": "삼성전자 DS부문 연구원",
+      "education": "고려대학교 대학원 신소재공학과 졸업(공학석사)",
+      "career": [
+        "(전) 한국과학기술연구원 스핀융합연구센터 연구원",
+        "(전) 삼성전자 노사협의회 지역구위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152972",
+      "name": "이준석",
+      "party": "개혁신당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "39",
+      "job": "정당인",
+      "education": "하버드대학교 Computer Science / Economics AB 졸업 (2003.09.~2007.06.)",
+      "career": [
+        "(전) 국민의힘 당대표",
+        "(현) 개혁신당 당대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

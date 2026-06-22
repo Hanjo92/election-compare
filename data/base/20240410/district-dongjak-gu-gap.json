@@ -1,0 +1,90 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:32:01 KST"
+  },
+  "district": {
+    "code": "dongjak-gu-gap",
+    "name": "동작구갑",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152775",
+      "name": "김병기",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "62",
+      "job": "국회의원",
+      "education": "건국대학교 안보ㆍ재난관리학과 국가안보전략전공 박사과정 수료",
+      "career": [
+        "(전)국가정보원 인사처장",
+        "(현)제21대 국회의원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152162",
+      "name": "장진영",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "52",
+      "job": "변호사",
+      "education": "서강대학교 법학과 졸업(학사)",
+      "career": [
+        "(전)서강대학교 로스쿨 겸임교수",
+        "(전)대한변호사협회 대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152525",
+      "name": "전병헌",
+      "party": "새로운미래",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "66",
+      "job": "정치인",
+      "education": "고려대학교 정책대학원 졸업(경제학석사)",
+      "career": [
+        "(전) 청와대 정무수석비서관",
+        "(전) 민주당 원내대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}
