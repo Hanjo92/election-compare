@@ -140,10 +140,10 @@
         "(현)개혁신당 최고위원",
         "(현)법무법인 우리 대표변호사"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "17억9,885만원",
+      "military": "군복무를 마친사람",
+      "tax": "4억2,086만원",
+      "crime": "전과없음",
       "pledges": [
         {
           "title": "공약",
@@ -155,6 +155,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        },
+        "military": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        },
+        "tax": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        },
+        "crime": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "후보 등록 시 공개된 최근 납부액 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -171,10 +195,10 @@
         "(현)여성의당 대변인",
         "(전)제22대 국회의원선거 비례대표 여성의당 후보"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "7,710만원",
+      "military": "해당없음",
+      "tax": "24만원",
+      "crime": "전과없음",
       "pledges": [
         {
           "title": "공약",
@@ -186,6 +210,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        },
+        "military": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        },
+        "tax": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        },
+        "crime": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "후보 등록 시 공개된 최근 납부액 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -202,15 +250,39 @@
         "(전)자유통일당 2025년 구로구청장 보궐선거 후보",
         "(현)자유통일당 AI전략위원회 위원장"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "7,074만원",
+      "military": "군복무를 마친사람",
+      "tax": "41만원",
+      "crime": "전과없음",
       "pledges": [],
       "sources": {
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "투체크(중앙선관위 공개자료 기준)",
+          "url": "https://www.toocheck.site/candidates/100162642"
+        },
+        "military": {
+          "label": "투체크(중앙선관위 공개자료 기준)",
+          "url": "https://www.toocheck.site/candidates/100162642"
+        },
+        "tax": {
+          "label": "투체크(중앙선관위 공개자료 기준)",
+          "url": "https://www.toocheck.site/candidates/100162642"
+        },
+        "crime": {
+          "label": "투체크(중앙선관위 공개자료 기준)",
+          "url": "https://www.toocheck.site/candidates/100162642"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납부액 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -227,10 +299,10 @@
         "(현)정의당 대표",
         "(현)SPC 파리바게뜨 시민대책위 상임대표"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "22억6,597만원",
+      "military": "군 복무를 마치지 않은 것으로 신고",
+      "tax": "2,640만원",
+      "crime": "4건",
       "pledges": [
         {
           "title": "공약",
@@ -242,6 +314,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        },
+        "military": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        },
+        "tax": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        },
+        "crime": {
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "후보 등록 시 공개된 최근 납부액 기준",
+        "crime": "전과기록 기준"
       }
     }
   ],
@@ -249,7 +345,7 @@
     "basePath": "data/overlays/base/district-seoul-mayor-2026.json",
     "overlayPath": "data/overlays/20260603/district-seoul-mayor-2026.json",
     "overlayApplied": true,
-    "mergedAt": "2026-06-23 00:27:00 KST",
+    "mergedAt": "2026-06-23 01:03:27 KST",
     "updatedAt": "",
     "note": "서울특별시 수동 보강 템플릿",
     "template": true,

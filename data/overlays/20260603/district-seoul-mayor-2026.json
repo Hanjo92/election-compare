@@ -103,28 +103,28 @@
         "number": "3"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "17억9,885만원",
+        "military": "군복무를 마친사람",
+        "tax": "4억2,086만원",
+        "crime": "전과없음",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -134,7 +134,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "후보 등록 시 공개된 최근 납부액 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
@@ -146,28 +146,28 @@
         "number": "4"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "7,710만원",
+        "military": "해당없음",
+        "tax": "24만원",
+        "crime": "전과없음",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -177,7 +177,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "후보 등록 시 공개된 최근 납부액 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
@@ -189,28 +189,28 @@
         "number": "5"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "7,074만원",
+        "military": "군복무를 마친사람",
+        "tax": "41만원",
+        "crime": "전과없음",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "투체크(중앙선관위 공개자료 기준)",
+          "url": "https://www.toocheck.site/candidates/100162642"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "투체크(중앙선관위 공개자료 기준)",
+          "url": "https://www.toocheck.site/candidates/100162642"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "투체크(중앙선관위 공개자료 기준)",
+          "url": "https://www.toocheck.site/candidates/100162642"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "투체크(중앙선관위 공개자료 기준)",
+          "url": "https://www.toocheck.site/candidates/100162642"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -220,7 +220,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납부액 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
@@ -232,28 +232,28 @@
         "number": "6"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "22억6,597만원",
+        "military": "군 복무를 마치지 않은 것으로 신고",
+        "tax": "2,640만원",
+        "crime": "4건",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴스1 서울시장 후보 등록 기사",
+          "url": "https://v.daum.net/v/Fr6tNxd8Ge"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -263,7 +263,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "후보 등록 시 공개된 최근 납부액 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
