@@ -1,0 +1,13 @@
+{
+  "updatedAt": "2026-06-22 12:27:31 KST",
+  "districts": [
+    {
+      "code": "seocho-gu-gap",
+      "name": "서울 서초구갑",
+      "region": "서울",
+      "electionName": "2026 지방선거 샘플 비교",
+      "candidateCount": 3,
+      "path": "./district/seocho-gu-gap/"
+    }
+  ]
+}

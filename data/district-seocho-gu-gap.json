@@ -1,0 +1,213 @@
+{
+  "election": {
+    "id": "2026-local-seoul",
+    "name": "2026 지방선거 샘플 비교",
+    "type": "local",
+    "updatedAt": "2026-06-18 00:20 KST"
+  },
+  "district": {
+    "code": "seocho-gu-gap",
+    "name": "서울 서초구갑",
+    "region": "서울"
+  },
+  "candidates": [
+    {
+      "id": "cand-1",
+      "name": "홍길동",
+      "party": "미래도시당",
+      "number": 1,
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": 52,
+      "job": "정당인",
+      "education": "가람대학교 행정학과 졸업",
+      "career": [
+        "전 서울시의원",
+        "전 국회의원 보좌관"
+      ],
+      "assets": "12억 3,000만원",
+      "military": "군필",
+      "tax": "체납사실 없음",
+      "crime": "전과 0건",
+      "pledges": [
+        {
+          "title": "교통",
+          "summary": "지하철 환승 동선과 버스 환승 체계를 개선",
+          "source": "https://policy.nec.go.kr/"
+        },
+        {
+          "title": "교육",
+          "summary": "방과후 돌봄센터를 생활권마다 확대",
+          "source": "https://policy.nec.go.kr/"
+        },
+        {
+          "title": "주거",
+          "summary": "청년과 신혼부부를 위한 공공임대 연계 지원 강화",
+          "source": "https://policy.nec.go.kr/"
+        }
+      ],
+      "sources": {
+        "profile": "https://info.nec.go.kr/",
+        "policy": "https://policy.nec.go.kr/",
+        "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "military": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "tax": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 체납사실 기준",
+        "crime": "전과기록 기준"
+      }
+    },
+    {
+      "id": "cand-2",
+      "name": "김하늘",
+      "party": "생활개혁당",
+      "number": 2,
+      "incumbent": true,
+      "incumbentLabel": "현직",
+      "age": 48,
+      "job": "현직 구청장",
+      "education": "한빛대학교 도시공학과 졸업",
+      "career": [
+        "현 서초구청장",
+        "전 도시계획위원"
+      ],
+      "assets": "18억 7,000만원",
+      "military": "자료 미확인",
+      "tax": "체납사실 없음",
+      "crime": "전과 1건",
+      "pledges": [
+        {
+          "title": "복지",
+          "summary": "고령층 이동지원과 방문 건강관리 예산 확대",
+          "source": "https://policy.nec.go.kr/"
+        },
+        {
+          "title": "안전",
+          "summary": "어린이 보호구역 스마트 감지 체계 확대",
+          "source": "https://policy.nec.go.kr/"
+        },
+        {
+          "title": "상권",
+          "summary": "지역 소상공인 디지털 전환 지원 센터 설치",
+          "source": "https://policy.nec.go.kr/"
+        }
+      ],
+      "sources": {
+        "profile": "https://info.nec.go.kr/",
+        "policy": "https://policy.nec.go.kr/",
+        "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "tax": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "incumbentLabel": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "tax": "최근 체납사실 기준",
+        "crime": "전과기록 기준",
+        "incumbentLabel": "현직 기재 기준"
+      }
+    },
+    {
+      "id": "cand-3",
+      "name": "박준서",
+      "party": "무소속",
+      "number": 7,
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": 61,
+      "job": "변호사",
+      "education": "도담대학교 법학과 졸업",
+      "career": [
+        "전 시민단체 대표",
+        "현 변호사"
+      ],
+      "assets": "9억 1,000만원",
+      "military": "군필",
+      "tax": "자료 미확인",
+      "crime": "전과 0건",
+      "pledges": [
+        {
+          "title": "투명행정",
+          "summary": "예산 집행과 회의록 공개 범위를 확대",
+          "source": "https://policy.nec.go.kr/"
+        },
+        {
+          "title": "환경",
+          "summary": "생활권 녹지와 도보 친화 구간을 단계적으로 확장",
+          "source": "https://policy.nec.go.kr/"
+        },
+        {
+          "title": "주민참여",
+          "summary": "주민참여예산 온라인 제안 절차를 간소화",
+          "source": "https://policy.nec.go.kr/"
+        }
+      ],
+      "sources": {
+        "profile": "https://info.nec.go.kr/",
+        "policy": "https://policy.nec.go.kr/",
+        "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "military": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "crime": "전과기록 기준"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-seocho-gu-gap.json",
+    "overlayPath": "data/overlays/district-seocho-gu-gap.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 12:27:31 KST",
+    "updatedAt": "2026-06-18 12:45 KST",
+    "note": "수동 보강 샘플. 후보자공보 기준 필드를 오버레이로 관리한다."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "profileName": "priority-round-1",
+  "description": "전국 분산형 1차 우선수집 운영셋. 수동 오버레이 보강 가능한 규모로 압축.",
+  "sgId": "20240410",
+  "sgTypecode": "2",
+  "electionName": "제22대 국회의원선거",
+  "regions": [
+    {
+      "sdName": "서울특별시",
+      "districts": [
+        {
+          "districtCode": "jongno-gu",
+          "sggName": "종로구"
+        },
+        {
+          "districtCode": "mapo-gu-gap",
+          "sggName": "마포구갑"
+        },
+        {
+          "districtCode": "yeongdeungpo-gu-eul",
+          "sggName": "영등포구을"
+        },
+        {
+          "districtCode": "gwanak-gu-gap",
+          "sggName": "관악구갑"
+        },
+        {
+          "districtCode": "seocho-gu-gap",
+          "sggName": "서초구갑"
+        }
+      ]
+    },
+    {
+      "sdName": "부산광역시",
+      "districts": [
+        {
+          "districtCode": "haeundae-gu-gap",
+          "sggName": "해운대구갑"
+        },
+        {
+          "districtCode": "suyeong-gu",
+          "sggName": "수영구"
+        }
+      ]
+    },
+    {
+      "sdName": "대구광역시",
+      "districts": [
+        {
+          "districtCode": "suseong-gu-gap",
+          "sggName": "수성구갑"
+        }
+      ]
+    },
+    {
+      "sdName": "인천광역시",
+      "districts": [
+        {
+          "districtCode": "yeonsu-gu-eul",
+          "sggName": "연수구을"
+        }
+      ]
+    },
+    {
+      "sdName": "광주광역시",
+      "districts": [
+        {
+          "districtCode": "gwangsan-gu-gap",
+          "sggName": "광산구갑"
+        }
+      ]
+    },
+    {
+      "sdName": "대전광역시",
+      "districts": [
+        {
+          "districtCode": "yuseong-gu-eul",
+          "sggName": "유성구을"
+        }
+      ]
+    },
+    {
+      "sdName": "울산광역시",
+      "districts": [
+        {
+          "districtCode": "nam-gu-gap-ulsan",
+          "sggName": "남구갑"
+        }
+      ]
+    },
+    {
+      "sdName": "세종특별자치시",
+      "districts": [
+        {
+          "districtCode": "sejong-gap",
+          "sggName": "세종특별자치시갑"
+        }
+      ]
+    },
+    {
+      "sdName": "경기도",
+      "districts": [
+        {
+          "districtCode": "seongnam-bundang-gap",
+          "sggName": "성남시분당구갑"
+        },
+        {
+          "districtCode": "hwaseong-eul",
+          "sggName": "화성시을"
+        },
+        {
+          "districtCode": "gimpo-gap",
+          "sggName": "김포시갑"
+        }
+      ]
+    },
+    {
+      "sdName": "강원특별자치도",
+      "districts": [
+        {
+          "districtCode": "wonju-gap",
+          "sggName": "원주시갑"
+        }
+      ]
+    },
+    {
+      "sdName": "충청북도",
+      "districts": [
+        {
+          "districtCode": "cheongju-sangdang",
+          "sggName": "청주시상당구"
+        }
+      ]
+    },
+    {
+      "sdName": "충청남도",
+      "districts": [
+        {
+          "districtCode": "cheonan-gap",
+          "sggName": "천안시갑"
+        }
+      ]
+    },
+    {
+      "sdName": "전북특별자치도",
+      "districts": [
+        {
+          "districtCode": "jeonju-byeong",
+          "sggName": "전주시병"
+        },
+        {
+          "districtCode": "gunsan-gimje-buan-eul",
+          "sggName": "군산시김제시부안군을"
+        }
+      ]
+    },
+    {
+      "sdName": "전라남도",
+      "districts": [
+        {
+          "districtCode": "mokpo",
+          "sggName": "목포시"
+        }
+      ]
+    },
+    {
+      "sdName": "경상북도",
+      "districts": [
+        {
+          "districtCode": "andong-yecheon",
+          "sggName": "안동시예천군"
+        }
+      ]
+    },
+    {
+      "sdName": "경상남도",
+      "districts": [
+        {
+          "districtCode": "changwon-seongsan",
+          "sggName": "창원시성산구"
+        }
+      ]
+    },
+    {
+      "sdName": "제주특별자치도",
+      "districts": [
+        {
+          "districtCode": "jeju-gap",
+          "sggName": "제주시갑"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sgId": "20240410",
+  "sgTypecode": "2",
+  "sdName": "서울특별시",
+  "electionName": "제22대 국회의원선거",
+  "districts": [
+    {
+      "districtCode": "seocho-gu-gap",
+      "sggName": "서초구갑"
+    },
+    {
+      "districtCode": "jongno-gu",
+      "sggName": "종로구"
+    },
+    {
+      "districtCode": "gangnam-gu-eul",
+      "sggName": "강남구을"
+    }
+  ]
+}

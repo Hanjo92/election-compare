@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ballot Mirror | About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="subhero">
+        <p class="eyebrow">Data notes</p>
+        <h1>데이터 기준과 원칙</h1>
+        <p class="hero-copy">
+          이 프로토타입은 후보 추천 서비스가 아니라 공적 정보를 비교하기 위한 정리 화면입니다.
+        </p>
+      </header>
+
+      <main class="panel-stack">
+        <section class="panel">
+          <h2>공식 출처</h2>
+          <ul class="feature-list">
+            <li><a class="text-link" href="https://data.nec.go.kr/" target="_blank" rel="noreferrer">국가선거정보 개방포털</a></li>
+            <li><a class="text-link" href="https://info.nec.go.kr/" target="_blank" rel="noreferrer">선거통계시스템</a></li>
+            <li><a class="text-link" href="https://policy.nec.go.kr/" target="_blank" rel="noreferrer">정책·공약마당</a></li>
+          </ul>
+        </section>
+
+        <section class="panel">
+          <h2>표시 원칙</h2>
+          <ul class="feature-list">
+            <li>후보 순위를 매기지 않습니다.</li>
+            <li>좋고 나쁨을 암시하는 색을 쓰지 않습니다.</li>
+            <li>각 항목은 가능한 한 출처 링크를 제공합니다.</li>
+            <li>확인되지 않은 값은 `자료 미확인`으로 표기합니다.</li>
+          </ul>
+        </section>
+
+        <section class="panel">
+          <h2>현재 상태</h2>
+          <p class="panel-copy">
+            지금은 샘플 지역구 1개를 수작업 데이터로 넣은 상태입니다.
+            다음 단계는 선관위 API 수집과 다수 지역구 자동 생성입니다.
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

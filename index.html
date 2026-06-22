@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ballot Mirror</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Neutral election comparison prototype</p>
+        <h1>Ballot Mirror</h1>
+        <p class="hero-copy">
+          지역구별 후보 정보를 한 화면에서 비교하는 정적 페이지 MVP.
+          추천이 아니라 비교를 목표로 하고, 각 항목은 공식 출처로 연결됩니다.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="./district/seocho-gu-gap/">샘플 지역구 보기</a>
+          <a class="button button-secondary" href="./about.html">데이터 기준 보기</a>
+        </div>
+      </header>
+
+      <main class="layout-grid">
+        <section class="panel panel-highlight">
+          <p class="section-kicker">How it works</p>
+          <h2>처음엔 한 지역구만 정확하게</h2>
+          <ul class="feature-list">
+            <li>선관위 계열 공식 데이터 기반</li>
+            <li>요약과 원문 링크를 분리</li>
+            <li>빈 항목은 숨기지 않고 그대로 표시</li>
+          </ul>
+        </section>
+
+        <section class="panel">
+          <p class="section-kicker">District search</p>
+          <h2>지역구 찾기</h2>
+          <p class="panel-copy">
+            수집된 지역구 데이터가 늘어나면 이 목록도 자동으로 확장됩니다.
+          </p>
+          <label class="search-field" for="district-search">
+            <span class="meta-key">지역구명 또는 코드</span>
+            <input id="district-search" type="search" placeholder="예: 서초구갑, seocho" />
+          </label>
+          <div class="district-list" id="district-list"></div>
+        </section>
+
+        <section class="panel">
+          <p class="section-kicker">Next steps</p>
+          <h2>이후 확장 순서</h2>
+          <ol class="steps">
+            <li>지역구 데이터 스키마 고정</li>
+            <li>선관위 API 수집 스크립트 추가</li>
+            <li>다수 지역구 페이지 자동 생성</li>
+          </ol>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="./assets/home.js"></script>
+  </body>
+</html>

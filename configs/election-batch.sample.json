@@ -1,0 +1,38 @@
+{
+  "sgId": "20240410",
+  "sgTypecode": "2",
+  "electionName": "제22대 국회의원선거",
+  "regions": [
+    {
+      "sdName": "서울특별시",
+      "districts": [
+        {
+          "districtCode": "seocho-gu-gap",
+          "sggName": "서초구갑"
+        },
+        {
+          "districtCode": "jongno-gu",
+          "sggName": "종로구"
+        }
+      ]
+    },
+    {
+      "sdName": "부산광역시",
+      "districts": [
+        {
+          "districtCode": "haeundae-gu-gap",
+          "sggName": "해운대구갑"
+        }
+      ]
+    },
+    {
+      "sdName": "전북특별자치도",
+      "districts": [
+        {
+          "districtCode": "jeonju-byeong",
+          "sggName": "전주시병"
+        }
+      ]
+    }
+  ]
+}

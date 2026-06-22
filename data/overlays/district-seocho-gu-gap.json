@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "updatedAt": "2026-06-18 12:45 KST",
+    "note": "수동 보강 샘플. 후보자공보 기준 필드를 오버레이로 관리한다."
+  },
+  "candidates": [
+    {
+      "match": {
+        "id": "cand-1",
+        "number": 1
+      },
+      "patch": {
+        "assets": "12억 3,000만원",
+        "military": "군필",
+        "tax": "체납사실 없음",
+        "crime": "전과 0건"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "military": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "tax": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 체납사실 기준",
+        "crime": "전과기록 기준"
+      }
+    },
+    {
+      "match": {
+        "id": "cand-2",
+        "number": 2
+      },
+      "patch": {
+        "assets": "18억 7,000만원",
+        "tax": "체납사실 없음",
+        "crime": "전과 1건",
+        "incumbentLabel": "현직"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "tax": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "incumbentLabel": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "tax": "최근 체납사실 기준",
+        "crime": "전과기록 기준",
+        "incumbentLabel": "현직 기재 기준"
+      }
+    },
+    {
+      "match": {
+        "id": "cand-3",
+        "number": 7
+      },
+      "patch": {
+        "assets": "9억 1,000만원",
+        "military": "군필",
+        "crime": "전과 0건"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "military": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "crime": "전과기록 기준"
+      }
+    }
+  ]
+}

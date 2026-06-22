@@ -1,0 +1,536 @@
+{
+  "sgId": "20240410",
+  "sgTypecode": "2",
+  "electionName": "제22대 국회의원선거",
+  "regions": [
+    {
+      "sdName": "서울특별시",
+      "districts": [
+        {
+          "districtCode": "jongno-gu",
+          "sggName": "종로구"
+        },
+        {
+          "districtCode": "jung-seongdong-gap",
+          "sggName": "중구성동구갑"
+        },
+        {
+          "districtCode": "jung-seongdong-eul",
+          "sggName": "중구성동구을"
+        },
+        {
+          "districtCode": "yongsan-gu",
+          "sggName": "용산구"
+        },
+        {
+          "districtCode": "gwangjin-gu-gap",
+          "sggName": "광진구갑"
+        },
+        {
+          "districtCode": "gwangjin-gu-eul",
+          "sggName": "광진구을"
+        },
+        {
+          "districtCode": "dongdaemun-gu-gap",
+          "sggName": "동대문구갑"
+        },
+        {
+          "districtCode": "dongdaemun-gu-eul",
+          "sggName": "동대문구을"
+        },
+        {
+          "districtCode": "jungnang-gu-gap",
+          "sggName": "중랑구갑"
+        },
+        {
+          "districtCode": "jungnang-gu-eul",
+          "sggName": "중랑구을"
+        },
+        {
+          "districtCode": "seongbuk-gu-gap",
+          "sggName": "성북구갑"
+        },
+        {
+          "districtCode": "seongbuk-gu-eul",
+          "sggName": "성북구을"
+        },
+        {
+          "districtCode": "gangbuk-gu-gap",
+          "sggName": "강북구갑"
+        },
+        {
+          "districtCode": "gangbuk-gu-eul",
+          "sggName": "강북구을"
+        },
+        {
+          "districtCode": "dobong-gu-gap",
+          "sggName": "도봉구갑"
+        },
+        {
+          "districtCode": "dobong-gu-eul",
+          "sggName": "도봉구을"
+        },
+        {
+          "districtCode": "nowon-gu-gap",
+          "sggName": "노원구갑"
+        },
+        {
+          "districtCode": "nowon-gu-eul",
+          "sggName": "노원구을"
+        },
+        {
+          "districtCode": "nowon-gu-byeong",
+          "sggName": "노원구병"
+        },
+        {
+          "districtCode": "eunpyeong-gu-gap",
+          "sggName": "은평구갑"
+        },
+        {
+          "districtCode": "eunpyeong-gu-eul",
+          "sggName": "은평구을"
+        },
+        {
+          "districtCode": "seodaemun-gu-gap",
+          "sggName": "서대문구갑"
+        },
+        {
+          "districtCode": "seodaemun-gu-eul",
+          "sggName": "서대문구을"
+        },
+        {
+          "districtCode": "mapo-gu-gap",
+          "sggName": "마포구갑"
+        },
+        {
+          "districtCode": "mapo-gu-eul",
+          "sggName": "마포구을"
+        },
+        {
+          "districtCode": "yangcheon-gu-gap",
+          "sggName": "양천구갑"
+        },
+        {
+          "districtCode": "yangcheon-gu-eul",
+          "sggName": "양천구을"
+        },
+        {
+          "districtCode": "gangseo-gu-gap",
+          "sggName": "강서구갑"
+        },
+        {
+          "districtCode": "gangseo-gu-eul",
+          "sggName": "강서구을"
+        },
+        {
+          "districtCode": "gangseo-gu-byeong",
+          "sggName": "강서구병"
+        },
+        {
+          "districtCode": "guro-gu-gap",
+          "sggName": "구로구갑"
+        },
+        {
+          "districtCode": "guro-gu-eul",
+          "sggName": "구로구을"
+        },
+        {
+          "districtCode": "geumcheon-gu",
+          "sggName": "금천구"
+        },
+        {
+          "districtCode": "yeongdeungpo-gu-gap",
+          "sggName": "영등포구갑"
+        },
+        {
+          "districtCode": "yeongdeungpo-gu-eul",
+          "sggName": "영등포구을"
+        },
+        {
+          "districtCode": "dongjak-gu-gap",
+          "sggName": "동작구갑"
+        },
+        {
+          "districtCode": "dongjak-gu-eul",
+          "sggName": "동작구을"
+        },
+        {
+          "districtCode": "gwanak-gu-gap",
+          "sggName": "관악구갑"
+        },
+        {
+          "districtCode": "gwanak-gu-eul",
+          "sggName": "관악구을"
+        },
+        {
+          "districtCode": "seocho-gu-gap",
+          "sggName": "서초구갑"
+        },
+        {
+          "districtCode": "seocho-gu-eul",
+          "sggName": "서초구을"
+        },
+        {
+          "districtCode": "gangnam-gu-gap",
+          "sggName": "강남구갑"
+        },
+        {
+          "districtCode": "gangnam-gu-eul",
+          "sggName": "강남구을"
+        },
+        {
+          "districtCode": "gangnam-gu-byeong",
+          "sggName": "강남구병"
+        },
+        {
+          "districtCode": "songpa-gu-gap",
+          "sggName": "송파구갑"
+        },
+        {
+          "districtCode": "songpa-gu-eul",
+          "sggName": "송파구을"
+        },
+        {
+          "districtCode": "songpa-gu-byeong",
+          "sggName": "송파구병"
+        },
+        {
+          "districtCode": "gangdong-gu-gap",
+          "sggName": "강동구갑"
+        },
+        {
+          "districtCode": "gangdong-gu-eul",
+          "sggName": "강동구을"
+        }
+      ]
+    },
+    {
+      "sdName": "부산광역시",
+      "districts": [
+        {
+          "districtCode": "jung-yeongdo-gu",
+          "sggName": "중구영도구"
+        },
+        {
+          "districtCode": "busanjin-gu-gap",
+          "sggName": "부산진구갑"
+        },
+        {
+          "districtCode": "busanjin-gu-eul",
+          "sggName": "부산진구을"
+        },
+        {
+          "districtCode": "haeundae-gu-gap",
+          "sggName": "해운대구갑"
+        },
+        {
+          "districtCode": "haeundae-gu-eul",
+          "sggName": "해운대구을"
+        },
+        {
+          "districtCode": "saha-gu-gap",
+          "sggName": "사하구갑"
+        },
+        {
+          "districtCode": "saha-gu-eul",
+          "sggName": "사하구을"
+        },
+        {
+          "districtCode": "suyeong-gu",
+          "sggName": "수영구"
+        }
+      ]
+    },
+    {
+      "sdName": "대구광역시",
+      "districts": [
+        {
+          "districtCode": "jung-nam-gu",
+          "sggName": "중구남구"
+        },
+        {
+          "districtCode": "dong-gunwi-gap",
+          "sggName": "동구군위군갑"
+        },
+        {
+          "districtCode": "suseong-gu-gap",
+          "sggName": "수성구갑"
+        },
+        {
+          "districtCode": "dalseo-gu-byeong",
+          "sggName": "달서구병"
+        }
+      ]
+    },
+    {
+      "sdName": "인천광역시",
+      "districts": [
+        {
+          "districtCode": "jung-ganghwa-ongjin",
+          "sggName": "중구강화군옹진군"
+        },
+        {
+          "districtCode": "dong-michuhol-gap",
+          "sggName": "동구미추홀구갑"
+        },
+        {
+          "districtCode": "yeonsu-gu-eul",
+          "sggName": "연수구을"
+        },
+        {
+          "districtCode": "bupyeong-gu-gap",
+          "sggName": "부평구갑"
+        },
+        {
+          "districtCode": "seo-gu-byeong",
+          "sggName": "서구병"
+        }
+      ]
+    },
+    {
+      "sdName": "광주광역시",
+      "districts": [
+        {
+          "districtCode": "dong-nam-gu-eul",
+          "sggName": "동구남구을"
+        },
+        {
+          "districtCode": "seo-gu-gap",
+          "sggName": "서구갑"
+        },
+        {
+          "districtCode": "buk-gu-eul",
+          "sggName": "북구을"
+        },
+        {
+          "districtCode": "gwangsan-gu-gap",
+          "sggName": "광산구갑"
+        }
+      ]
+    },
+    {
+      "sdName": "대전광역시",
+      "districts": [
+        {
+          "districtCode": "dong-gu-daejeon",
+          "sggName": "동구"
+        },
+        {
+          "districtCode": "seo-gu-gap-daejeon",
+          "sggName": "서구갑"
+        },
+        {
+          "districtCode": "yuseong-gu-eul",
+          "sggName": "유성구을"
+        }
+      ]
+    },
+    {
+      "sdName": "울산광역시",
+      "districts": [
+        {
+          "districtCode": "jung-gu-ulsan",
+          "sggName": "중구"
+        },
+        {
+          "districtCode": "nam-gu-gap-ulsan",
+          "sggName": "남구갑"
+        },
+        {
+          "districtCode": "ulju-gun",
+          "sggName": "울주군"
+        }
+      ]
+    },
+    {
+      "sdName": "세종특별자치시",
+      "districts": [
+        {
+          "districtCode": "sejong-gap",
+          "sggName": "세종특별자치시갑"
+        },
+        {
+          "districtCode": "sejong-eul",
+          "sggName": "세종특별자치시을"
+        }
+      ]
+    },
+    {
+      "sdName": "경기도",
+      "districts": [
+        {
+          "districtCode": "suwon-gap",
+          "sggName": "수원시갑"
+        },
+        {
+          "districtCode": "seongnam-bundang-gap",
+          "sggName": "성남시분당구갑"
+        },
+        {
+          "districtCode": "goyang-jeong",
+          "sggName": "고양시정"
+        },
+        {
+          "districtCode": "yongin-jeong",
+          "sggName": "용인시정"
+        },
+        {
+          "districtCode": "hwaseong-eul",
+          "sggName": "화성시을"
+        },
+        {
+          "districtCode": "gimpo-gap",
+          "sggName": "김포시갑"
+        }
+      ]
+    },
+    {
+      "sdName": "강원특별자치도",
+      "districts": [
+        {
+          "districtCode": "chuncheon-cheorwon-hwacheon-yanggu-gap",
+          "sggName": "춘천시철원군화천군양구군갑"
+        },
+        {
+          "districtCode": "wonju-gap",
+          "sggName": "원주시갑"
+        },
+        {
+          "districtCode": "gangneung",
+          "sggName": "강릉시"
+        }
+      ]
+    },
+    {
+      "sdName": "충청북도",
+      "districts": [
+        {
+          "districtCode": "cheongju-sangdang",
+          "sggName": "청주시상당구"
+        },
+        {
+          "districtCode": "chungju",
+          "sggName": "충주시"
+        },
+        {
+          "districtCode": "jecheon-danyang",
+          "sggName": "제천시단양군"
+        }
+      ]
+    },
+    {
+      "sdName": "충청남도",
+      "districts": [
+        {
+          "districtCode": "cheonan-gap",
+          "sggName": "천안시갑"
+        },
+        {
+          "districtCode": "gongju-buyeo-cheongyang",
+          "sggName": "공주시부여군청양군"
+        },
+        {
+          "districtCode": "hongseong-yesan",
+          "sggName": "홍성군예산군"
+        }
+      ]
+    },
+    {
+      "sdName": "전북특별자치도",
+      "districts": [
+        {
+          "districtCode": "jeonju-gap",
+          "sggName": "전주시갑"
+        },
+        {
+          "districtCode": "jeonju-eul",
+          "sggName": "전주시을"
+        },
+        {
+          "districtCode": "jeonju-byeong",
+          "sggName": "전주시병"
+        },
+        {
+          "districtCode": "iksan-gap",
+          "sggName": "익산시갑"
+        },
+        {
+          "districtCode": "gunsan-gimje-buan-eul",
+          "sggName": "군산시김제시부안군을"
+        },
+        {
+          "districtCode": "jeongeup-gochang",
+          "sggName": "정읍시고창군"
+        }
+      ]
+    },
+    {
+      "sdName": "전라남도",
+      "districts": [
+        {
+          "districtCode": "mokpo",
+          "sggName": "목포시"
+        },
+        {
+          "districtCode": "yeosu-eul",
+          "sggName": "여수시을"
+        },
+        {
+          "districtCode": "suncheon-gwangyang-gokseong-gurye-gap",
+          "sggName": "순천시광양시곡성군구례군갑"
+        }
+      ]
+    },
+    {
+      "sdName": "경상북도",
+      "districts": [
+        {
+          "districtCode": "pohang-buk-gu",
+          "sggName": "포항시북구"
+        },
+        {
+          "districtCode": "gumi-gap",
+          "sggName": "구미시갑"
+        },
+        {
+          "districtCode": "andong-yecheon",
+          "sggName": "안동시예천군"
+        }
+      ]
+    },
+    {
+      "sdName": "경상남도",
+      "districts": [
+        {
+          "districtCode": "changwon-seongsan",
+          "sggName": "창원시성산구"
+        },
+        {
+          "districtCode": "gimhae-gap",
+          "sggName": "김해시갑"
+        },
+        {
+          "districtCode": "yangsan-eul",
+          "sggName": "양산시을"
+        },
+        {
+          "districtCode": "jinju-gap",
+          "sggName": "진주시갑"
+        }
+      ]
+    },
+    {
+      "sdName": "제주특별자치도",
+      "districts": [
+        {
+          "districtCode": "jeju-gap",
+          "sggName": "제주시갑"
+        },
+        {
+          "districtCode": "seogwipo",
+          "sggName": "서귀포시"
+        }
+      ]
+    }
+  ]
+}

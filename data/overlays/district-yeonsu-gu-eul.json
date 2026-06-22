@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "updatedAt": "",
+    "note": "연수구을 수동 보강 템플릿",
+    "template": true,
+    "placeholder": true,
+    "instructions": [
+      "base JSON이 아직 없어 후보 match 목록은 비어 있습니다.",
+      "실데이터 수집 후 --force로 템플릿을 다시 생성하면 후보별 match가 채워집니다.",
+      "필요하면 district 메타와 notes를 먼저 적어둘 수 있습니다."
+    ]
+  },
+  "district": {
+    "code": "yeonsu-gu-eul",
+    "name": "연수구을",
+    "region": "인천광역시"
+  },
+  "candidates": []
+}
