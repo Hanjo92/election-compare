@@ -62,7 +62,7 @@ def require_service_key(explicit_key: str | None) -> str:
     load_local_env(ROOT / ".env.local")
     service_key = explicit_key or os.getenv("NEC_API_KEY") or os.getenv("DATA_GO_KR_SERVICE_KEY")
     if service_key:
-        return service_key
+        return urllib.parse.unquote(service_key.strip())
 
     raise SystemExit(
         "Missing service key. Pass --service-key or set NEC_API_KEY / DATA_GO_KR_SERVICE_KEY.",
@@ -90,7 +90,7 @@ def load_local_env(path: Path) -> None:
 
 
 def api_get(url: str, params: dict[str, Any]) -> dict[str, Any]:
-    query = urllib.parse.urlencode({**params, "_type": "json"}, doseq=True, safe=":/")
+    query = urllib.parse.urlencode({**params, "resultType": "json"}, doseq=True, safe=":/")
     request = urllib.request.Request(f"{url}?{query}", headers={"User-Agent": "BallotMirror/0.1"})
 
     with urllib.request.urlopen(request, timeout=30) as response:
@@ -100,6 +100,12 @@ def api_get(url: str, params: dict[str, Any]) -> dict[str, Any]:
     response_body = data.get("response", {})
     header = response_body.get("header", {})
     result_code = str(header.get("resultCode", ""))
+
+    if result_code == "INFO-03":
+        raise RuntimeError(
+            "API returned INFO-03 (no data). "
+            "This usually means the sgId/sgTypecode/district parameters do not match data currently exposed by this service.",
+        )
 
     if result_code not in {"00", "INFO-00"}:
         raise RuntimeError(f"API error {result_code}: {header.get('resultMsg')}")
