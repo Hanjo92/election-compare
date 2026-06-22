@@ -44,6 +44,17 @@ python3 -m http.server 4173
 export NEC_API_KEY='발급받은키'
 ```
 
+또는 repo 루트에 `.env.local` 파일을 만들어 이렇게 넣어도 됩니다.
+
+```bash
+cd /home/seunghus/.openclaw/workspace/election-compare
+cat > .env.local <<'EOF'
+NEC_API_KEY='발급받은키'
+EOF
+```
+
+`fetch_nec_candidates.py`는 `.env.local`이 있으면 자동으로 읽습니다. `.env.local`은 `.gitignore`에 포함되어 있어 GitHub에는 올라가지 않습니다.
+
 3. 수집 스크립트 실행
 
 ```bash

@@ -19,6 +19,7 @@ API_BASE = "https://apis.data.go.kr/9760000"
 PROFILE_ENDPOINT = f"{API_BASE}/PofelcddInfoInqireService/getPoelpcddRegistSttusInfoInqire"
 PLEDGE_ENDPOINT = f"{API_BASE}/ElecPrmsInfoInqireService/getCnddtElecPrmsInfoInqire"
 PLEDGE_SUPPORTED_TYPES = {"1", "3", "4", "11"}
+ROOT = Path(__file__).resolve().parents[1]
 
 
 @dataclass
@@ -58,6 +59,7 @@ def parse_args() -> argparse.Namespace:
 
 
 def require_service_key(explicit_key: str | None) -> str:
+    load_local_env(ROOT / ".env.local")
     service_key = explicit_key or os.getenv("NEC_API_KEY") or os.getenv("DATA_GO_KR_SERVICE_KEY")
     if service_key:
         return service_key
@@ -65,6 +67,26 @@ def require_service_key(explicit_key: str | None) -> str:
     raise SystemExit(
         "Missing service key. Pass --service-key or set NEC_API_KEY / DATA_GO_KR_SERVICE_KEY.",
     )
+
+
+def load_local_env(path: Path) -> None:
+    if not path.exists():
+        return
+
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip()
+        if not key or key in os.environ:
+            continue
+
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+            value = value[1:-1]
+        os.environ[key] = value
 
 
 def api_get(url: str, params: dict[str, Any]) -> dict[str, Any]:
