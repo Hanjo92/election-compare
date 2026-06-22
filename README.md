@@ -38,6 +38,8 @@ python3 -m http.server 4173
 선관위 데이터는 공공데이터포털 API 키가 필요합니다.
 
 1. `data.go.kr`에서 중앙선거관리위원회 API 활용신청
+   - 후보자 정보: `15000908`
+   - 코드 정보: `15000897`
 2. 서비스 키를 발급받아 환경변수로 넣기
 
 ```bash
@@ -77,6 +79,15 @@ cp configs/election-batch.sample.json configs/election-batch.local.json
 python3 scripts/fetch_nec_batch.py --config configs/election-batch.local.json --dry-run
 python3 scripts/fetch_nec_batch.py --config configs/election-batch.local.json --generate-overlays --build-site
 ```
+
+후보자 정보 API를 쓰기 전에 코드 정보 API 접근이 되는지 먼저 확인하고 싶으면:
+
+```bash
+cd /home/seunghus/.openclaw/workspace/election-compare
+python3 scripts/fetch_nec_code_info.py --contains 국회의원
+```
+
+이 명령에서 `HTTP 403`이 나면 `중앙선거관리위원회_코드 정보(15000897)` 활용신청이 아직 안 된 상태다.
 
 배치 설정 파일은 두 가지 형식을 지원합니다.
 
