@@ -25,10 +25,10 @@
         "(전)종로구청장 후보",
         "(전)제20-21대 이재명 대통령후보 종로구 공동상임 선대위원장"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "40억6,021만2천원",
+      "military": "군복무를 마친사람",
+      "tax": "1억6,077만2천원",
+      "crime": "1건",
       "pledges": [
         {
           "title": "공약",
@@ -40,6 +40,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100154016"
+        },
+        "military": {
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100154016"
+        },
+        "tax": {
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100154016"
+        },
+        "crime": {
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100154016"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납세실적 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -48,7 +72,7 @@
       "party": "국민의힘",
       "number": "2",
       "incumbent": false,
-      "incumbentLabel": "자료 미확인",
+      "incumbentLabel": "현직 종로구청장",
       "age": "60",
       "job": "종로구청장",
       "education": "고려대학교 대학원 정치외교학과 졸업(정치학 박사)",
@@ -71,12 +95,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "incumbentLabel": {
+          "label": "중앙선관위 후보자정보 기본",
+          "url": "https://www.data.go.kr/data/15000908/openapi.do"
+        }
+      },
+      "fieldNotes": {
+        "incumbentLabel": "후보 직업 기준 현직 확인"
       }
     }
   ],
   "meta": {
-    "basePath": "data/base/20260603/district-jongno-mayor-2026.json",
-    "overlayApplied": false,
-    "mergedAt": "2026-06-22 23:59:57 KST"
+    "basePath": "data/overlays/base/district-jongno-mayor-2026.json",
+    "overlayPath": "data/overlays/20260603/district-jongno-mayor-2026.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-23 00:27:00 KST",
+    "updatedAt": "",
+    "note": "종로구 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
   }
 }

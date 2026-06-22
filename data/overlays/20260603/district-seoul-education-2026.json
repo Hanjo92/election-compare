@@ -17,28 +17,28 @@
         "number": "1"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "10억6,568만원",
+        "military": "병역필",
+        "tax": "6,677만원(체납 739만원)",
+        "crime": "3건",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -48,7 +48,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
@@ -146,28 +146,28 @@
         "number": "4"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "8억4,639만원",
+        "military": "병역필",
+        "tax": "1,585만원",
+        "crime": "전과없음",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -177,7 +177,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
@@ -189,28 +189,28 @@
         "number": "5"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "23억4,668만원",
+        "military": "병역필",
+        "tax": "5,105만원",
+        "crime": "전과없음",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -220,7 +220,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
@@ -232,40 +232,40 @@
         "number": "6"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
-        "incumbentLabel": null
+        "assets": "35억7,086만원",
+        "military": "병역필",
+        "tax": "2억1,502만원",
+        "crime": "전과없음",
+        "incumbentLabel": "현직 서울특별시교육감"
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "incumbentLabel": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 기본",
+          "url": "https://www.data.go.kr/data/15000908/openapi.do"
         }
       },
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
-        "incumbentLabel": "현직 기재 기준"
+        "incumbentLabel": "후보 직업 기준 현직 확인"
       }
     },
     {
@@ -318,28 +318,28 @@
         "number": "8"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "33억3,059만원",
+        "military": "병역필",
+        "tax": "1억5,820만원",
+        "crime": "전과없음",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -349,7 +349,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }

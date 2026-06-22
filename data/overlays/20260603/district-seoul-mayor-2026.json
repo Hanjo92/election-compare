@@ -17,28 +17,28 @@
         "number": "1"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "18억2,389만7천원",
+        "military": "군복무를 마친사람",
+        "tax": "8,442만3천원",
+        "crime": "2건",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100157144"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100157144"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100157144"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100157144"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -48,7 +48,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
@@ -60,40 +60,40 @@
         "number": "2"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
-        "incumbentLabel": null
+        "assets": "74억8,391만9천원",
+        "military": "군복무를 마친사람",
+        "tax": "3억8,626만1천원",
+        "crime": "3건",
+        "incumbentLabel": "현직 서울특별시장"
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100162984"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100162984"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100162984"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 상세",
+          "url": "https://info.nec.go.kr/electioninfo/candidate_detail_info.xhtml?electionId=0020260603&huboId=100162984"
         },
         "incumbentLabel": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "중앙선관위 후보자정보 기본",
+          "url": "https://www.data.go.kr/data/15000908/openapi.do"
         }
       },
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
-        "incumbentLabel": "현직 기재 기준"
+        "incumbentLabel": "후보 직업/경력 기준 현직 확인"
       }
     },
     {

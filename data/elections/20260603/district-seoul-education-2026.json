@@ -25,10 +25,10 @@
         "(현)예원예술대학교 부총장",
         "(전)상명대학교/성결대학교 교수 역임"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "10억6,568만원",
+      "military": "병역필",
+      "tax": "6,677만원(체납 739만원)",
+      "crime": "3건",
       "pledges": [
         {
           "title": "공약",
@@ -40,6 +40,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "military": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "tax": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "crime": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납세실적 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -118,10 +142,10 @@
         "(전)미국Hofstra대학교 회계학 조교수",
         "(전)안진회계법인 공인회계사"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "8억4,639만원",
+      "military": "병역필",
+      "tax": "1,585만원",
+      "crime": "전과없음",
       "pledges": [
         {
           "title": "공약",
@@ -133,6 +157,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "military": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "tax": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "crime": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납세실적 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -149,10 +197,10 @@
         "(현)서울좋은교육감후보추대시민회의 보수단일후보(류수노,신평,윤호상,이건주 참여)",
         "(전)서울시 중·고등학교 4개교 교장(강남중,도선고,서울미술고,신도림고)"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "23억4,668만원",
+      "military": "병역필",
+      "tax": "5,105만원",
+      "crime": "전과없음",
       "pledges": [
         {
           "title": "공약",
@@ -164,6 +212,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "military": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "tax": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "crime": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납세실적 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -172,7 +244,7 @@
       "party": "정당 미확인",
       "number": "6",
       "incumbent": false,
-      "incumbentLabel": "자료 미확인",
+      "incumbentLabel": "현직 서울특별시교육감",
       "age": "68",
       "job": "서울특별시교육감",
       "education": "서울대학교 대학원(박사과정) 사회학과 문학박사",
@@ -180,10 +252,10 @@
         "(현)2026서울민주진보교육감단일화 추진위 추대후보",
         "(전)노무현정부 친일반민족행위진상규명위원회 위원"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "35억7,086만원",
+      "military": "병역필",
+      "tax": "2억1,502만원",
+      "crime": "전과없음",
       "pledges": [
         {
           "title": "공약",
@@ -195,6 +267,35 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "military": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "tax": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "crime": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "incumbentLabel": {
+          "label": "중앙선관위 후보자정보 기본",
+          "url": "https://www.data.go.kr/data/15000908/openapi.do"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납세실적 기준",
+        "crime": "전과기록 기준",
+        "incumbentLabel": "후보 직업 기준 현직 확인"
       }
     },
     {
@@ -242,10 +343,10 @@
         "(전)한국방송통신대학교 총장",
         "(현)한성대학교 석좌교수"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "33억3,059만원",
+      "military": "병역필",
+      "tax": "1억5,820만원",
+      "crime": "전과없음",
       "pledges": [
         {
           "title": "공약",
@@ -257,12 +358,45 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "military": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "tax": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "crime": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납세실적 기준",
+        "crime": "전과기록 기준"
       }
     }
   ],
   "meta": {
-    "basePath": "data/base/20260603/district-seoul-education-2026.json",
-    "overlayApplied": false,
-    "mergedAt": "2026-06-22 23:59:57 KST"
+    "basePath": "data/overlays/base/district-seoul-education-2026.json",
+    "overlayPath": "data/overlays/20260603/district-seoul-education-2026.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-23 00:27:00 KST",
+    "updatedAt": "",
+    "note": "서울특별시 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
   }
 }
