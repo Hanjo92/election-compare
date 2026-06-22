@@ -1,0 +1,115 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:23:19 KST"
+  },
+  "district": {
+    "code": "mapo-gu-gap",
+    "name": "마포구갑",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152921",
+      "name": "이지은",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "46",
+      "job": "변호사",
+      "education": "케임브리지 대학교(철학 석사) 졸업(2009년 10월~2010년 10월)",
+      "career": [
+        "(전)마포경찰서 홍익지구대장",
+        "(현)더불어민주당 대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152946",
+      "name": "조정훈",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "51",
+      "job": "제21대 국회의원",
+      "education": "하버드 대학교 케네디스쿨 행정대학원 국제개발행정학 석사 졸업(2000.9.~2002.6.)",
+      "career": [
+        "(전)세계은행 15년 재직",
+        "(현)제21대 국회의원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152354",
+      "name": "김혜미",
+      "party": "녹색정의당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "29",
+      "job": "정당인",
+      "education": "중앙대학교 대학원 사회복지학과 석사 졸업",
+      "career": [
+        "(전)녹색당 부대표",
+        "(현)녹색정의당 공동대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153008",
+      "name": "김기정",
+      "party": "개혁신당",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "41",
+      "job": "변호사",
+      "education": "서울대학교 법과대학 법학부 졸업",
+      "career": [
+        "(전)서울서부지방법원 국선전담변호사",
+        "(현)법률사무소 도화 대표변호사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

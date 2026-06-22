@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -78,15 +79,28 @@ def extract_items(payload: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def fetch_election_codes(service_key: str, page_size: int) -> list[dict[str, Any]]:
-    payload = api_get(
-        SG_CODE_ENDPOINT,
-        {
-            "ServiceKey": service_key,
-            "pageNo": 1,
-            "numOfRows": page_size,
-        },
-    )
-    return extract_items(payload)
+    page_no = 1
+    rows: list[dict[str, Any]] = []
+
+    while True:
+        payload = api_get(
+            SG_CODE_ENDPOINT,
+            {
+                "ServiceKey": service_key,
+                "pageNo": page_no,
+                "numOfRows": page_size,
+            },
+        )
+        body = payload.get("response", {}).get("body", {})
+        items = extract_items(payload)
+        rows.extend(items)
+
+        total_count = int(body.get("totalCount", len(rows) or 0))
+        if len(rows) >= total_count or not items:
+            return rows
+
+        page_no += 1
+        time.sleep(0.1)
 
 
 def parse_args() -> argparse.Namespace:

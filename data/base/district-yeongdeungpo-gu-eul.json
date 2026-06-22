@@ -1,0 +1,90 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:23:19 KST"
+  },
+  "district": {
+    "code": "yeongdeungpo-gu-eul",
+    "name": "영등포구을",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100152475",
+      "name": "김민석",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "59",
+      "job": "국회의원",
+      "education": "하버드대학교 케네디정치행정대학원 공공행정학석사(1994.9~1995.5)",
+      "career": [
+        "(현)국회의원",
+        "(전)더불어민주당 정책위의장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151279",
+      "name": "박용찬",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "59",
+      "job": "정당인",
+      "education": "서울대학교 행정대학원졸업(행정학석사)",
+      "career": [
+        "(전)국민의힘 영등포구을 당원협의회 위원장",
+        "(전)MBC 뉴스데스크 앵커"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153173",
+      "name": "김정기",
+      "party": "기후민생당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "57",
+      "job": "정당인",
+      "education": "한양대학교 독어독문학과 졸업",
+      "career": [
+        "(전)한양대학교 총학생회장",
+        "(전)기후민생당 대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ]
+}

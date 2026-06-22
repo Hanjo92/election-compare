@@ -1,0 +1,104 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:23:24 KST"
+  },
+  "district": {
+    "code": "cheonan-gap",
+    "name": "천안시갑",
+    "region": "충청남도"
+  },
+  "candidates": [
+    {
+      "id": "100152849",
+      "name": "문진석",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "62",
+      "job": "국회의원",
+      "education": "서울과학기술대학교 융합과학대학원 에너지환경공학과 박사과정 수료",
+      "career": [
+        "(현) 제21대 국회의원",
+        "(전) 더불어민주당 전략기획위원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100151533",
+      "name": "신범철",
+      "party": "국민의힘",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "53",
+      "job": "정당인",
+      "education": "미국 조지타운대학교 법학전문대학원 졸업 [법학박사 2005.9-2007.5]",
+      "career": [
+        "(전) 국방부차관",
+        "(전) 국립외교원 교수"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152068",
+      "name": "허욱",
+      "party": "개혁신당",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "71",
+      "job": "정당인",
+      "education": "단국대학교 대학원 행정학과 행정학 박사",
+      "career": [
+        "(전) 제8대 후반기 천안시의회 운영위원장",
+        "(현) (주)소라주택 대표"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-cheonan-gap.json",
+    "overlayPath": "data/overlays/district-cheonan-gap.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:23:56 KST",
+    "updatedAt": "",
+    "note": "천안시갑 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

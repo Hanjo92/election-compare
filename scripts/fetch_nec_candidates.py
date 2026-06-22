@@ -16,7 +16,7 @@ from typing import Any
 
 
 API_BASE = "https://apis.data.go.kr/9760000"
-PROFILE_ENDPOINT = f"{API_BASE}/PofelcddInfoInqireService/getPoelpcddRegistSttusInfoInqire"
+PROFILE_ENDPOINT = f"{API_BASE}/PofelcddInfoInqireService/getPofelcddRegistSttusInfoInqire"
 PLEDGE_ENDPOINT = f"{API_BASE}/ElecPrmsInfoInqireService/getCnddtElecPrmsInfoInqire"
 PLEDGE_SUPPORTED_TYPES = {"1", "3", "4", "11"}
 ROOT = Path(__file__).resolve().parents[1]

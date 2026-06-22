@@ -1,0 +1,203 @@
+{
+  "election": {
+    "id": "20240410",
+    "name": "제22대 국회의원선거",
+    "type": "2",
+    "updatedAt": "2026-06-22 23:23:19 KST"
+  },
+  "district": {
+    "code": "jongno-gu",
+    "name": "종로구",
+    "region": "서울특별시"
+  },
+  "candidates": [
+    {
+      "id": "100151444",
+      "name": "곽상언",
+      "party": "더불어민주당",
+      "number": "1",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "52",
+      "job": "변호사",
+      "education": "서울대학교 국제경제학과 졸업",
+      "career": [
+        "(현) 더불어민주당 종로구 지역위원회 지역위원장",
+        "(현) 법무법인 인강 대표변호사"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153178",
+      "name": "차은정",
+      "party": "민중민주당",
+      "number": "2",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "43",
+      "job": "정당인",
+      "education": "공주대학교 특수교육과 졸업",
+      "career": [
+        "(현) 민중민주당 반미반전특별위원회위원장",
+        "(현) 민중민주당 부대변인"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152901",
+      "name": "최재형",
+      "party": "국민의힘",
+      "number": "3",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "67",
+      "job": "제21대 국회의원",
+      "education": "서울대학교 법학과 졸업",
+      "career": [
+        "(현) 제21대 국회의원",
+        "(전) 제24대 감사원장"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153084",
+      "name": "진예찬",
+      "party": "새로운미래",
+      "number": "4",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "45",
+      "job": "정당인",
+      "education": "프랑스 파리-발 드 센느 국립고등건축학교 건축학 석사(2010.09-2012.06)",
+      "career": [
+        "(현) 건축사 (프랑스)",
+        "(전) 민생당 최고위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100152829",
+      "name": "금태섭",
+      "party": "개혁신당",
+      "number": "5",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "56",
+      "job": "정당인",
+      "education": "서울대학교 대학원 법학과 박사과정 수료",
+      "career": [
+        "(전) 제20대 국회의원",
+        "(현) 개혁신당 최고위원"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153126",
+      "name": "김준수",
+      "party": "가락특권폐지당",
+      "number": "6",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "63",
+      "job": "정당인",
+      "education": "부산대학교 사범대학 교육학과 2학년 제적(1980.03.~1986.08)",
+      "career": [
+        "(전) 제19대 국회의원선거 종로구 국민의힘 후보자"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    },
+    {
+      "id": "100153265",
+      "name": "김종갑",
+      "party": "대한국민당",
+      "number": "7",
+      "incumbent": false,
+      "incumbentLabel": "자료 미확인",
+      "age": "78",
+      "job": "정당인",
+      "education": "한국방송통신대학교 중어중문학과 1학년 제적(91.03~92.03)",
+      "career": [
+        "(전) (사)한국유엔봉사단 총재",
+        "(현) 한미일동맹국민운동기구"
+      ],
+      "assets": "자료 미확인",
+      "military": "자료 미확인",
+      "tax": "자료 미확인",
+      "crime": "자료 미확인",
+      "pledges": [],
+      "sources": {
+        "profile": "https://www.data.go.kr/data/15000908/openapi.do",
+        "policy": "https://www.data.go.kr/data/15040587/openapi.do",
+        "data": "https://data.nec.go.kr/"
+      }
+    }
+  ],
+  "meta": {
+    "basePath": "data/base/district-jongno-gu.json",
+    "overlayPath": "data/overlays/district-jongno-gu.json",
+    "overlayApplied": true,
+    "mergedAt": "2026-06-22 23:23:56 KST",
+    "updatedAt": "",
+    "note": "종로구 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
+  }
+}

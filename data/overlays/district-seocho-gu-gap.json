@@ -1,19 +1,27 @@
 {
   "meta": {
-    "updatedAt": "2026-06-18 12:45 KST",
-    "note": "수동 보강 샘플. 후보자공보 기준 필드를 오버레이로 관리한다."
+    "updatedAt": "",
+    "note": "서초구갑 수동 보강 템플릿",
+    "template": true,
+    "instructions": [
+      "patch 값이 null이면 병합 시 무시됩니다.",
+      "채운 필드만 merged JSON에 반영됩니다.",
+      "fieldSources와 fieldNotes는 후보자공보 기준 기본값입니다."
+    ]
   },
   "candidates": [
     {
       "match": {
-        "id": "cand-1",
-        "number": 1
+        "id": "100153024",
+        "name": "김한나",
+        "number": "1"
       },
       "patch": {
-        "assets": "12억 3,000만원",
-        "military": "군필",
-        "tax": "체납사실 없음",
-        "crime": "전과 0건"
+        "assets": null,
+        "military": null,
+        "tax": null,
+        "crime": null,
+        "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
@@ -21,38 +29,6 @@
           "url": "https://info.nec.go.kr/"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
-        },
-        "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
-        },
-        "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
-        }
-      },
-      "fieldNotes": {
-        "assets": "재산신고액 기준",
-        "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
-        "crime": "전과기록 기준"
-      }
-    },
-    {
-      "match": {
-        "id": "cand-2",
-        "number": 2
-      },
-      "patch": {
-        "assets": "18억 7,000만원",
-        "tax": "체납사실 없음",
-        "crime": "전과 1건",
-        "incumbentLabel": "현직"
-      },
-      "fieldSources": {
-        "assets": {
           "label": "후보자공보",
           "url": "https://info.nec.go.kr/"
         },
@@ -71,6 +47,7 @@
       },
       "fieldNotes": {
         "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
         "tax": "최근 체납사실 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
@@ -78,13 +55,16 @@
     },
     {
       "match": {
-        "id": "cand-3",
-        "number": 7
+        "id": "100152989",
+        "name": "조은희",
+        "number": "2"
       },
       "patch": {
-        "assets": "9억 1,000만원",
-        "military": "군필",
-        "crime": "전과 0건"
+        "assets": null,
+        "military": null,
+        "tax": null,
+        "crime": null,
+        "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
@@ -95,7 +75,15 @@
           "label": "후보자공보",
           "url": "https://info.nec.go.kr/"
         },
+        "tax": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
         "crime": {
+          "label": "후보자공보",
+          "url": "https://info.nec.go.kr/"
+        },
+        "incumbentLabel": {
           "label": "후보자공보",
           "url": "https://info.nec.go.kr/"
         }
@@ -103,7 +91,9 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "crime": "전과기록 기준"
+        "tax": "최근 체납사실 기준",
+        "crime": "전과기록 기준",
+        "incumbentLabel": "현직 기재 기준"
       }
     }
   ]
