@@ -60,28 +60,28 @@
         "number": "2"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "4억453만원",
+        "military": "병역필",
+        "tax": "1억763만원",
+        "crime": "전과 1건",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴시스 후보 소개 기사",
+          "url": "https://www.newsis.com/view/NISX20260515_0003632089"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -91,7 +91,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
@@ -103,28 +103,28 @@
         "number": "3"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "-7억652만원",
+        "military": "병역필",
+        "tax": "3억333만원",
+        "crime": "전과없음",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -134,7 +134,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }
@@ -275,28 +275,28 @@
         "number": "7"
       },
       "patch": {
-        "assets": null,
-        "military": null,
-        "tax": null,
-        "crime": null,
+        "assets": "12억131만원",
+        "military": "해당없음",
+        "tax": "1억1,459만원",
+        "crime": "전과 2건",
         "incumbentLabel": null
       },
       "fieldSources": {
         "assets": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "military": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "tax": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
         },
         "crime": {
-          "label": "후보자공보",
-          "url": "https://info.nec.go.kr/"
+          "label": "뉴시스 후보 소개 기사",
+          "url": "https://www.newsis.com/view/NISX20260515_0003632089"
         },
         "incumbentLabel": {
           "label": "후보자공보",
@@ -306,7 +306,7 @@
       "fieldNotes": {
         "assets": "재산신고액 기준",
         "military": "병역사항 요약",
-        "tax": "최근 체납사실 기준",
+        "tax": "최근 5년간 납세실적 기준",
         "crime": "전과기록 기준",
         "incumbentLabel": "현직 기재 기준"
       }

@@ -80,10 +80,10 @@
         "(전)노무현 대통령직인수위 자문위원(교육분야)",
         "(전)조희연 서울시교육감 비서실장"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "4억453만원",
+      "military": "병역필",
+      "tax": "1억763만원",
+      "crime": "전과 1건",
       "pledges": [
         {
           "title": "공약",
@@ -95,6 +95,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "military": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "tax": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "crime": {
+          "label": "뉴시스 후보 소개 기사",
+          "url": "https://www.newsis.com/view/NISX20260515_0003632089"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납세실적 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -111,10 +135,10 @@
         "(전)2024년 서울특별시교육감보궐선거 통합대책위원회 중도·보수후보",
         "(전)국회의원 (교육과학기술위원회 위원)"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "-7억652만원",
+      "military": "병역필",
+      "tax": "3억333만원",
+      "crime": "전과없음",
       "pledges": [
         {
           "title": "공약",
@@ -126,6 +150,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "military": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "tax": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "crime": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납세실적 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -312,10 +360,10 @@
         "(전)서울특별시남부교육지원청 교육지원국장",
         "(전)오류중학교장"
       ],
-      "assets": "자료 미확인",
-      "military": "자료 미확인",
-      "tax": "자료 미확인",
-      "crime": "자료 미확인",
+      "assets": "12억131만원",
+      "military": "해당없음",
+      "tax": "1억1,459만원",
+      "crime": "전과 2건",
       "pledges": [
         {
           "title": "공약",
@@ -327,6 +375,30 @@
         "profile": "https://www.data.go.kr/data/15000908/openapi.do",
         "policy": "https://www.data.go.kr/data/15040587/openapi.do",
         "data": "https://data.nec.go.kr/"
+      },
+      "fieldSources": {
+        "assets": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "military": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "tax": {
+          "label": "연합뉴스 후보 명단",
+          "url": "https://www.yna.co.kr/view/AKR20260515191400034"
+        },
+        "crime": {
+          "label": "뉴시스 후보 소개 기사",
+          "url": "https://www.newsis.com/view/NISX20260515_0003632089"
+        }
+      },
+      "fieldNotes": {
+        "assets": "재산신고액 기준",
+        "military": "병역사항 요약",
+        "tax": "최근 5년간 납세실적 기준",
+        "crime": "전과기록 기준"
       }
     },
     {
@@ -389,7 +461,7 @@
     "basePath": "data/overlays/base/district-seoul-education-2026.json",
     "overlayPath": "data/overlays/20260603/district-seoul-education-2026.json",
     "overlayApplied": true,
-    "mergedAt": "2026-06-23 00:27:00 KST",
+    "mergedAt": "2026-06-23 01:24:35 KST",
     "updatedAt": "",
     "note": "서울특별시 수동 보강 템플릿",
     "template": true,
