@@ -5,7 +5,7 @@
 ## 포함 내용
 
 - `index.html`: 서비스 소개와 샘플 지역구 진입점
-- `district/20240410/seocho-gu-gap/index.html`: 샘플 지역구 비교 페이지
+- `district/index.html`: 공용 지역구 비교 뷰어
 - `data/elections/20240410/district-seocho-gu-gap.json`: 샘플 후보 데이터
 - `data/base/`: 선거별 API 수집 원본 또는 기본 데이터
 - `data/overlays/`: 선거별 수동 보강 오버레이
@@ -14,13 +14,16 @@
 - `assets/home.js`: 홈 검색과 지역구 목록 렌더링
 - `assets/styles.css`: 공통 스타일
 - `scripts/generate_overlay_templates.py`: 여러 지역구용 오버레이 템플릿 생성
-- `scripts/sync_district_pages.py`: 지역구 라우트 HTML 자동 생성
+- `scripts/sync_district_pages.py`: 공용 지역구 뷰어 확인, 필요 시 레거시 라우트 생성
 - `scripts/build_site.py`: 병합 + 라우트 생성 + 홈 인덱스 갱신 일괄 실행
 - `scripts/fetch_nec_batch.py`: 여러 지역구 실데이터 일괄 수집
+- `scripts/parse_data_request_issue.py`: 데이터 요청 issue 본문을 수집 파라미터로 정규화
 - `configs/election-batch.sample.json`: 배치 수집 설정 샘플
 - `configs/election-batch.flat.sample.json`: 단일 시도용 평면 배치 샘플
 - `configs/election-batch.priority.local.json`: 전국 분산형 1차 우선수집 운영셋
 - `docs/priority-round-1-overlay-playbook.md`: 25개 운영셋용 수동 보강 우선순위 기준서
+- `.github/workflows/process-data-request.yml`: 데이터 요청 issue를 읽어 수집/build/push 자동화
+- `.github/ISSUE_TEMPLATE/data-request.md`: 누락 지역구 데이터 요청 템플릿
 
 ## 실행
 
@@ -149,10 +152,16 @@ python3 scripts/apply_manual_overlays.py --district-code seocho-gu-gap
 python3 scripts/generate_overlay_templates.py
 ```
 
-지역구 HTML 라우트도 자동 생성할 수 있습니다.
+공용 지역구 뷰어가 있는지 확인하려면:
 
 ```bash
 python3 scripts/sync_district_pages.py
+```
+
+예전처럼 지역구별 HTML 라우트도 다시 깔고 싶으면:
+
+```bash
+python3 scripts/sync_district_pages.py --legacy-routes
 ```
 
 수집 후 홈 목록도 다시 생성하면 좋습니다.
@@ -166,6 +175,19 @@ python3 scripts/build_district_index.py
 ```bash
 python3 scripts/build_site.py
 ```
+
+## 없는 지역구 요청 흐름
+
+- 공용 지역구 뷰어에서 JSON이 없으면 `이 지역구 데이터 요청하기` 버튼이 뜹니다.
+- 이 버튼은 GitHub issue 템플릿을 미리 채워 열어 줍니다.
+- `data-request` 라벨 issue가 열리면 `.github/workflows/process-data-request.yml` 이 실행됩니다.
+- 이 워크플로는 repo secret `NEC_API_KEY`를 써서 수집 스크립트를 돌리고, 성공하면 `build_site.py` 후 `main`에 push합니다.
+- 그 push를 계기로 GitHub Pages 배포 워크플로가 다시 돌아 공개 페이지가 갱신됩니다.
+
+주의:
+
+- 이 자동화는 GitHub repository secret `NEC_API_KEY`가 설정되어 있어야 동작합니다.
+- 후보자 정보 API가 `INFO-03`을 주는 선거/지역 조합이면 issue는 남고 자동 수집은 실패할 수 있습니다.
 
 GitHub Pages 배포용 dist를 로컬에서 미리 확인하려면:
 
@@ -256,7 +278,7 @@ python3 scripts/generate_overlay_templates.py --config configs/election-batch.pr
 1. 여러 지역구 base JSON 생성
 2. `generate_overlay_templates.py`로 오버레이 템플릿 생성
 3. 필요한 필드만 채운 뒤 `build_site.py` 실행
-4. 필요하면 정적 배포 또는 Astro 마이그레이션
+4. 정적 호스팅에서는 공용 viewer + JSON fetch를 기본으로 두고, 진짜 요청 시 수집/캐시는 나중에 별도 백엔드나 액션 워크플로로 확장
 
 ## GitHub Pages 배포
 

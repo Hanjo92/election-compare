@@ -1,0 +1,156 @@
+name: Process District Data Request
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Existing issue number to process"
+        required: true
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event.issue.state == 'open' &&
+        contains(join(github.event.issue.labels.*.name, ','), 'data-request')
+      )
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve issue metadata
+        id: issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = context.eventName === 'workflow_dispatch'
+              ? Number('${{ github.event.inputs.issue_number }}')
+              : context.payload.issue.number;
+            const { data: issue } = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+            });
+            core.setOutput('number', String(issue.number));
+            core.setOutput('title', issue.title);
+            core.setOutput('body', issue.body || '');
+
+      - name: Ensure NEC_API_KEY exists
+        env:
+          NEC_API_KEY: ${{ secrets.NEC_API_KEY }}
+        run: |
+          if [ -z "$NEC_API_KEY" ]; then
+            echo "Missing NEC_API_KEY repository secret" >&2
+            exit 1
+          fi
+
+      - name: Parse request
+        env:
+          ISSUE_BODY: ${{ steps.issue.outputs.body }}
+        run: |
+          mkdir -p .tmp
+          printf '%s\n' "$ISSUE_BODY" > .tmp/issue-body.md
+          python3 scripts/parse_data_request_issue.py \
+            --body-file .tmp/issue-body.md \
+            --output .tmp/request.json
+
+      - name: Fetch requested district data
+        env:
+          NEC_API_KEY: ${{ secrets.NEC_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          payload = json.loads(Path(".tmp/request.json").read_text(encoding="utf-8"))
+          cmd = [
+              sys.executable,
+              "scripts/fetch_nec_candidates.py",
+              "--sg-id", payload["sgId"],
+              "--sg-typecode", payload["sgTypecode"],
+              "--sd-name", payload["sdName"],
+              "--sgg-name", payload["sggName"],
+              "--district-code", payload["districtCode"],
+          ]
+          if payload.get("electionName"):
+              cmd.extend(["--election-name", payload["electionName"]])
+          subprocess.run(cmd, check=True)
+          PY
+
+      - name: Build site
+        run: python3 scripts/build_site.py
+
+      - name: Commit generated data
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "created=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data scripts README.md assets index.html district .github
+          git commit -m "Process data request #${{ steps.issue.outputs.number }}"
+          git push
+          echo "created=true" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Comment success
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue_number = Number("${{ steps.issue.outputs.number }}");
+            const created = "${{ steps.commit.outputs.created }}" === "true";
+            const sha = "${{ steps.commit.outputs.sha }}";
+            const lines = created
+              ? [
+                  "요청한 지역구 데이터를 생성했고 `main`에 반영했어.",
+                  `commit: \`${sha.slice(0, 7)}\``,
+                  "GitHub Pages 배포는 push 후 자동으로 이어져.",
+                ]
+              : [
+                  "워크플로는 정상 실행됐지만 새로 반영할 변경이 없었어.",
+                  "이미 같은 데이터가 반영되어 있었을 가능성이 커.",
+                ];
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              body: lines.join("\n"),
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              state: "closed",
+            });
+
+      - name: Comment failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue_number = Number("${{ steps.issue.outputs.number }}");
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              body: "자동 데이터 생성에 실패했어. Actions 로그를 보고 수동 확인이 필요해.",
+            });

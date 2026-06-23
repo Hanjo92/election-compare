@@ -39,7 +39,8 @@ def main() -> int:
             "electionKey": election_key,
             "electionName": election_name,
             "candidateCount": candidate_count,
-            "path": f"./district/{election_id}/{code}/",
+            "path": f"./district/?electionId={election_id}&code={code}",
+            "legacyPath": f"./district/{election_id}/{code}/",
         }
         districts.append(district_row)
 

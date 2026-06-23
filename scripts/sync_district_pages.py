@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate static district route pages from a shared HTML template."""
+"""Maintain district viewer routes for static hosting."""
 
 from __future__ import annotations
 
@@ -12,16 +12,16 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 BASE_DIR = DATA_DIR / "base"
 DISTRICT_DIR = ROOT / "district"
-TEMPLATE_PATH = ROOT / "templates" / "district-page.html"
+LEGACY_TEMPLATE_PATH = ROOT / "templates" / "district-page.html"
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Generate district/<code>/index.html pages from template and base district JSON files.",
+        description="Ensure the shared district viewer exists and optionally regenerate legacy per-district HTML routes.",
     )
     parser.add_argument(
         "--district-code",
-        help="Only generate one district code. Defaults to all base district JSON files.",
+        help="Only generate one district code when --legacy-routes is enabled.",
     )
     parser.add_argument(
         "--base-dir",
@@ -35,8 +35,13 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--template",
-        default=str(TEMPLATE_PATH),
-        help="HTML template path used for each district page.",
+        default=str(LEGACY_TEMPLATE_PATH),
+        help="Legacy HTML template path used for per-district routes.",
+    )
+    parser.add_argument(
+        "--legacy-routes",
+        action="store_true",
+        help="Also regenerate one HTML file per district for backwards-compatible routes.",
     )
     return parser.parse_args()
 
@@ -63,19 +68,13 @@ def build_title(payload: dict, fallback_code: str) -> str:
     return district_name
 
 
-def main() -> int:
-    args = parse_args()
-    base_dir = Path(args.base_dir)
-    district_dir = Path(args.district_dir)
-    template_path = Path(args.template)
+def ensure_shared_viewer(district_dir: Path) -> None:
+    shared_viewer = district_dir / "index.html"
+    if not shared_viewer.exists():
+        raise SystemExit(f"Missing shared district viewer: {shared_viewer}")
 
-    if args.district_code:
-        base_paths = sorted(base_dir.glob(f"*/district-{args.district_code}.json"))
-    else:
-        base_paths = sorted(base_dir.glob("*/district-*.json"))
 
-    if not base_paths:
-        raise SystemExit(f"No base district files found in {base_dir}")
+def write_legacy_routes(base_paths: list[Path], district_dir: Path, template_path: Path) -> int:
     if not template_path.exists():
         raise SystemExit(f"Missing template: {template_path}")
 
@@ -83,9 +82,6 @@ def main() -> int:
     written = 0
 
     for base_path in base_paths:
-        if not base_path.exists():
-            raise SystemExit(f"Missing base file: {base_path}")
-
         code = base_path.stem.removeprefix("district-")
         payload = load_payload(base_path)
         election_id = detect_election_id(payload, base_path.parent.name)
@@ -98,7 +94,31 @@ def main() -> int:
         output_path.write_text(page_html, encoding="utf-8")
         written += 1
 
-    print(f"Wrote {written} district pages to {district_dir}")
+    return written
+
+
+def main() -> int:
+    args = parse_args()
+    base_dir = Path(args.base_dir)
+    district_dir = Path(args.district_dir)
+    template_path = Path(args.template)
+
+    ensure_shared_viewer(district_dir)
+
+    if not args.legacy_routes:
+        print("Verified shared district viewer route")
+        return 0
+
+    if args.district_code:
+        base_paths = sorted(base_dir.glob(f"*/district-{args.district_code}.json"))
+    else:
+        base_paths = sorted(base_dir.glob("*/district-*.json"))
+
+    if not base_paths:
+        raise SystemExit(f"No base district files found in {base_dir}")
+
+    written = write_legacy_routes(base_paths, district_dir, template_path)
+    print(f"Wrote {written} legacy district pages to {district_dir}")
     return 0
 
 

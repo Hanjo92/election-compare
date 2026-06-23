@@ -22,7 +22,7 @@
           추천이 아니라 비교를 목표로 하고, 각 항목은 공식 출처로 연결됩니다.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="./district/20240410/seocho-gu-gap/">샘플 지역구 보기</a>
+          <a class="button button-primary" href="./district/?electionId=20240410&code=seocho-gu-gap">샘플 지역구 보기</a>
           <a class="button button-secondary" href="./about.html">데이터 기준 보기</a>
         </div>
       </header>
@@ -42,7 +42,7 @@
           <p class="section-kicker">District search</p>
           <h2>선거와 지역구 찾기</h2>
           <p class="panel-copy">
-            선거별로 목록을 나눠 보고, 그 안에서 지역구를 찾을 수 있게 바꿔둡니다.
+            선거별 목록에서 지역구를 고르면 공용 비교 화면이 필요한 JSON만 읽어옵니다.
           </p>
           <div class="filter-grid">
             <label class="search-field" for="election-select">
@@ -63,8 +63,8 @@
           <h2>이후 확장 순서</h2>
           <ol class="steps">
             <li>지역구 데이터 스키마 고정</li>
-            <li>선관위 API 수집 스크립트 추가</li>
-            <li>다수 지역구 페이지 자동 생성</li>
+            <li>요청 기반 수집/캐시 경로 정리</li>
+            <li>자주 보는 지역만 선계산</li>
           </ol>
         </section>
       </main>

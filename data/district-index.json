@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22 23:59:58 KST",
+  "updatedAt": "2026-06-23 14:25:04 KST",
   "elections": [
     {
       "key": "20260603:4",
@@ -44,7 +44,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/andong-yecheon/"
+      "path": "./district/?electionId=20240410&code=andong-yecheon",
+      "legacyPath": "./district/20240410/andong-yecheon/"
     },
     {
       "code": "buk-gu-eul",
@@ -55,7 +56,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/20240410/buk-gu-eul/"
+      "path": "./district/?electionId=20240410&code=buk-gu-eul",
+      "legacyPath": "./district/20240410/buk-gu-eul/"
     },
     {
       "code": "bupyeong-gu-gap",
@@ -66,7 +68,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/bupyeong-gu-gap/"
+      "path": "./district/?electionId=20240410&code=bupyeong-gu-gap",
+      "legacyPath": "./district/20240410/bupyeong-gu-gap/"
     },
     {
       "code": "busanjin-gu-eul",
@@ -77,7 +80,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/busanjin-gu-eul/"
+      "path": "./district/?electionId=20240410&code=busanjin-gu-eul",
+      "legacyPath": "./district/20240410/busanjin-gu-eul/"
     },
     {
       "code": "busanjin-gu-gap",
@@ -88,7 +92,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/busanjin-gu-gap/"
+      "path": "./district/?electionId=20240410&code=busanjin-gu-gap",
+      "legacyPath": "./district/20240410/busanjin-gu-gap/"
     },
     {
       "code": "changwon-seongsan",
@@ -99,7 +104,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/changwon-seongsan/"
+      "path": "./district/?electionId=20240410&code=changwon-seongsan",
+      "legacyPath": "./district/20240410/changwon-seongsan/"
     },
     {
       "code": "cheonan-gap",
@@ -110,7 +116,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/cheonan-gap/"
+      "path": "./district/?electionId=20240410&code=cheonan-gap",
+      "legacyPath": "./district/20240410/cheonan-gap/"
     },
     {
       "code": "cheongju-sangdang",
@@ -121,7 +128,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/cheongju-sangdang/"
+      "path": "./district/?electionId=20240410&code=cheongju-sangdang",
+      "legacyPath": "./district/20240410/cheongju-sangdang/"
     },
     {
       "code": "chuncheon-cheorwon-hwacheon-yanggu-gap",
@@ -132,7 +140,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/chuncheon-cheorwon-hwacheon-yanggu-gap/"
+      "path": "./district/?electionId=20240410&code=chuncheon-cheorwon-hwacheon-yanggu-gap",
+      "legacyPath": "./district/20240410/chuncheon-cheorwon-hwacheon-yanggu-gap/"
     },
     {
       "code": "chungju",
@@ -143,7 +152,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/chungju/"
+      "path": "./district/?electionId=20240410&code=chungju",
+      "legacyPath": "./district/20240410/chungju/"
     },
     {
       "code": "dalseo-gu-byeong",
@@ -154,7 +164,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/dalseo-gu-byeong/"
+      "path": "./district/?electionId=20240410&code=dalseo-gu-byeong",
+      "legacyPath": "./district/20240410/dalseo-gu-byeong/"
     },
     {
       "code": "dobong-gu-eul",
@@ -165,7 +176,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/dobong-gu-eul/"
+      "path": "./district/?electionId=20240410&code=dobong-gu-eul",
+      "legacyPath": "./district/20240410/dobong-gu-eul/"
     },
     {
       "code": "dobong-gu-gap",
@@ -176,7 +188,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/dobong-gu-gap/"
+      "path": "./district/?electionId=20240410&code=dobong-gu-gap",
+      "legacyPath": "./district/20240410/dobong-gu-gap/"
     },
     {
       "code": "dong-gu-daejeon",
@@ -187,7 +200,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/dong-gu-daejeon/"
+      "path": "./district/?electionId=20240410&code=dong-gu-daejeon",
+      "legacyPath": "./district/20240410/dong-gu-daejeon/"
     },
     {
       "code": "dong-gunwi-gap",
@@ -198,7 +212,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/dong-gunwi-gap/"
+      "path": "./district/?electionId=20240410&code=dong-gunwi-gap",
+      "legacyPath": "./district/20240410/dong-gunwi-gap/"
     },
     {
       "code": "dong-michuhol-gap",
@@ -209,7 +224,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/dong-michuhol-gap/"
+      "path": "./district/?electionId=20240410&code=dong-michuhol-gap",
+      "legacyPath": "./district/20240410/dong-michuhol-gap/"
     },
     {
       "code": "dong-nam-gu-eul",
@@ -220,7 +236,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/20240410/dong-nam-gu-eul/"
+      "path": "./district/?electionId=20240410&code=dong-nam-gu-eul",
+      "legacyPath": "./district/20240410/dong-nam-gu-eul/"
     },
     {
       "code": "dongdaemun-gu-eul",
@@ -231,7 +248,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/dongdaemun-gu-eul/"
+      "path": "./district/?electionId=20240410&code=dongdaemun-gu-eul",
+      "legacyPath": "./district/20240410/dongdaemun-gu-eul/"
     },
     {
       "code": "dongdaemun-gu-gap",
@@ -242,7 +260,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/dongdaemun-gu-gap/"
+      "path": "./district/?electionId=20240410&code=dongdaemun-gu-gap",
+      "legacyPath": "./district/20240410/dongdaemun-gu-gap/"
     },
     {
       "code": "dongjak-gu-eul",
@@ -253,7 +272,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/dongjak-gu-eul/"
+      "path": "./district/?electionId=20240410&code=dongjak-gu-eul",
+      "legacyPath": "./district/20240410/dongjak-gu-eul/"
     },
     {
       "code": "dongjak-gu-gap",
@@ -264,7 +284,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/dongjak-gu-gap/"
+      "path": "./district/?electionId=20240410&code=dongjak-gu-gap",
+      "legacyPath": "./district/20240410/dongjak-gu-gap/"
     },
     {
       "code": "eunpyeong-gu-eul",
@@ -275,7 +296,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/eunpyeong-gu-eul/"
+      "path": "./district/?electionId=20240410&code=eunpyeong-gu-eul",
+      "legacyPath": "./district/20240410/eunpyeong-gu-eul/"
     },
     {
       "code": "eunpyeong-gu-gap",
@@ -286,7 +308,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/eunpyeong-gu-gap/"
+      "path": "./district/?electionId=20240410&code=eunpyeong-gu-gap",
+      "legacyPath": "./district/20240410/eunpyeong-gu-gap/"
     },
     {
       "code": "gangbuk-gu-eul",
@@ -297,7 +320,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gangbuk-gu-eul/"
+      "path": "./district/?electionId=20240410&code=gangbuk-gu-eul",
+      "legacyPath": "./district/20240410/gangbuk-gu-eul/"
     },
     {
       "code": "gangbuk-gu-gap",
@@ -308,7 +332,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gangbuk-gu-gap/"
+      "path": "./district/?electionId=20240410&code=gangbuk-gu-gap",
+      "legacyPath": "./district/20240410/gangbuk-gu-gap/"
     },
     {
       "code": "gangdong-gu-eul",
@@ -319,7 +344,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gangdong-gu-eul/"
+      "path": "./district/?electionId=20240410&code=gangdong-gu-eul",
+      "legacyPath": "./district/20240410/gangdong-gu-eul/"
     },
     {
       "code": "gangdong-gu-gap",
@@ -330,7 +356,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gangdong-gu-gap/"
+      "path": "./district/?electionId=20240410&code=gangdong-gu-gap",
+      "legacyPath": "./district/20240410/gangdong-gu-gap/"
     },
     {
       "code": "gangnam-gu-byeong",
@@ -341,7 +368,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gangnam-gu-byeong/"
+      "path": "./district/?electionId=20240410&code=gangnam-gu-byeong",
+      "legacyPath": "./district/20240410/gangnam-gu-byeong/"
     },
     {
       "code": "gangnam-gu-eul",
@@ -352,7 +380,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gangnam-gu-eul/"
+      "path": "./district/?electionId=20240410&code=gangnam-gu-eul",
+      "legacyPath": "./district/20240410/gangnam-gu-eul/"
     },
     {
       "code": "gangnam-gu-gap",
@@ -363,7 +392,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gangnam-gu-gap/"
+      "path": "./district/?electionId=20240410&code=gangnam-gu-gap",
+      "legacyPath": "./district/20240410/gangnam-gu-gap/"
     },
     {
       "code": "gangneung",
@@ -374,7 +404,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gangneung/"
+      "path": "./district/?electionId=20240410&code=gangneung",
+      "legacyPath": "./district/20240410/gangneung/"
     },
     {
       "code": "gangseo-gu-byeong",
@@ -385,7 +416,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gangseo-gu-byeong/"
+      "path": "./district/?electionId=20240410&code=gangseo-gu-byeong",
+      "legacyPath": "./district/20240410/gangseo-gu-byeong/"
     },
     {
       "code": "gangseo-gu-eul",
@@ -396,7 +428,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gangseo-gu-eul/"
+      "path": "./district/?electionId=20240410&code=gangseo-gu-eul",
+      "legacyPath": "./district/20240410/gangseo-gu-eul/"
     },
     {
       "code": "gangseo-gu-gap",
@@ -407,7 +440,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gangseo-gu-gap/"
+      "path": "./district/?electionId=20240410&code=gangseo-gu-gap",
+      "legacyPath": "./district/20240410/gangseo-gu-gap/"
     },
     {
       "code": "geumcheon-gu",
@@ -418,7 +452,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/geumcheon-gu/"
+      "path": "./district/?electionId=20240410&code=geumcheon-gu",
+      "legacyPath": "./district/20240410/geumcheon-gu/"
     },
     {
       "code": "gimhae-gap",
@@ -429,7 +464,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gimhae-gap/"
+      "path": "./district/?electionId=20240410&code=gimhae-gap",
+      "legacyPath": "./district/20240410/gimhae-gap/"
     },
     {
       "code": "gimpo-gap",
@@ -440,7 +476,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gimpo-gap/"
+      "path": "./district/?electionId=20240410&code=gimpo-gap",
+      "legacyPath": "./district/20240410/gimpo-gap/"
     },
     {
       "code": "gongju-buyeo-cheongyang",
@@ -451,7 +488,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gongju-buyeo-cheongyang/"
+      "path": "./district/?electionId=20240410&code=gongju-buyeo-cheongyang",
+      "legacyPath": "./district/20240410/gongju-buyeo-cheongyang/"
     },
     {
       "code": "goyang-jeong",
@@ -462,7 +500,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/goyang-jeong/"
+      "path": "./district/?electionId=20240410&code=goyang-jeong",
+      "legacyPath": "./district/20240410/goyang-jeong/"
     },
     {
       "code": "gumi-gap",
@@ -473,7 +512,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gumi-gap/"
+      "path": "./district/?electionId=20240410&code=gumi-gap",
+      "legacyPath": "./district/20240410/gumi-gap/"
     },
     {
       "code": "gunsan-gimje-buan-eul",
@@ -484,7 +524,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gunsan-gimje-buan-eul/"
+      "path": "./district/?electionId=20240410&code=gunsan-gimje-buan-eul",
+      "legacyPath": "./district/20240410/gunsan-gimje-buan-eul/"
     },
     {
       "code": "guro-gu-eul",
@@ -495,7 +536,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/guro-gu-eul/"
+      "path": "./district/?electionId=20240410&code=guro-gu-eul",
+      "legacyPath": "./district/20240410/guro-gu-eul/"
     },
     {
       "code": "guro-gu-gap",
@@ -506,7 +548,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/guro-gu-gap/"
+      "path": "./district/?electionId=20240410&code=guro-gu-gap",
+      "legacyPath": "./district/20240410/guro-gu-gap/"
     },
     {
       "code": "gwanak-gu-eul",
@@ -517,7 +560,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gwanak-gu-eul/"
+      "path": "./district/?electionId=20240410&code=gwanak-gu-eul",
+      "legacyPath": "./district/20240410/gwanak-gu-eul/"
     },
     {
       "code": "gwanak-gu-gap",
@@ -528,7 +572,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gwanak-gu-gap/"
+      "path": "./district/?electionId=20240410&code=gwanak-gu-gap",
+      "legacyPath": "./district/20240410/gwanak-gu-gap/"
     },
     {
       "code": "gwangjin-gu-eul",
@@ -539,7 +584,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/gwangjin-gu-eul/"
+      "path": "./district/?electionId=20240410&code=gwangjin-gu-eul",
+      "legacyPath": "./district/20240410/gwangjin-gu-eul/"
     },
     {
       "code": "gwangjin-gu-gap",
@@ -550,7 +596,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/gwangjin-gu-gap/"
+      "path": "./district/?electionId=20240410&code=gwangjin-gu-gap",
+      "legacyPath": "./district/20240410/gwangjin-gu-gap/"
     },
     {
       "code": "gwangsan-gu-gap",
@@ -561,7 +608,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/20240410/gwangsan-gu-gap/"
+      "path": "./district/?electionId=20240410&code=gwangsan-gu-gap",
+      "legacyPath": "./district/20240410/gwangsan-gu-gap/"
     },
     {
       "code": "haeundae-gu-eul",
@@ -572,7 +620,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/haeundae-gu-eul/"
+      "path": "./district/?electionId=20240410&code=haeundae-gu-eul",
+      "legacyPath": "./district/20240410/haeundae-gu-eul/"
     },
     {
       "code": "haeundae-gu-gap",
@@ -583,7 +632,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/haeundae-gu-gap/"
+      "path": "./district/?electionId=20240410&code=haeundae-gu-gap",
+      "legacyPath": "./district/20240410/haeundae-gu-gap/"
     },
     {
       "code": "hongseong-yesan",
@@ -594,7 +644,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/hongseong-yesan/"
+      "path": "./district/?electionId=20240410&code=hongseong-yesan",
+      "legacyPath": "./district/20240410/hongseong-yesan/"
     },
     {
       "code": "hwaseong-eul",
@@ -605,7 +656,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/hwaseong-eul/"
+      "path": "./district/?electionId=20240410&code=hwaseong-eul",
+      "legacyPath": "./district/20240410/hwaseong-eul/"
     },
     {
       "code": "iksan-gap",
@@ -616,7 +668,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/iksan-gap/"
+      "path": "./district/?electionId=20240410&code=iksan-gap",
+      "legacyPath": "./district/20240410/iksan-gap/"
     },
     {
       "code": "jecheon-danyang",
@@ -627,7 +680,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/jecheon-danyang/"
+      "path": "./district/?electionId=20240410&code=jecheon-danyang",
+      "legacyPath": "./district/20240410/jecheon-danyang/"
     },
     {
       "code": "jeju-gap",
@@ -638,7 +692,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/jeju-gap/"
+      "path": "./district/?electionId=20240410&code=jeju-gap",
+      "legacyPath": "./district/20240410/jeju-gap/"
     },
     {
       "code": "jeongeup-gochang",
@@ -649,7 +704,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/jeongeup-gochang/"
+      "path": "./district/?electionId=20240410&code=jeongeup-gochang",
+      "legacyPath": "./district/20240410/jeongeup-gochang/"
     },
     {
       "code": "jeonju-byeong",
@@ -660,7 +716,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/jeonju-byeong/"
+      "path": "./district/?electionId=20240410&code=jeonju-byeong",
+      "legacyPath": "./district/20240410/jeonju-byeong/"
     },
     {
       "code": "jeonju-eul",
@@ -671,7 +728,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/20240410/jeonju-eul/"
+      "path": "./district/?electionId=20240410&code=jeonju-eul",
+      "legacyPath": "./district/20240410/jeonju-eul/"
     },
     {
       "code": "jeonju-gap",
@@ -682,7 +740,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/jeonju-gap/"
+      "path": "./district/?electionId=20240410&code=jeonju-gap",
+      "legacyPath": "./district/20240410/jeonju-gap/"
     },
     {
       "code": "jinju-gap",
@@ -693,7 +752,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/jinju-gap/"
+      "path": "./district/?electionId=20240410&code=jinju-gap",
+      "legacyPath": "./district/20240410/jinju-gap/"
     },
     {
       "code": "jongno-gu",
@@ -704,7 +764,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 7,
-      "path": "./district/20240410/jongno-gu/"
+      "path": "./district/?electionId=20240410&code=jongno-gu",
+      "legacyPath": "./district/20240410/jongno-gu/"
     },
     {
       "code": "jung-ganghwa-ongjin",
@@ -715,7 +776,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/jung-ganghwa-ongjin/"
+      "path": "./district/?electionId=20240410&code=jung-ganghwa-ongjin",
+      "legacyPath": "./district/20240410/jung-ganghwa-ongjin/"
     },
     {
       "code": "jung-gu-ulsan",
@@ -726,7 +788,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/jung-gu-ulsan/"
+      "path": "./district/?electionId=20240410&code=jung-gu-ulsan",
+      "legacyPath": "./district/20240410/jung-gu-ulsan/"
     },
     {
       "code": "jung-nam-gu",
@@ -737,7 +800,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/jung-nam-gu/"
+      "path": "./district/?electionId=20240410&code=jung-nam-gu",
+      "legacyPath": "./district/20240410/jung-nam-gu/"
     },
     {
       "code": "jung-seongdong-eul",
@@ -748,7 +812,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/jung-seongdong-eul/"
+      "path": "./district/?electionId=20240410&code=jung-seongdong-eul",
+      "legacyPath": "./district/20240410/jung-seongdong-eul/"
     },
     {
       "code": "jung-seongdong-gap",
@@ -759,7 +824,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/jung-seongdong-gap/"
+      "path": "./district/?electionId=20240410&code=jung-seongdong-gap",
+      "legacyPath": "./district/20240410/jung-seongdong-gap/"
     },
     {
       "code": "jung-yeongdo-gu",
@@ -770,7 +836,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/jung-yeongdo-gu/"
+      "path": "./district/?electionId=20240410&code=jung-yeongdo-gu",
+      "legacyPath": "./district/20240410/jung-yeongdo-gu/"
     },
     {
       "code": "jungnang-gu-eul",
@@ -781,7 +848,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/jungnang-gu-eul/"
+      "path": "./district/?electionId=20240410&code=jungnang-gu-eul",
+      "legacyPath": "./district/20240410/jungnang-gu-eul/"
     },
     {
       "code": "jungnang-gu-gap",
@@ -792,7 +860,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/jungnang-gu-gap/"
+      "path": "./district/?electionId=20240410&code=jungnang-gu-gap",
+      "legacyPath": "./district/20240410/jungnang-gu-gap/"
     },
     {
       "code": "mapo-gu-eul",
@@ -803,7 +872,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/mapo-gu-eul/"
+      "path": "./district/?electionId=20240410&code=mapo-gu-eul",
+      "legacyPath": "./district/20240410/mapo-gu-eul/"
     },
     {
       "code": "mapo-gu-gap",
@@ -814,7 +884,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/mapo-gu-gap/"
+      "path": "./district/?electionId=20240410&code=mapo-gu-gap",
+      "legacyPath": "./district/20240410/mapo-gu-gap/"
     },
     {
       "code": "mokpo",
@@ -825,7 +896,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 6,
-      "path": "./district/20240410/mokpo/"
+      "path": "./district/?electionId=20240410&code=mokpo",
+      "legacyPath": "./district/20240410/mokpo/"
     },
     {
       "code": "nam-gu-gap-ulsan",
@@ -836,7 +908,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/20240410/nam-gu-gap-ulsan/"
+      "path": "./district/?electionId=20240410&code=nam-gu-gap-ulsan",
+      "legacyPath": "./district/20240410/nam-gu-gap-ulsan/"
     },
     {
       "code": "nowon-gu-eul",
@@ -847,7 +920,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/nowon-gu-eul/"
+      "path": "./district/?electionId=20240410&code=nowon-gu-eul",
+      "legacyPath": "./district/20240410/nowon-gu-eul/"
     },
     {
       "code": "nowon-gu-gap",
@@ -858,7 +932,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/nowon-gu-gap/"
+      "path": "./district/?electionId=20240410&code=nowon-gu-gap",
+      "legacyPath": "./district/20240410/nowon-gu-gap/"
     },
     {
       "code": "pohang-buk-gu",
@@ -869,7 +944,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/pohang-buk-gu/"
+      "path": "./district/?electionId=20240410&code=pohang-buk-gu",
+      "legacyPath": "./district/20240410/pohang-buk-gu/"
     },
     {
       "code": "saha-gu-eul",
@@ -880,7 +956,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/saha-gu-eul/"
+      "path": "./district/?electionId=20240410&code=saha-gu-eul",
+      "legacyPath": "./district/20240410/saha-gu-eul/"
     },
     {
       "code": "saha-gu-gap",
@@ -891,7 +968,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/saha-gu-gap/"
+      "path": "./district/?electionId=20240410&code=saha-gu-gap",
+      "legacyPath": "./district/20240410/saha-gu-gap/"
     },
     {
       "code": "sejong-eul",
@@ -902,7 +980,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 5,
-      "path": "./district/20240410/sejong-eul/"
+      "path": "./district/?electionId=20240410&code=sejong-eul",
+      "legacyPath": "./district/20240410/sejong-eul/"
     },
     {
       "code": "sejong-gap",
@@ -913,7 +992,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/sejong-gap/"
+      "path": "./district/?electionId=20240410&code=sejong-gap",
+      "legacyPath": "./district/20240410/sejong-gap/"
     },
     {
       "code": "seo-gu-byeong",
@@ -924,7 +1004,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/seo-gu-byeong/"
+      "path": "./district/?electionId=20240410&code=seo-gu-byeong",
+      "legacyPath": "./district/20240410/seo-gu-byeong/"
     },
     {
       "code": "seo-gu-gap-daejeon",
@@ -935,7 +1016,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/seo-gu-gap-daejeon/"
+      "path": "./district/?electionId=20240410&code=seo-gu-gap-daejeon",
+      "legacyPath": "./district/20240410/seo-gu-gap-daejeon/"
     },
     {
       "code": "seo-gu-gap",
@@ -946,7 +1028,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/seo-gu-gap/"
+      "path": "./district/?electionId=20240410&code=seo-gu-gap",
+      "legacyPath": "./district/20240410/seo-gu-gap/"
     },
     {
       "code": "seocho-gu-eul",
@@ -957,7 +1040,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/seocho-gu-eul/"
+      "path": "./district/?electionId=20240410&code=seocho-gu-eul",
+      "legacyPath": "./district/20240410/seocho-gu-eul/"
     },
     {
       "code": "seocho-gu-gap",
@@ -968,7 +1052,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/seocho-gu-gap/"
+      "path": "./district/?electionId=20240410&code=seocho-gu-gap",
+      "legacyPath": "./district/20240410/seocho-gu-gap/"
     },
     {
       "code": "seodaemun-gu-eul",
@@ -979,7 +1064,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/seodaemun-gu-eul/"
+      "path": "./district/?electionId=20240410&code=seodaemun-gu-eul",
+      "legacyPath": "./district/20240410/seodaemun-gu-eul/"
     },
     {
       "code": "seodaemun-gu-gap",
@@ -990,7 +1076,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/seodaemun-gu-gap/"
+      "path": "./district/?electionId=20240410&code=seodaemun-gu-gap",
+      "legacyPath": "./district/20240410/seodaemun-gu-gap/"
     },
     {
       "code": "seogwipo",
@@ -1001,7 +1088,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/seogwipo/"
+      "path": "./district/?electionId=20240410&code=seogwipo",
+      "legacyPath": "./district/20240410/seogwipo/"
     },
     {
       "code": "seongbuk-gu-eul",
@@ -1012,7 +1100,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/seongbuk-gu-eul/"
+      "path": "./district/?electionId=20240410&code=seongbuk-gu-eul",
+      "legacyPath": "./district/20240410/seongbuk-gu-eul/"
     },
     {
       "code": "seongbuk-gu-gap",
@@ -1023,7 +1112,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/seongbuk-gu-gap/"
+      "path": "./district/?electionId=20240410&code=seongbuk-gu-gap",
+      "legacyPath": "./district/20240410/seongbuk-gu-gap/"
     },
     {
       "code": "seongnam-bundang-gap",
@@ -1034,7 +1124,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/seongnam-bundang-gap/"
+      "path": "./district/?electionId=20240410&code=seongnam-bundang-gap",
+      "legacyPath": "./district/20240410/seongnam-bundang-gap/"
     },
     {
       "code": "songpa-gu-byeong",
@@ -1045,7 +1136,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/songpa-gu-byeong/"
+      "path": "./district/?electionId=20240410&code=songpa-gu-byeong",
+      "legacyPath": "./district/20240410/songpa-gu-byeong/"
     },
     {
       "code": "songpa-gu-eul",
@@ -1056,7 +1148,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/songpa-gu-eul/"
+      "path": "./district/?electionId=20240410&code=songpa-gu-eul",
+      "legacyPath": "./district/20240410/songpa-gu-eul/"
     },
     {
       "code": "songpa-gu-gap",
@@ -1067,7 +1160,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/songpa-gu-gap/"
+      "path": "./district/?electionId=20240410&code=songpa-gu-gap",
+      "legacyPath": "./district/20240410/songpa-gu-gap/"
     },
     {
       "code": "suncheon-gwangyang-gokseong-gurye-gap",
@@ -1078,7 +1172,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/suncheon-gwangyang-gokseong-gurye-gap/"
+      "path": "./district/?electionId=20240410&code=suncheon-gwangyang-gokseong-gurye-gap",
+      "legacyPath": "./district/20240410/suncheon-gwangyang-gokseong-gurye-gap/"
     },
     {
       "code": "suseong-gu-gap",
@@ -1089,7 +1184,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/suseong-gu-gap/"
+      "path": "./district/?electionId=20240410&code=suseong-gu-gap",
+      "legacyPath": "./district/20240410/suseong-gu-gap/"
     },
     {
       "code": "suwon-gap",
@@ -1100,7 +1196,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/suwon-gap/"
+      "path": "./district/?electionId=20240410&code=suwon-gap",
+      "legacyPath": "./district/20240410/suwon-gap/"
     },
     {
       "code": "suyeong-gu",
@@ -1111,7 +1208,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/suyeong-gu/"
+      "path": "./district/?electionId=20240410&code=suyeong-gu",
+      "legacyPath": "./district/20240410/suyeong-gu/"
     },
     {
       "code": "ulju-gun",
@@ -1122,7 +1220,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/ulju-gun/"
+      "path": "./district/?electionId=20240410&code=ulju-gun",
+      "legacyPath": "./district/20240410/ulju-gun/"
     },
     {
       "code": "wonju-gap",
@@ -1133,7 +1232,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/wonju-gap/"
+      "path": "./district/?electionId=20240410&code=wonju-gap",
+      "legacyPath": "./district/20240410/wonju-gap/"
     },
     {
       "code": "yangcheon-gu-eul",
@@ -1144,7 +1244,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/yangcheon-gu-eul/"
+      "path": "./district/?electionId=20240410&code=yangcheon-gu-eul",
+      "legacyPath": "./district/20240410/yangcheon-gu-eul/"
     },
     {
       "code": "yangcheon-gu-gap",
@@ -1155,7 +1256,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/yangcheon-gu-gap/"
+      "path": "./district/?electionId=20240410&code=yangcheon-gu-gap",
+      "legacyPath": "./district/20240410/yangcheon-gu-gap/"
     },
     {
       "code": "yangsan-eul",
@@ -1166,7 +1268,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/yangsan-eul/"
+      "path": "./district/?electionId=20240410&code=yangsan-eul",
+      "legacyPath": "./district/20240410/yangsan-eul/"
     },
     {
       "code": "yeongdeungpo-gu-eul",
@@ -1177,7 +1280,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/yeongdeungpo-gu-eul/"
+      "path": "./district/?electionId=20240410&code=yeongdeungpo-gu-eul",
+      "legacyPath": "./district/20240410/yeongdeungpo-gu-eul/"
     },
     {
       "code": "yeongdeungpo-gu-gap",
@@ -1188,7 +1292,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/yeongdeungpo-gu-gap/"
+      "path": "./district/?electionId=20240410&code=yeongdeungpo-gu-gap",
+      "legacyPath": "./district/20240410/yeongdeungpo-gu-gap/"
     },
     {
       "code": "yeonsu-gu-eul",
@@ -1199,7 +1304,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 2,
-      "path": "./district/20240410/yeonsu-gu-eul/"
+      "path": "./district/?electionId=20240410&code=yeonsu-gu-eul",
+      "legacyPath": "./district/20240410/yeonsu-gu-eul/"
     },
     {
       "code": "yeosu-eul",
@@ -1210,7 +1316,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/yeosu-eul/"
+      "path": "./district/?electionId=20240410&code=yeosu-eul",
+      "legacyPath": "./district/20240410/yeosu-eul/"
     },
     {
       "code": "yongin-jeong",
@@ -1221,7 +1328,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/yongin-jeong/"
+      "path": "./district/?electionId=20240410&code=yongin-jeong",
+      "legacyPath": "./district/20240410/yongin-jeong/"
     },
     {
       "code": "yongsan-gu",
@@ -1232,7 +1340,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 4,
-      "path": "./district/20240410/yongsan-gu/"
+      "path": "./district/?electionId=20240410&code=yongsan-gu",
+      "legacyPath": "./district/20240410/yongsan-gu/"
     },
     {
       "code": "yuseong-gu-eul",
@@ -1243,7 +1352,8 @@
       "electionKey": "20240410:2",
       "electionName": "제22대 국회의원선거",
       "candidateCount": 3,
-      "path": "./district/20240410/yuseong-gu-eul/"
+      "path": "./district/?electionId=20240410&code=yuseong-gu-eul",
+      "legacyPath": "./district/20240410/yuseong-gu-eul/"
     },
     {
       "code": "jongno-mayor-2026",
@@ -1254,7 +1364,8 @@
       "electionKey": "20260603:4",
       "electionName": "제9회 전국동시지방선거 구시군의장선거",
       "candidateCount": 2,
-      "path": "./district/20260603/jongno-mayor-2026/"
+      "path": "./district/?electionId=20260603&code=jongno-mayor-2026",
+      "legacyPath": "./district/20260603/jongno-mayor-2026/"
     },
     {
       "code": "seoul-education-2026",
@@ -1265,7 +1376,8 @@
       "electionKey": "20260603:11",
       "electionName": "제9회 전국동시지방선거 교육감선거",
       "candidateCount": 8,
-      "path": "./district/20260603/seoul-education-2026/"
+      "path": "./district/?electionId=20260603&code=seoul-education-2026",
+      "legacyPath": "./district/20260603/seoul-education-2026/"
     },
     {
       "code": "seoul-mayor-2026",
@@ -1276,7 +1388,8 @@
       "electionKey": "20260603:3",
       "electionName": "제9회 전국동시지방선거 시도지사선거",
       "candidateCount": 6,
-      "path": "./district/20260603/seoul-mayor-2026/"
+      "path": "./district/?electionId=20260603&code=seoul-mayor-2026",
+      "legacyPath": "./district/20260603/seoul-mayor-2026/"
     }
   ]
 }

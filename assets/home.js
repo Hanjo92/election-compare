@@ -4,6 +4,9 @@ const $ = (selector) => document.querySelector(selector);
 
 const normalize = (value) => String(value || "").toLowerCase().trim();
 const ALL_ELECTIONS = "__all__";
+const buildDistrictHref = (district) =>
+  district.path ||
+  `./district/?electionId=${encodeURIComponent(district.electionId)}&code=${encodeURIComponent(district.code)}`;
 
 const renderDistricts = (districts) => {
   const container = $("#district-list");
@@ -16,7 +19,7 @@ const renderDistricts = (districts) => {
   container.innerHTML = districts
     .map(
       (district) => `
-        <a class="district-list-item" href="${district.path}">
+        <a class="district-list-item" href="${buildDistrictHref(district)}">
           <div>
             <strong>${district.name}</strong>
             <p>${district.electionName}</p>

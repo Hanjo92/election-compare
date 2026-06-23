@@ -1,8 +1,7 @@
-const pathSegments = window.location.pathname.split("/").filter(Boolean);
-const districtIndex = pathSegments.lastIndexOf("district");
-const electionId = pathSegments[districtIndex + 1] || "20240410";
-const districtCode = pathSegments[districtIndex + 2] || "seocho-gu-gap";
-const DISTRICT_DATA_PATH = `../../../data/elections/${electionId}/district-${districtCode}.json`;
+const DEFAULT_ELECTION_ID = "20240410";
+const DEFAULT_DISTRICT_CODE = "seocho-gu-gap";
+const REPO_DATA_REQUEST_BASE =
+  "https://github.com/Hanjo92/election-compare/issues/new?template=data-request.md";
 
 const COMPARISON_ROWS = [
   ["학력", "education", (candidate) => candidate.education],
@@ -20,7 +19,23 @@ const COMPARISON_ROWS = [
 ];
 
 const $ = (selector) => document.querySelector(selector);
-const formatAge = (age) => (/^\d+$/.test(String(age)) ? `${age}세` : String(age));
+
+const getBasePath = () => {
+  const marker = "/district/";
+  const { pathname } = window.location;
+  const markerIndex = pathname.indexOf(marker);
+  if (markerIndex === -1) {
+    return ".";
+  }
+
+  const prefix = pathname.slice(0, markerIndex);
+  return `${prefix || ""}`;
+};
+
+const buildDataPath = (electionId, districtCode) =>
+  `${getBasePath()}/data/elections/${electionId}/district-${districtCode}.json`;
+const buildDistrictIndexPath = () => `${getBasePath()}/data/district-index.json`;
+
 const escapeHtml = (value) =>
   String(value)
     .replaceAll("&", "&amp;")
@@ -28,6 +43,45 @@ const escapeHtml = (value) =>
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
 
+const buildRequestIssueUrl = (meta, routeParams) => {
+  const issueTitle = `[data-request] ${meta.electionName || routeParams.electionId} / ${meta.name || routeParams.districtCode}`;
+  const issueBody = [
+    "## Request Metadata",
+    `- electionId: ${routeParams.electionId}`,
+    `- electionTypecode: ${meta.electionTypecode || ""}`,
+    `- electionName: ${meta.electionName || ""}`,
+    `- region: ${meta.region || ""}`,
+    `- districtName: ${meta.name || routeParams.districtCode}`,
+    `- districtCode: ${routeParams.districtCode}`,
+    "",
+    "## Notes",
+    "- requested from district viewer",
+  ].join("\n");
+  return `${REPO_DATA_REQUEST_BASE}&title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}`;
+};
+
+const detectRouteParams = () => {
+  const params = new URLSearchParams(window.location.search);
+  const queryElectionId = params.get("electionId");
+  const queryDistrictCode = params.get("code");
+  if (queryElectionId && queryDistrictCode) {
+    return {
+      electionId: queryElectionId,
+      districtCode: queryDistrictCode,
+      canonical: `${getBasePath()}/district/?electionId=${encodeURIComponent(queryElectionId)}&code=${encodeURIComponent(queryDistrictCode)}`,
+    };
+  }
+
+  const pathSegments = window.location.pathname.split("/").filter(Boolean);
+  const districtIndex = pathSegments.lastIndexOf("district");
+  return {
+    electionId: pathSegments[districtIndex + 1] || DEFAULT_ELECTION_ID,
+    districtCode: pathSegments[districtIndex + 2] || DEFAULT_DISTRICT_CODE,
+    canonical: null,
+  };
+};
+
+const formatAge = (age) => (/^\d+$/.test(String(age)) ? `${age}세` : String(age));
 const renderFieldSource = (candidate, fieldKey) => {
   const source = candidate.fieldSources?.[fieldKey];
   const note = candidate.fieldNotes?.[fieldKey];
@@ -42,6 +96,31 @@ const renderFieldSource = (candidate, fieldKey) => {
   }
 
   return `<div class="field-source">${sourceHtml}${noteHtml}</div>`;
+};
+
+const fetchDistrictMeta = async (routeParams) => {
+  const response = await fetch(buildDistrictIndexPath());
+  if (!response.ok) {
+    throw new Error("Failed to load district index");
+  }
+
+  const payload = await response.json();
+  const match = (payload.districts || []).find(
+    (district) =>
+      String(district.electionId) === String(routeParams.electionId) &&
+      String(district.code) === String(routeParams.districtCode),
+  );
+
+  return (
+    match || {
+      code: routeParams.districtCode,
+      name: routeParams.districtCode,
+      region: "미확인",
+      electionId: routeParams.electionId,
+      electionTypecode: "",
+      electionName: routeParams.electionId,
+    }
+  );
 };
 
 const renderCandidateCards = (candidates) => {
@@ -134,23 +213,46 @@ const renderSources = (candidates) => {
     .join("");
 };
 
-const renderPage = (payload) => {
+const renderPage = (payload, routeParams) => {
+  const districtPath = `${getBasePath()}/district/?electionId=${encodeURIComponent(routeParams.electionId)}&code=${encodeURIComponent(routeParams.districtCode)}`;
+  document.title = `Ballot Mirror | ${payload.district.name} | ${payload.election.name}`;
   $("#district-region").textContent = payload.district.region;
   $("#district-name").textContent = payload.district.name;
   $("#election-name").textContent = payload.election.name;
   $("#updated-at").textContent = payload.meta?.updatedAt || payload.election.updatedAt;
   $("#candidate-count").textContent = `${payload.candidates.length}명`;
+  $("#canonical-link")?.setAttribute("href", districtPath);
 
   renderCandidateCards(payload.candidates);
   renderComparisonTable(payload.candidates);
   renderSources(payload.candidates);
 };
 
-const renderError = () => {
-  $("#election-name").textContent = "데이터를 불러오지 못했습니다.";
+const renderError = async (routeParams) => {
+  const meta = await fetchDistrictMeta(routeParams).catch(() => ({
+    code: routeParams.districtCode,
+    name: routeParams.districtCode,
+    region: "미확인",
+    electionTypecode: "",
+    electionName: routeParams.electionId,
+  }));
+  const requestUrl = buildRequestIssueUrl(meta, routeParams);
+  $("#district-region").textContent = meta.region || "미확인";
+  $("#district-name").textContent = meta.name || routeParams.districtCode;
+  $("#election-name").textContent = "아직 이 지역구 데이터가 준비되지 않았습니다.";
+  $("#candidate-grid").innerHTML = `
+    <article class="candidate-card">
+      <p>필요한 JSON이 아직 없어서 비교표를 바로 보여주지 못하고 있어.</p>
+      <p>요청을 남기면 GitHub Actions가 이 지역구 데이터를 수집해서 사이트 반영을 시도해.</p>
+      <p><a class="button button-primary" href="${requestUrl}" target="_blank" rel="noreferrer">이 지역구 데이터 요청하기</a></p>
+    </article>
+  `;
 };
 
-fetch(DISTRICT_DATA_PATH)
+const routeParams = detectRouteParams();
+const districtDataPath = buildDataPath(routeParams.electionId, routeParams.districtCode);
+
+fetch(districtDataPath)
   .then((response) => {
     if (!response.ok) {
       throw new Error("Failed to load district data");
@@ -158,5 +260,5 @@ fetch(DISTRICT_DATA_PATH)
 
     return response.json();
   })
-  .then(renderPage)
-  .catch(renderError);
+  .then((payload) => renderPage(payload, routeParams))
+  .catch(() => renderError(routeParams));
