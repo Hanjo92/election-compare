@@ -2,7 +2,7 @@ name: Process District Data Request
 
 on:
   issues:
-    types: [opened, edited, labeled]
+    types: [edited, labeled]
   workflow_dispatch:
     inputs:
       issue_number:
