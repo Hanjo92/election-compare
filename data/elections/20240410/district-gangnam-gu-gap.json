@@ -66,7 +66,7 @@
     "basePath": "data/overlays/base/district-gangnam-gu-gap.json",
     "overlayPath": "data/overlays/20240410/district-gangnam-gu-gap.json",
     "overlayApplied": true,
-    "mergedAt": "2026-06-22 23:59:57 KST",
+    "mergedAt": "2026-06-25 01:05:37 KST",
     "updatedAt": "",
     "note": "강남구갑 수동 보강 템플릿",
     "template": true,

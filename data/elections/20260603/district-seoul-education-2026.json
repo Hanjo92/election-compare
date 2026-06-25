@@ -461,7 +461,7 @@
     "basePath": "data/overlays/base/district-seoul-education-2026.json",
     "overlayPath": "data/overlays/20260603/district-seoul-education-2026.json",
     "overlayApplied": true,
-    "mergedAt": "2026-06-23 01:24:35 KST",
+    "mergedAt": "2026-06-25 01:05:37 KST",
     "updatedAt": "",
     "note": "서울특별시 수동 보강 템플릿",
     "template": true,
