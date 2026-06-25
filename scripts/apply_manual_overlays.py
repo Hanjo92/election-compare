@@ -61,6 +61,12 @@ def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_existing_json(path: Path) -> dict[str, Any] | None:
+    if not path.exists():
+        return None
+    return load_json(path)
+
+
 def detect_election_id(payload: dict[str, Any], fallback: str | None = None) -> str:
     election = payload.get("election", {})
     election_id = str(election.get("id") or fallback or "").strip()
@@ -175,9 +181,18 @@ def apply_overlay(base_payload: dict[str, Any], overlay_payload: dict[str, Any],
     return merged
 
 
+def payload_for_comparison(payload: dict[str, Any]) -> dict[str, Any]:
+    normalized = copy.deepcopy(payload)
+    meta = normalized.get("meta")
+    if isinstance(meta, dict):
+        meta.pop("mergedAt", None)
+    return normalized
+
+
 def merge_one(base_path: Path, overlay_path: Path | None, output_path: Path) -> None:
     base_payload = load_json(base_path)
     merged = copy.deepcopy(base_payload)
+    existing_payload = load_existing_json(output_path)
 
     merged["meta"] = deep_merge(
         merged.get("meta", {}) if isinstance(merged.get("meta"), dict) else {},
@@ -191,6 +206,12 @@ def merge_one(base_path: Path, overlay_path: Path | None, output_path: Path) -> 
     if overlay_path and overlay_path.exists():
         overlay_payload = load_json(overlay_path)
         merged = apply_overlay(base_payload, overlay_payload, overlay_path)
+
+    if existing_payload and payload_for_comparison(existing_payload) == payload_for_comparison(merged):
+        existing_meta = existing_payload.get("meta", {})
+        if isinstance(existing_meta, dict):
+            merged.setdefault("meta", {})
+            merged["meta"]["mergedAt"] = existing_meta.get("mergedAt", merged["meta"].get("mergedAt"))
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

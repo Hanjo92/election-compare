@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import os
 import sys
@@ -238,6 +239,20 @@ def build_payload(args: argparse.Namespace, candidates: list[dict[str, Any]]) ->
     }
 
 
+def load_existing_payload(path: Path) -> dict[str, Any] | None:
+    if not path.exists():
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def payload_for_comparison(payload: dict[str, Any]) -> dict[str, Any]:
+    normalized = copy.deepcopy(payload)
+    election = normalized.get("election")
+    if isinstance(election, dict):
+        election.pop("updatedAt", None)
+    return normalized
+
+
 def main() -> int:
     args = parse_args()
     service_key = require_service_key(args.service_key)
@@ -264,9 +279,16 @@ def main() -> int:
     normalized = [normalize_candidate(context, item) for item in raw_candidates]
     normalized.sort(key=lambda candidate: str(candidate["number"]))
 
+    output_path = Path(args.output or f"data/base/{args.sg_id}/district-{args.district_code}.json")
+    existing_payload = load_existing_payload(output_path)
     payload = build_payload(args, normalized)
 
-    output_path = Path(args.output or f"data/base/{args.sg_id}/district-{args.district_code}.json")
+    if existing_payload and payload_for_comparison(existing_payload) == payload_for_comparison(payload):
+        payload["election"]["updatedAt"] = existing_payload.get("election", {}).get(
+            "updatedAt",
+            payload["election"]["updatedAt"],
+        )
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

@@ -13,7 +13,14 @@ DATA_DIR = ROOT / "data"
 OUTPUT = DATA_DIR / "district-index.json"
 
 
+def load_existing_output() -> dict | None:
+    if not OUTPUT.exists():
+        return None
+    return json.loads(OUTPUT.read_text(encoding="utf-8"))
+
+
 def main() -> int:
+    existing_output = load_existing_output()
     districts = []
     election_map = {}
 
@@ -68,6 +75,14 @@ def main() -> int:
         "elections": elections,
         "districts": districts,
     }
+
+    if existing_output:
+        if (
+            existing_output.get("elections") == output["elections"]
+            and existing_output.get("districts") == output["districts"]
+        ):
+            output["updatedAt"] = existing_output.get("updatedAt", output["updatedAt"])
+
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(districts)} districts to {OUTPUT}")
     return 0
